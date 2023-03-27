@@ -95,7 +95,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
   
 #### Ejemplos
 - `GET /v1/variants.json?limit=10&offset=0`
-- `GET /v1/variants.json?fields=[description,barCode,code]`
+- `GET /v1/variants.json?fields=[description,barcode,code]`
 - `GET /v1/variants.json?state=0`
 - `GET /v1/variants.json?productid=26`
 - `GET /v1/variants.json?expand=[product]`
