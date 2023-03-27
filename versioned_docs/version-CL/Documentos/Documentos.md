@@ -200,7 +200,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
   "emissionDate": 1351652400,
   "expirationDate": 1351652400,
   "rcofDate": 1351652400,
-  "number": 1,
+  "number": 100,
   "totalAmount": 5117000,
   "netAmount": 4300000,
   "taxAmount": 817000,
