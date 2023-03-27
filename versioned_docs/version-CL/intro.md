@@ -14,6 +14,8 @@ slug: /primeros-pasos
 
 Lo primero que debes seguir para conectarte a la API de Bsale es que puedas obtener la autorización para acceder a los recursos de esta. Esta autorización evidentemente la tendrá que dar quien tenga privilegios para ellos y sea el “dueño” de los datos.
 
+tendrá que dar quien tenga privilegios para ellos y sea el “dueño” de los datos.
+
 ## Obtén tu token de acceso
 
 ### Token de pruebas
