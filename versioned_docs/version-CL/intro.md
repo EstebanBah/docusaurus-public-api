@@ -6,6 +6,8 @@ description: Primeros pasos para interactuar con la API de Bsale
 slug: /primeros-pasos
 ---
 
+# Previo 0
+
 # Previo
 
 # Primeros pasos
