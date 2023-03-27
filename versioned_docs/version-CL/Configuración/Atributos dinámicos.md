@@ -58,7 +58,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 - `GET /v1/dynamic_attributes.json?limit=10&offset=0`
 - `GET /v1/dynamic_attributes.json?fields=[name,type,state]`
 - `GET /v1/dynamic_attributes.json?paymenttypeid=1`
-- `ET /v1/dynamic_attributes.json?expand=[coin,details]`
+- `GET /v1/dynamic_attributes.json?expand=[coin,details]`
 
 
 ```json title="Response /dynamic_attributes.json "

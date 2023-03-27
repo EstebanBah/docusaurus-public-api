@@ -23,7 +23,7 @@ Cómo funciona la interfaz de Bsale, mira éstos videos:
 
 Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente estructura:
 
-```js title="Response /documents.json"
+```js title="Response v1/documents.json"
 {
   "href": "https://api.bsale.io/v1/documents/382.json",
   "id": 382,
