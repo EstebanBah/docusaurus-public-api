@@ -52,14 +52,14 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 ```
 
 ### Atributos
-| Atributo      | Descripción | Tipo dato |
-| ----------- | ----------- | ----------- |
-| **href**      | url del documento despacho     | String       |
-| **id**   | identificador único del despacho   | Integer |
-| **shippingDate**   | fecha del despacho   | Integer |
-| **address**   | dirección del despacho   | String |
-| **municipality**   | comuna del despacho  | String |
-| **city**   | ciudad del despacho   | String |
+| Atributo      | Descripción | Tipo dato | 
+| ----------- | ----------- | ----------- | 
+| **href**      | url del documento despacho     | String       | 
+| **id**   | identificador único del despacho   | Integer | 
+| **shippingDate**   | fecha del despacho   | Integer | 
+| **address**   | dirección del despacho   | String | 
+| **municipality**   | comuna del despacho  | String | 
+| **city**   | ciudad del despacho   | String | 
 | **recipient**   | destinatario del despacho    | String |
 | **state**   | estado del descuento indica si el descuento esta activo(0) o inactivo (1)   | Boolean |
 | **office**   | nodo que indica la relación con la sucursal en la que fue emitida el despacho.   |  |
