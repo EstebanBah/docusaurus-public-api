@@ -76,7 +76,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 | **prestashopValueId**   | identificador en prestashop _legacy_ | Integer | 
 | **product**   | nodo que indica la relación con el producto | |
 | **attribute_values**   | nodo que indica los valores de los atributos del tipo de producto | |
-| **costs**   | nodo que indica el costo de la variante | |
+| **costs**   | nodo que indica el costo de la variante | 
 
 ## GET lista de variantes
 - GET `/v1/variants.json` retornará todos todas las variantes.
@@ -91,7 +91,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 - **code**, filtra por código (SKU) de la variante.
 - **serialnumber**, filtra por numero de serie de la variante.
 - **productid**, filtra variantes por el id del producto.
-- **state**, boolean (0 o 1) indica si las variantes están activas(0) o inactivas (1).
+- **state**, boolean (0 o 1) indica si las variantes están activas(0) o inactivas (1)
   
 #### Ejemplos
 - `GET /v1/variants.json?limit=10&offset=0`
