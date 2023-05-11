@@ -77,6 +77,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {
+            to: '/primeros-pasos',
+            position: 'left',
+            label: 'Primeros Pasos',
+          },
          {
             to: '/faq',
             position: 'left',

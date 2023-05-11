@@ -1,3 +1,8 @@
+---
+title: OAuth 2.0
+slug: /OAuth
+---
+
 ### OAuth 2.0
 :::caution
 **Deberás implementar OAuth 2.0 cuando la integración esté lista** y desees que tus clientes conecten ambas apps sin necesidad de pedir un token por mail. 
