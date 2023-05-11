@@ -20,7 +20,7 @@ La url base para ambiente de desarrollo y pruebas del ecommerce es  **https://ap
 Un registro de carros, es la colección de productos de un ecommerce, usado para asociarlos a un checkout.
 
 :::note
-Los carros no reservan stock
+Los carros no reservan stock.
 :::
 
 ### Estructura JSON

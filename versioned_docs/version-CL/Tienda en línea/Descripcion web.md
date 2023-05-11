@@ -7,7 +7,8 @@ slug: /descripcion-web
 
 
 # Descripción web
-Listar productos y servicios que se contengan en la tienda en línea de Bsale.
+Listar productos y servicios que se contengan en la tienda en línea de Bsale. Para ello debes conocer el ID del Martket. Este dato puedes obtenerlo con el Endpoint
+https://credential.bsale.io/v1/instances/basic/:access_token.json sustituyendo el :access_token por el tuyo. 
 
 #### Atributos
 | Atributo      | Descripción | Tipo dato |
