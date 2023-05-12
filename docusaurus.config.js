@@ -82,6 +82,11 @@ const config = {
             position: 'left',
             label: 'Primeros Pasos',
           },
+          {
+            to: '/oauth',
+            position: 'left',
+            label: 'OAuth',
+          },
          {
             to: '/faq',
             position: 'left',
