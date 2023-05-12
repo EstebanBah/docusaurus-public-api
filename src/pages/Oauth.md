@@ -112,4 +112,4 @@ Un ejemplo de respuesta sería:
 }
 ```
 
-Y como respuesta tendrás el `access_token` que servirá para autentificar las peticiones a la API
+Y como respuesta tendrás el `access_token` que servirá para autentificar las peticiones a la API.
