@@ -4,15 +4,14 @@ slug: /primeros-pasos
 ---
 
 # Primeros pasos
-## Generalidades 
-El equipo de Bsale ha puesto a disposición de la comunidad de desarrolladores una API, la cual permite acceder a un conjunto de métodos orientados a facilitar la integración, desde sistemas externos hacia Bsale.
+Lo primero que debes seguir para conectarte a la API de Bsale es que puedas obtener la autorización para acceder a los recursos de esta. Esta autorización evidentemente la tendrá que dar quien tenga privilegios para ellos y sea el “dueño” de los datos.
 
-Estos métodos permitirán obtener información desde Bsale o enviar información hacia la aplicación. Así, por ejemplo, se puede generar documentos tributarios, obtener los documentos generados, productos, clientes etc.
-
+## Obtén tu token de acceso.
 :::info
-Esta API permite llamadas del tipo [**REST**](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional) y utiliza [**JSON**](https://www.json.org/json-en.html) para el envío y recepción de información.
+Para facilitar la obtención de datos asociados a un Usuario, como los `token` activos que pertenecen a X instancia, bien sea en ambiente de prueba ó productivo debes [crear una cuenta](https://account.bsale.dev/users/create) En una primera instancia el token que devolverá la creación de la cuenta, será un `token` de pruebas. Para `token` productivo, el usuario debe ser asociado a una instancia en producción.
 :::
 
+![img alt](/img/copyToken.png)
 
 
 ## Convenciones utilizadas
@@ -32,37 +31,19 @@ todas las respuestas son en ingles (atributos y mensajes).
 
 :::tip
 Si necesitas aprender como trabaja Bsale puedes revisar nuestros videos de [capacitación](https://www.youtube.com/user/BsaleWS/playlists)
-
 :::
 
 ## Seguridad
 Para autenticar una petición se utiliza un token de acceso, el cual deberá acompañar cada llamada en la cabecera de la petición. 
-
-:::tip
-
-Lée sobre cómo obtener tu token de acceso. 👉 [Ir](/primeros-pasos#token-producción).
-
-:::
-
 Es importante indicar que este token de acceso es único para cada empresa/usuario.
-
-## Enviar un requests
-Las peticiones son `HTTP REST` por lo que se debe especificar el método que se va a utilizar, junto al método se debe enviar en la cabecera de la petición el token de acceso que permite la autenticación en la API.
-
-- **GET**, para obtener información de un recurso.
-- **POST**, para crear un recurso.
-- **PUT**, para modificar un recurso.
-- **DELETE**, para eliminar un recurso.
-
-## Ejemplo curl
-Un ejemplo en [curl](https://curl.se/) sería:
-
-```json 
-curl -i -H "access_token: tutokendeacceso" -X GET https://api.bsale.cl/v1/clients.json
-```
 
 ## Herramientas útiles
 - Para realizar peticiones `REST` de forma sencilla pueden utilizar una extensión de un Cliente `REST` del Google Chrome, Postman, insomnia, etc.
 - Para ver como se convierte la fecha a enteros pueden revisar 
 [epoch converter](https://www.epochconverter.com/)
 - Para procesar los ejemplos, utiliza [Postman](https://www.postman.com/).
+
+::: tip
+Ante cualquier duda puedes comunicarte con nosotros ingresando a la comunidad de 
+[slack] (https://bsaledev.slack.com/join/shared_invite/zt-1h1cqt05g-fqnTiREZYN8g47gf~caO5w#/shared-invite/email)
+:::
