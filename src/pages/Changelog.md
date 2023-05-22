@@ -1,4 +1,9 @@
-### Liberaciones disponibles por rango de fecha
+---
+title: Changelog API Bsale
+slug: /changelog
+---
+
+### Liberaciones disponibles
 
 ## 05/2023
 Respuesta código 200 al enviar SalesId repetido

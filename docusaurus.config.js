@@ -93,7 +93,7 @@ const config = {
             label: 'faq',
           },
           {
-            to: '/Changelog',
+            to: '/changelog',
             position: 'left',
             label: 'Changelog',
           },
