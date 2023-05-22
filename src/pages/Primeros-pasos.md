@@ -15,7 +15,7 @@ Para facilitar la obtención de datos asociados a un Usuario, como los `token` a
 
 
 ## Convenciones utilizadas
-- Peticiones sobre `SSL`
+- Peticiones sobre `SSL`.
 - Se usan sustantivos, no verbos.
 - Se utilizan dos urls base por recurso "`/clients.json`", "`clients/1.json`"
 - Siempre se usa el nombre del recurso en plural.
@@ -43,7 +43,7 @@ Es importante indicar que este token de acceso es único para cada empresa/usuar
 [epoch converter](https://www.epochconverter.com/)
 - Para procesar los ejemplos, utiliza [Postman](https://www.postman.com/).
 
-::: tip
+:::tip
 Ante cualquier duda puedes comunicarte con nosotros ingresando a la comunidad de 
 [slack] (https://bsaledev.slack.com/join/shared_invite/zt-1h1cqt05g-fqnTiREZYN8g47gf~caO5w#/shared-invite/email)
 :::

@@ -13,7 +13,7 @@ slug: /OAuth
   <summary>Un poco de historia 🎓 </summary>
   <div>
     <div>OAuth es un estándar abierto que permite la autorización segura mediante el uso de un API. En la actualidad se usa desde octubre de 2012, en su versión OAuth 2.0 donde sus principales mejoras son que ahora proporciona flujos de autorización para aplicaciones web, de escritorio, teléfonos móviles. Actualmente servicios como Google, Facebook, Azure Active Directory, Github solo admiten el protocolo OAuth 2.0.<br/>
-    Recordemos que OAuth 2.0 es realmente un framework de autorización, que lo que hace es permitir que las aplicaciones obtengan acceso limitado a las cuentas de usuario de algunos servicios como la API de Bsale. Su funcionamiento básicamente consiste en delegar el permiso de autenticación del usuario al servicio que gestiona dichas cuentas, de modo que es el propio servicio, quien otorga acceso a las aplicaciones de terceros
+    Recordemos que OAuth 2.0 es realmente un framework de autorización, que lo que hace es permitir que las aplicaciones obtengan acceso limitado a las cuentas de usuario de algunos servicios como la API de Bsale. Su funcionamiento básicamente consiste en delegar el permiso de autenticación del usuario al servicio que gestiona dichas cuentas, de modo que es el propio servicio, quien otorga acceso a las aplicaciones de terceros.
     </div>
     <br/>
     <details>
@@ -24,7 +24,7 @@ slug: /OAuth
 <tbody>
   <tr>
     <td><b>Cliente</b></td>
-    <td>Es la aplicación que quiere acceder a un a instancia de Bsale, mediante el “consumo” de los “Endpoints” contenidos en la API de BSale</td>
+    <td>Es la aplicación que quiere acceder a un a instancia de Bsale, mediante el “consumo” de los “Endpoints” contenidos en la API de BSale.</td>
   </tr>
   <tr>
     <td><b>Usuario</b></td>
@@ -32,7 +32,7 @@ slug: /OAuth
   </tr>
   <tr>
     <td><b>Servidor</b></td>
-    <td>El servidor de autorización recibe las peticiones de acceso de aplicaciones que desean usar el inicio de sesión Bsale. Este servidor se encarga de verificar la identidad del usuario y del servicio que solicita acceso, permitiendo o denegando la solicitud, luego de lo cual enviará al solicitante un código de autorización, con el cual podrá solicitar el token de acceso definitivo</td>
+    <td>El servidor de autorización recibe las peticiones de acceso de aplicaciones que desean usar el inicio de sesión Bsale. Este servidor se encarga de verificar la identidad del usuario y del servicio que solicita acceso, permitiendo o denegando la solicitud, luego de lo cual enviará al solicitante un código de autorización, con el cual podrá solicitar el token de acceso definitivo.</td>
   </tr>
 </tbody>
 </table>
@@ -62,7 +62,7 @@ Esta llamada debe contener  3 parámetros:
   
 ![img alt](/img/loginOauth.png)
 
-En esta pantalla el usuario que aprobará deberá loguearse con sus credenciales de Bsale
+En esta pantalla el usuario que aprobará deberá loguearse con sus credenciales de Bsale.
 
 :::info
 Si las credenciales son correctas el usuario será dirigido a una pantalla donde podrá autorizar el acceso de  la aplicación a los recursos de la empresa o instancia.
@@ -80,7 +80,7 @@ Donde
 - **code** código de autorización para ser utilizado en la solicitud de obtención del token.
 
 ## Etapa III: Request Access Token
-Excelente ya casi hemos terminado. Ahora   el servidor de autorización te mandó concatenada en tu URL el código el cual podrás utilizar para solicitar el token de acceso.
+Excelente ya casi hemos terminado. Ahora el servidor de autorización te mandó concatenada en tu URL el código el cual podrás utilizar para solicitar el token de acceso.
 
 Con este código deberás hacer una última llamada a la API de autorización mediante un request a :
 
@@ -97,7 +97,7 @@ Con este código deberás hacer una última llamada a la API de autorización me
 **Donde**
 - **code** Corresponde al código de autorización que te llegó en el redireccionamiento.
 - **usrToken** Corresponde al token  del integrador (se asigna cuando uno de inscribe como integrador).
-- **appId** Identificador único de la aplicación que quiere acceder
+- **appId** Identificador único de la aplicación que quiere acceder.
 
 Un ejemplo de respuesta sería:
 
