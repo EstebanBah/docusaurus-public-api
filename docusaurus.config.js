@@ -94,7 +94,7 @@ const config = {
           },
           {
             to: '/changelog',
-            position: 'left',
+            position: 'right',
             label: 'Changelog',
           },
           {
