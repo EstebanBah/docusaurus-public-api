@@ -8,7 +8,7 @@ Lo primero que debes seguir para conectarte a la API de Bsale es que puedas obte
 
 ## Obtén tu token de acceso.
 :::info
-Para facilitar la obtención de datos asociados a un Usuario, como los `token` activos que pertenecen a X instancia, bien sea en ambiente de prueba ó productivo debes [crear una cuenta](https://account.bsale.dev/users/create) En una primera instancia el token que devolverá la creación de la cuenta, será un `token` de pruebas. Para `token` productivo, el usuario debe ser asociado a una instancia en producción.
+Para facilitar la obtención de datos asociados a un Usuario, como los `token` activos que pertenecen a X instancia, bien sea en ambiente de prueba ó productivo debes `[crear una cuenta]`(https://account.bsale.dev/users/create) En una primera instancia el token que devolverá la creación de la cuenta, será un `token` de pruebas. Para `token` productivo, el usuario debe ser asociado a una instancia en producción.
 :::
 
 ![img alt](/img/copyToken.png)
