@@ -74,7 +74,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 | **state** | estado del cliente indica si esta activo(0) o inactivo (1) | Boolean |
 | **activity** | giro del cliente | String |
 | **city** | ciudad del cliente | String |
-| **municipality** | comuna del cliente | String |
+| **district** | colonia del cliente | String |
 | **companyOrPerson** | indica si el cliente es persona natural o empresa (0)Persona o (1)Empresa | Boolean |
 | **points** | cantidad de puntos acumulados del cliente | Integer |
 | **pointsUpdated** | fecha de la última actualización de puntos | Integer |
@@ -112,80 +112,52 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 
 ```json title="Response /clients.json "
 {
-  "href": "https://api.bsale.io/v1/clients.json",
-  "count": 112,
-  "limit": 25,
-  "offset": 0,
-  "items": [
-    {
-      "href": "https://api.bsale.io/v1/clients/65.json",
-      "id": 65,
-      "firstName": "a",
-      "lastName": "sa",
-      "code": "92.341.000-7",
-      "phone": "",
-      "company": "a sa",
-      "note": "",
-      "facebook": "",
-      "twitter": "",
-      "hasCredit": 1,
-      "maxCredit": "10000.0",
-      "state": 1,
-      "activity": "Sin Giro",
-      "city": "",
-      "municipality": "",
-      "address": "",
-      "companyOrPerson": 0,
-      "points": 0,
-      "pointsUpdated": "",
-      "accumulatePoints": 0,
-      "sendDte": 0,
-      "prestashopClienId": 0,
-      "contacts": {
-        "href": "https://api.bsale.io/v1/clients/65/contacts.json"
-      },
-      "attributes": {
-        "href": "https://api.bsale.io/v1/clients/65/attributes.json"
-      },
-      "addresses": {
-        "href": "https//api.bsale.io/v1/clients/65/addresses.json"
-      }
-    },
-    {
-      "href": "https://api.bsale.io/v1/clients/102.json",
-      "id": 102,
-      "firstName": "Adriana",
-      "lastName": "Talhouk",
-      "code": "",
-      "phone": "",
-      "company": "Adriana Talhouk",
-      "note": null,
-      "facebook": null,
-      "twitter": "",
-      "hasCredit": 1,
-      "maxCredit": "10000.0",
-      "state": 0,
-      "activity": "Sin Giro",
-      "city": "",
-      "municipality": "",
-      "address": "",
-      "companyOrPerson": 0,
-      "points": 0,
-      "pointsUpdated": "",
-      "accumulatePoints": 0,
-      "sendDte": 0,
-      "prestashopClienId": 0,
-      "contacts": {
-        "href": "https://api.bsale.io/v1/clients/102/contacts.json"
-      },
-      "attributes": {
-        "href": "https://api.bsale.io/v1/clients/102/attributes.json"
-      },
-      "addresses": {
-        "href": "https//api.bsale.io/v1/clients/102/addresses.json"
-      }
-    }
-  ]
+    "href": "https://api.bsale.io/v1/clients.json",
+    "count": 10,
+    "limit": 25,
+    "offset": 0,
+    "items": [
+        {
+            "href": "https://api.bsale.io/v1/clients/1.json",
+            "id": 1,
+            "firstName": "Publico",
+            "lastName": "General",
+            "email": "api@bsale.com.mx",
+            "code": "XAXX010101000",
+            "phone": "",
+            "company": "Inicial Demo",
+            "note": null,
+            "facebook": null,
+            "twitter": "",
+            "hasCredit": 0,
+            "maxCredit": 0.0,
+            "state": 0,
+            "activity": "Sin Giro",
+            "city": "Ciudad",
+            "commerciallyBlocked": 0,
+            "district": "",
+            "address": "calle sin numero",
+            "postal_code": "10740",
+            "companyOrPerson": 0,
+            "accumulatePoints": 1,
+            "points": 0.0,
+            "pointsUpdated": "",
+            "sendDte": 0,
+            "isForeigner": 0,
+            "prestashopClienId": 0,
+            "createdAt": "",
+            "updatedAt": "",
+            "contacts": {
+                "href": "https://api.bsale.io/v1/clients/1/contacts.json"
+            },
+            "attributes": {
+                "href": "https://api.bsale.io/v1/clients/1/attributes.json"
+            },
+            "addresses": {
+                "href": "https://api.bsale.io/v1/clients/1/addresses.json"
+            }
+        }
+    ]
 }
 ```
 ## GET un cliente
@@ -215,7 +187,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
   "state": 0,
   "activity": "Sin Giro",
   "city": "",
-  "municipality": "",
+  "district": "",
   "address": "",
   "companyOrPerson": 0,
   "points": 113000,
@@ -368,7 +340,7 @@ Para crear un contacto de cliente, se debe enviar un JSON con la siguiente estru
 #### Ejemplos
 - `GET /v1/clients/55/addresses.json?address=la quebrada 1189`
 - `GET /v1/clients/55/addresses.json?city=santiago`
-- `GET /v1/clients/55/addresses.json?city=santiago&municipality=providencia`
+- `GET /v1/clients/55/addresses.json?city=santiago&district=providencia`
 - `GET /v1/clients/55/addresses.json?state=0`
 
 ```json
@@ -384,7 +356,7 @@ Para crear un contacto de cliente, se debe enviar un JSON con la siguiente estru
       "addressName": "SUC 1",
       "address": "SOTERO SANZ 100",
       "city": "STGO",
-      "municipality": "PROVIDENCIA",
+      "district": "PROVIDENCIA",
       "state": 0
     },
     {
@@ -393,7 +365,7 @@ Para crear un contacto de cliente, se debe enviar un JSON con la siguiente estru
       "addressName": "SUC 2",
       "address": "PEDRO DE VALDIVIA 200",
       "city": "STGO",
-      "municipality": "PROVIDENCIA",
+      "district": "PROVIDENCIA",
       "state": 0
     }
   ]
@@ -409,7 +381,7 @@ Para crear un contacto de cliente, se debe enviar un JSON con la siguiente estru
   "addressName": "SUC 1",
   "address": "SOTERO SANZ 100",
   "city": "STGO",
-  "municipality": "PROVIDENCIA",
+  "district": "PROVIDENCIA",
   "state": 0
 }
 ```
@@ -426,7 +398,7 @@ Para crear una dirección de cliente, se debe enviar un JSON con la siguiente es
   "addressName": "SUC 3",
   "address": "NUNCIO MONSEÑOR SOTERO SANZ 100, OF. 401",
   "city": "STGO",
-  "municipality": "PROVIDENCIA"
+  "district": "PROVIDENCIA"
 }
 ```
 ##### Respuesta
@@ -437,7 +409,7 @@ Para crear una dirección de cliente, se debe enviar un JSON con la siguiente es
   "addressName": "SUC 3",
   "address": "NUNCIO MONSEÑOR SOTERO SANZ 100, OF. 401",
   "city": "STGO",
-  "municipality": "PROVIDENCIA",
+  "district": "PROVIDENCIA",
   "state": 0
 }
 ```
@@ -454,7 +426,7 @@ Se debe enviar un Json con la siguiente estructura
   "addressName": "SUC 4",
   "address": "OF. 401",
   "city": "STGO",
-  "municipality": "PROVIDENCIA"
+  "district": "PROVIDENCIA"
 }
 ```
 #### Respuesta
@@ -465,7 +437,7 @@ Se debe enviar un Json con la siguiente estructura
   "addressName": "SUC 4",
   "address": "OF. 401",
   "city": "STGO",
-  "municipality": "PROVIDENCIA",
+  "district": "PROVIDENCIA",
   "state": 0
 }
 ```
@@ -481,7 +453,7 @@ Se debe enviar un Json con la siguiente estructura
   "addressName": "SUC 4",
   "address": "OF. 401",
   "city": "STGO",
-  "municipality": "PROVIDENCIA",
+  "district": "PROVIDENCIA",
   "state": 1
 }
 ```
@@ -496,7 +468,7 @@ Para crear un cliente, se debe enviar un JSON con la siguiente estructura:
 ```json
 {
   "facebook": "",
-  "municipality": "Las Condes",
+  "district": "Las Condes",
   "phone": "66287196",
   "activity": "Venta de ropa",
   "city": "Santiago",
@@ -520,7 +492,7 @@ Si se desean crear atributos especiales para el cliente se debe enviar la siguie
 ```json
 {
   "facebook": "",
-  "municipality": "Las Condes",
+  "district": "Las Condes",
   "phone": "66287196",
   "activity": "Venta de ropa",
   "city": "Santiago",
@@ -556,7 +528,7 @@ Si se desean crear atributos especiales para el cliente se debe enviar la siguie
   "twitter": "",
   "firstName": "Marcela",
   "id": 67,
-  "municipality": "Las Condes",
+  "district": "Las Condes",
   "maxCredit": 100000,
   "accumulatePoints": 1,
   "note": "Cliente premiun",
@@ -581,7 +553,7 @@ Si el cliente es extranjero se debe enviar el atributo `isForeigner` en **1**, p
   "client": {
     "city": "Hawai",
     "company": "Mountain Apple Company Inc",
-    "municipality": "Honolulu",
+    "district": "Honolulu",
     "activity": "Musician",
     "address": "izhawaii dot com #100 street",
     "email": "Israel@Kamakawiwo.ole",
@@ -604,7 +576,7 @@ Se debe enviar un Json con la siguiente estructura
 {
   "id": "67",
   "facebook": "",
-  "municipality": "Puerto Montt",
+  "district": "Puerto Montt",
   "phone": "66287196",
   "activity": "Venta de ropa",
   "city": "Puerto Montt",
@@ -633,7 +605,7 @@ Se debe enviar un Json con la siguiente estructura
   "twitter": "",
   "firstName": "Marcela",
   "id": 67,
-  "municipality": "Puerto Montt",
+  "district": "Puerto Montt",
   "maxCredit": 100000,
   "accumulatePoints": 1,
   "note": "Cliente premiun",
@@ -676,7 +648,7 @@ El cliente no estará visible mediante interfaz y tendrá un `state` 99. Sus doc
   "state": 1,
   "activity": "",
   "city": "Puerto Montt",
-  "municipality": "Puerto Montt",
+  "district": "Puerto Montt",
   "address": "Avda. Diego Portales 100",
   "companyOrPerson": 1,
   "sendDte": 0,
