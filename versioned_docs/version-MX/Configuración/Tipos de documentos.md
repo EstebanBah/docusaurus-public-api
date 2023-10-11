@@ -21,7 +21,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
   "id": 1,
   "name": "NOTA VENTA",
   "initialNumber": 1,
-  "codeSii": "",
+  "code": "",
   "isElectronicDocument": 0,
   "breakdownTax": 1,
   "use": 0,
@@ -48,7 +48,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 | **id**   | identificador único del Tipos de documentos   | Integer |
 | **name**   |  nombre del del tipo de documento | String |
 | **initialNumber**   | folio inicial del tipo de documento | Integer |
-| **codeSii**   | código tributario del tipo de documento | String |
+| **code**   | código tributario del tipo de documento | String |
 | **isElectronicDocument**   | indica si el tipo de documento es electrónico No(0) o Si(1) | Boolean |
 | **breakdownTax**   | indica si el tipo de documento desglosa impuesto No(0) o Si(1) | Boolean |
 | **use**   | indica si el uso que se le da al tipo de documento venta(0), devolución(1), despacho(2), liquidación(3) | Integer |
@@ -75,7 +75,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 - **fields**, solo devolver atributos específicos de un recurso
 - **expand**, permite expandir instancias y colecciones para traer relaciones en una sola petición.
 - **name**, Permite filtrar por nombre del tipo de documento.
-- **codesii**, filtra por el código tributario del tipo de documento (String).
+- **code**, filtra por el código tributario del tipo de documento (String).
 - **ledgeraccount**, filtra por la cuenta contable del tipo de documento.
 - **booktypeid**, filtra por el tipo de libro que pertenece (Integer).
 - **iselectronicdocument**, permite filtrar si el tipo de documento es electrónico No(0) o Si(1) (Boolean).
@@ -84,96 +84,102 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
   
 #### Ejemplos
 - `GET /v1/document_types.json?limit=10&offset=0`
-- `GET /v1/document_types.json?fields=[codesii,ledgeraccount,state]`
+- `GET /v1/document_types.json?fields=[code,ledgeraccount,state]`
 - `GET /v1/document_types.json?expand=[book_type]`
-- `GET /v1/document_types.json?codesii=33`
+- `GET /v1/document_types.json?code=33`
 - `GET /v1/document_types.json?state=0`
 
 ```json title="Response /document_types.json "
 {
-  "href": "https://api.bsale.io/v1/document_types.json",
-  "count": 3,
-  "limit": 25,
-  "offset": 0,
-  "items": [
-    {
-      "href": "https://api.bsale.io/v1/document_types/2.json",
-      "id": 2,
-      "name": "FACTURA EXENTA O NO AFECTA ELECTRONICA",
-      "initialNumber": 1,
-      "codeSii": "34",
-      "isElectronicDocument": 1,
-      "breakdownTax": 1,
-      "use": 0,
-      "isSalesNote": 0,
-      "isExempt": 1,
-      "restrictsTax": 0,
-      "useClient": 1,
-      "messageBodyFormat": "",
-      "thermalPrinter": 1,
-      "state": 0,
-      "copyNumber": 2,
-      "isCreditNote": 0,
-      "continuedHigh": 0,
-      "ledgerAccount": null,
-      "ipadPrint": 0,
-      "ipadPrintHigh": "0",
-      "book_type": {
-        "href": "https://api.bsale.io/v1/book_types/1.json",
-        "id": "1"
-      }
-    },
-    {
-      "href": "https://api.bsale.io/v1/document_types/3.json",
-      "id": 3,
-      "name": "NOTA CREDITO ELECTRONICA",
-      "initialNumber": 43,
-      "codeSii": "61",
-      "isElectronicDocument": 1,
-      "breakdownTax": 1,
-      "use": 1,
-      "isSalesNote": 0,
-      "isExempt": 0,
-      "restrictsTax": 0,
-      "useClient": 1,
-      "messageBodyFormat": "",
-      "thermalPrinter": 1,
-      "state": 0,
-      "copyNumber": 0,
-      "isCreditNote": 1,
-      "continuedHigh": 0,
-      "ledgerAccount": null,
-      "ipadPrint": 0,
-      "ipadPrintHigh": "0",
-      "book_type": {
-        "href": "https://api.bsale.io/v1/book_types/1.json",
-        "id": "1"
-      }
-    },
-    {
-      "href": "https://api.bsale.io/v1/document_types/1.json",
-      "id": 1,
-      "name": "NOTA VENTA",
-      "initialNumber": 1,
-      "codeSii": "",
-      "isElectronicDocument": 0,
-      "breakdownTax": 1,
-      "use": 0,
-      "isSalesNote": 1,
-      "isExempt": 0,
-      "restrictsTax": 0,
-      "useClient": 1,
-      "messageBodyFormat": null,
-      "thermalPrinter": 1,
-      "state": 0,
-      "copyNumber": 3,
-      "isCreditNote": 0,
-      "continuedHigh": 0,
-      "ledgerAccount": null,
-      "ipadPrint": 0,
-      "ipadPrintHigh": "0"
-    }
-  ]
+    "href": "https://api.bsale.io/v1/document_types.json",
+    "count": 8,
+    "limit": 3,
+    "offset": 0,
+    "items": [
+        {
+            "href": "https://api.bsale.io/v1/document_types/36.json",
+            "id": 36,
+            "name": "COMPLEMENTO DE PAGO",
+            "initialNumber": 1,
+            "code": "P",
+            "isElectronicDocument": 0,
+            "breakdownTax": 0,
+            "use": 10,
+            "isSalesNote": 0,
+            "isExempt": 0,
+            "restrictsTax": 0,
+            "useClient": 1,
+            "messageBodyFormat": null,
+            "thermalPrinter": 1,
+            "state": 0,
+            "copyNumber": 0,
+            "isCreditNote": 0,
+            "continuedHigh": 0,
+            "ledgerAccount": "",
+            "ipadPrint": 0,
+            "ipadPrintHigh": 0,
+            "restrictClientType": 2,
+            "useMaxDays": 0,
+            "maxDays": -1
+        },
+        {
+            "href": "https://api.bsale.io/v1/document_types/24.json",
+            "id": 24,
+            "name": "COTIZACIÓN",
+            "initialNumber": 1,
+            "code": "",
+            "isElectronicDocument": 0,
+            "breakdownTax": 1,
+            "use": 0,
+            "isSalesNote": 1,
+            "isExempt": 0,
+            "restrictsTax": 0,
+            "useClient": 1,
+            "messageBodyFormat": null,
+            "thermalPrinter": 1,
+            "state": 0,
+            "copyNumber": 0,
+            "isCreditNote": 0,
+            "continuedHigh": 0,
+            "ledgerAccount": "",
+            "ipadPrint": 0,
+            "ipadPrintHigh": 0,
+            "restrictClientType": 2,
+            "useMaxDays": 0,
+            "maxDays": -1
+        },
+        {
+            "href": "https://api.bsale.io/v1/document_types/5.json",
+            "id": 5,
+            "name": "FACTURA",
+            "initialNumber": 1,
+            "code": "I",
+            "isElectronicDocument": 1,
+            "breakdownTax": 0,
+            "use": 0,
+            "isSalesNote": 0,
+            "isExempt": 0,
+            "restrictsTax": 0,
+            "useClient": 1,
+            "messageBodyFormat": "<p><span style=\"font-family: arial,helvetica,sans-serif; font-size: large;\"><strong>&nbsp; Estimado #{NOMBRE_DESTINATARIO}#:</strong></span></p>\n<p><span style=\"font-family: arial,helvetica,sans-serif; font-size: large;\">&nbsp; Hemos generado a tu nombre la<strong> #{TIPO_DOCUMENTO}# N&ordm; #{NUMERO_DOCUMENTO}#</strong> por un monto de  #{MONTO_DOCUMENTO}# , cuya fecha de&nbsp; vencimiento es el <strong> #{FECHA_VENCIMIENTO}#</strong></span><br /><br /><span style=\"font-family: arial,helvetica,sans-serif; font-size: large;\">&nbsp; Para ver y descargar el documento haz click en el siguiente link: <span style=\"color: #000000;\"> #{LINK_DOCUMENTO}#</span></span><br /><br /><span style=\"font-family: arial,helvetica,sans-serif; font-size: large;\">&nbsp; Atentamente,</span><br /><span style=\"font-family: arial,helvetica,sans-serif; font-size: large;\">&nbsp; #{NOMBRE_USUARIO}#</span><br /><span style=\"font-family: arial,helvetica,sans-serif; font-size: large;\">&nbsp; #{NOMBRE_EMPRESA}#</span></p>",
+            "thermalPrinter": 1,
+            "state": 0,
+            "copyNumber": 0,
+            "isCreditNote": 0,
+            "continuedHigh": 0,
+            "ledgerAccount": "",
+            "ipadPrint": 0,
+            "ipadPrintHigh": 0,
+            "restrictClientType": 2,
+            "useMaxDays": 0,
+            "maxDays": -1,
+            "book_type": {
+                "href": "https://api.bsale.io/v1/book_types/1.json",
+                "id": "1"
+            }
+        }
+    ],
+    "next": "https://api.bsale.io/v1/document_types.json?limit=3&offset=3"
 }
 ```
 ## GET un tipo de documento
@@ -191,7 +197,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
   "id": 1,
   "name": "NOTA VENTA",
   "initialNumber": 1,
-  "codeSii": "",
+  "code": "",
   "isElectronicDocument": 0,
   "breakdownTax": 1,
   "use": 0,
@@ -221,75 +227,17 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 }
 ```
 
-## GET CAF actual de un tipo de documento
-- GET `/v1/document_types/caf.json` Retornará el archivo CAF.
-
-:::info
-CAF, proviene de "**Código de Asignación de Folios**". [Ver](https://www.sii.cl/preguntas_frecuentes/catastro/001_012_2020.htm#:~:text=%C2%BFQu%C3%A9%20significa%20el%20C%C3%B3digo%20de,Documentos%20Tributarios%20Electr%C3%B3nicos%20(DTE)%3F&text=El%20CAF%20en%20los%20DTE,procedimientos%20establecidos%20por%20el%20SII.) 
-:::
-
-#### Parámetros
-- **codesii**, filtra por el código tributario del tipo de documento (String).
-- **documenttypeid**, filtra por el identificador del tipo de documento (Integer).
-- **nextnumber**, filtra por el próximo folio que se desea utilizar (integer).
-
-#### Ejemplos
-- `GET /v1/document_types/caf.json?codesii=33`
-- `GET /v1/document_types/caf.json?documenttypeid=1`
-- `GET /v1/document_types/caf.json?codesii=33&nextnumber=51`
-  
-```json 
-{
-  "startDate": 1522292400,
-  "expirationDate": 1546225200,
-  "startNumber": 5,
-  "endNumber": 5,
-  "lastNumberUsed": 0,
-  "numbersAvailable": 2,
-  "expired": false
-}
-```
-- **startDate**, fecha en que inicia el caf (integer).
-- **expirationDate**, fecha en que vence el caf (integer).
-- **startNumber**, folio inicial del caf (integer).
-- **endNumber**, folio final del caf (integer).
-- **lastNumberUsed**, ultimo folio utilizado para el tipo de documento (integer).
-- **numbersAvailable**, folios disponibles para el tipo de documento (Integer).
-- **expired**, indica si el caf esta expirado (Boolean)
-
-## GET folios disponibles de un tipo de documento
-- GET `/v1/document_types/number_availables.json` Retornará registros de números de folios.
-
-#### Parámetros
-- **codesii**, filtra por el código tributario del tipo de documento (String).
-- **documenttypeid**, filtra por el identificador del tipo de documento (Integer).
-
-#### Ejemplos
-- `GET /v1/document_types/number_availables.json?codesii=33`
-- `GET /v1/document_types/number_availables.json?documenttypeid=1`
-
-```json 
-{
-   "numbers_available": 2574,
-   "last": 32119
-}
-```
-- **numbers_available**, folios disponibles para el tipo de documento (Integer).
-- **last**, ultimo folio utilizado para el tipo de documento (integer).
-
 ## PUT un tipo de documento
 - PUT `/v1/document_types.json` 
 
 :::note
-
 Solo es posible editar "Nombre del documento", "Estado" y "Si requiere datos de cliente"
-
 :::
 
 #### Envío
 ```json
 {
-   "name": "Documento Boleta",
+   "name": "TICKET DE VENTA T",
    "state": 1,
    "useClient": 1
 }
@@ -299,9 +247,9 @@ Solo es posible editar "Nombre del documento", "Estado" y "Si requiere datos de 
 {
   "href": "https://api.bsale.io/v1/document_types/10.json",
   "id": 10,
-  "name": "Documento Boleta",
+  "name": "TICKET DE VENTA T",
   "initialNumber": 1,
-  "codeSii": "35",
+  "code": "I",
   "isElectronicDocument": 0,
   "breakdownTax": 0,
   "use": 0,

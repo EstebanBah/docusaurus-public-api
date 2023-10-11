@@ -50,7 +50,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 - **expand**, permite expandir instancias y colecciones para traer relaciones en una sola petición.
 - **name**, Permite filtrar por nombre del atributo.
 - **type**, filtra tipo de atributo.
-- **state**, boolean (0 o 1) indica si están activas(0) inactivas (1).
+- **state**, boolean (0 o 1) indica si las listas de precio están activas(0) inactivas (1).
 - **paymenttypeid**, filtra por la forma de pago.
 - **documenttypeid**, filtra por el tipo de documento.
   
@@ -59,6 +59,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 - `GET /v1/dynamic_attributes.json?fields=[name,type,state]`
 - `GET /v1/dynamic_attributes.json?paymenttypeid=1`
 - `GET /v1/dynamic_attributes.json?expand=[coin,details]`
+- `GET /v1/dynamic_attributes.json?documenttypeid=8`
 
 
 ```json title="Response /dynamic_attributes.json "

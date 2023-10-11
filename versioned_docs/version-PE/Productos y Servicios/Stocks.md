@@ -363,6 +363,10 @@ Para crear una recepción (ingresar cantidades de stock), se debe enviar un JSON
 - **quantity**, cantidad ingreso de stock
 - **cost**, costo asociado al ingreso
 
+:::info
+En caso de generar una recepción de stock de un producto que tiene serie, se debe agregar `serialNumber` (String) con su valor.
+:::
+
 :::tip
 Para el ingreso de stock, se puede referenciar al producto mediante `id`, o `barCode` o `code`. 
 :::
@@ -684,6 +688,10 @@ Para crear un consumo (restar cantidades de stock), se debe enviar un JSON con l
 - **note**, comentario de ingreso, se visualiza en la interfaz de Bsale (String).
 - **documentNumber**, número de documento de ingreso (Integer)
 - **quantity**, cantidad ingreso de stock
+
+:::info
+En caso de generar un consumo de stock de un producto que tiene serie, se debe agregar `serialNumber`(String) con su valor.
+:::
 
 :::tip
 Para el consumo de stock, se puede referenciar al producto mediante `id`, o `barCode` o `code`. 

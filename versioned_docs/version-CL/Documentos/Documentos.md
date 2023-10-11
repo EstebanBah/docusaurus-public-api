@@ -23,7 +23,7 @@ Cómo funciona la interfaz de Bsale, mira éstos videos:
 
 Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente estructura:
 
-```js title="Response v1/documents.json"
+```js title="Response /documents.json"
 {
   "href": "https://api.bsale.io/v1/documents/382.json",
   "id": 382,
@@ -200,7 +200,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
   "emissionDate": 1351652400,
   "expirationDate": 1351652400,
   "rcofDate": 1351652400,
-  "number": 100,
+  "number": 1,
   "totalAmount": 5117000,
   "netAmount": 4300000,
   "taxAmount": 817000,
@@ -897,6 +897,10 @@ Si necesitas que Bsale **envie el documento al correo del cliente** puedes agreg
 
 ### Detalles
 
+:::caution
+`netUnitValue` **no debe registrarse valores negativos**, si se envía será rechazado por la entidad tributaria (SII).
+:::
+
 ```json 
 {
    "details": [
@@ -1076,7 +1080,7 @@ Para usar atributos adicionales deben primero deben crearse y referenciar su id.
 :::
 
 ### Id externo (opcional)
-Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad de emisión en cada tipo de documento. La API buscará por el id al hacer POST de un documento, y si ya existe retornará el documento que se generó previamente en vez de generar uno nuevo.
+Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad de emisión en un tipo de documento. La API buscará por el id al hacer POST de un documento, si ya existe el id en los registros del asociados a un tipo de documento, retornará el documento que se generó previamente en vez de generar uno nuevo.
 ```json 
 {
    "salesId": "AAA000012"
@@ -1106,7 +1110,7 @@ Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad
   "details": [
     {
       "variantId": 1,
-      "netUnitValue": 53975,
+      "netUnitValue": 23438,
       "quantity": 1,
       "taxId": "[1,2]",
       "comment": "Producto 1",
@@ -1116,7 +1120,7 @@ Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad
   "payments": [
     {
       "paymentTypeId": 1,
-      "amount": 70000,
+      "amount": 27891,
       "recordDate": 1407715200
     }
   ],
@@ -1145,39 +1149,80 @@ Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad
 
 ```json title="201 Response /documents.json "
 {
-  "urlTimbre": "http://s3.amazonaws.com/bsale/timbres/T33_F933.png",
-  "client": {
-    "href": "https://api.bsale.io/v1/clients/211.json",
-    "id": "211"
-  },
-  "address": "direccion valida",
-  "token": "a1a3291afd78",
-  "userId": 1,
-  "exemptAmount": 0,
-  "office": {
-    "href": "https://api.bsale.io/v1/offices/1.json",
-    "id": "1"
-  },
-  "urlXml": " ",
-  "expirationDate": 1407643200,
-  "municipality": "puerto montt",
-  "netAmount": 53975,
-  "totalAmount": 74486,
-  "document_type": {
-    "href": "https://api.bsale.io/v1/document_types/8.json",
-    "id": "8"
-  },
-  "taxAmount": 20511,
-  "number": 933,
-  "href": "https://api.bsale.io/v1/documents/11561.json",
-  "emissionDate": 1407643200,
-  "urlPdf": "http://app.bsale.cl/view/339/a1a3291afd78.pdf",
-  "id": 11561,
-  "references": {
-    "href": "https://api.bsale.io/v1/documents/11561/references.json"
-  },
-  "city": "puerto montt",
-  "state": 0
+    "href": "https://api.bsale.io/v1/documents/8135.json",
+    "id": 8135,
+    "emissionDate": 1407715200,
+    "expirationDate": 1407715200,
+    "generationDate": 1407715200,
+    "rcofDate": 1407715200,
+    "number": 732,
+    "trackingNumber": "",
+    "totalAmount": 27891.0,
+    "netAmount": 23438.0,
+    "taxAmount": 4453.0,
+    "exemptAmount": 0.0,
+    "exportTotalAmount": 0.0,
+    "exportNetAmount": 0.0,
+    "exportTaxAmount": 0.0,
+    "exportExemptAmount": 0.0,
+    "commissionRate": 0.0,
+    "commissionNetAmount": 0.0,
+    "commissionTaxAmount": 0.0,
+    "commissionTotalAmount": 0.0,
+    "percentageTaxWithheld": 0.0,
+    "purchaseTaxAmount": 0.0,
+    "purchaseTotalAmount": 0.0,
+    "address": "La Mezquita 90881",
+    "municipality": "MAIPU",
+    "city": "Maipú, RM (Metropolitana), Chile",
+    "urlTimbre": "https://s3.amazonaws.com/bsale/8888/timbres/2414bddfb871.png",
+    "urlPublicView": "https://app2.bsale.cl/view/8888/2414bddfb871?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/8888/2414bddfb871.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/8888/2414bddfb871",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/8888/2414bddfb871.pdf",
+    "token": "2414bddfb871",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/8888/files/2414bddfb871.xml",
+    "ted": "<TED version=\"1.0\"><DD><RE>12345678-K</RE><TD>61</TD><F>732</F><FE>2023-07-20</FE><RR>12345678</RR><RSR>CRISTOPHER NOLAN</RSR><MNT>27891</MNT><IT1>RELOJ DE MUJER CASIO LA-670WA-7 RELOJ D</IT1><CAF version=\"1.0\"><DA><RE>77068949-K</RE><RS>GRUPO 2 MULTIMEDIAS CINE SPA</RS><TD>33</TD><RNG><D>732</D><H>890</H></RNG><FA>2020-01-01</FA><RSAPK><M>zvZvlCgG3WI+W5gkLlN8V9G7Sfrg6XOKwy7Jv/YQ6JXpwa7KzMsxeeas3D6wgygfjIYjaCACk2OR+rBTFBjjzw==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo=\"SHA1withRSA\">f4E8/ElrXhPy7qtXIy2a07BdUx5ReHDrvUyq1slPtRAzHEWy4noI0jjSBcw67LEt1E2SdIKsyq9B0DI+TA==</FRMA></CAF><TSTED>2023-07-20T09:28:17</TSTED></DD><FRMT algoritmo=\"SHA1withRSA\">duKTNpvhXwZl8bLR6J7VGlNMzJp1bpJ/SJoPuBVDfKvxqudnsIIrIm7fulGT0Igt3tFBTt4fUaPzjiycTw==</FRMT></TED>",
+    "salesId": null,
+    "informedSii": 0,
+    "responseMsgSii": "Proceso Finalizado Correctamente!",
+    "document_type": {
+        "href": "https://api.bsale.io/v1/document_types/5.json",
+        "id": "5"
+    },
+    "client": {
+        "href": "https://api.bsale.io/v1/clients/6098.json",
+        "id": "6098"
+    },
+    "office": {
+        "href": "https://api.bsale.io/v1/offices/1.json",
+        "id": "1"
+    },
+    "user": {
+        "href": "https://api.bsale.io/v1/users/3.json",
+        "id": "3"
+    },
+    "coin": {
+        "href": "https://api.bsale.io/v1/coins/1.json",
+        "id": "1"
+    },
+    "references": {
+        "href": "https://api.bsale.io/v1/documents/8135/references.json"
+    },
+    "document_taxes": {
+        "href": "https://api.bsale.io/v1/documents/8135/document_taxes.json"
+    },
+    "details": {
+        "href": "https://api.bsale.io/v1/documents/8135/details.json"
+    },
+    "sellers": {
+        "href": "https://api.bsale.io/v1/documents/8135/sellers.json"
+    },
+    "attributes": {
+        "href": "https://api.bsale.io/v1/documents/8135/attributes.json"
+    }
 }
 ```
 

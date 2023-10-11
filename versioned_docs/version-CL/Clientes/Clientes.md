@@ -15,7 +15,6 @@ Cómo funciona la interfaz de Bsale, mira éstos videos:
 
 :::info
 El RUT, se almacena en el `code`, es importante que valides el identificador antes de enviar.
-Ejemplo de formato: 123456789-0
 :::
 
 ## Estructura JSON

@@ -66,7 +66,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 | **product_taxes**   | nodo que indica los impuestos asociados al producto| |
 
 ## GET lista de productos
-- GET `/v1/products.json` retornará todos los productos.
+- GET `/v1/products.json` retornará todos los despachos.
 
 #### Parámetros
 - **limit**, limita la cantidad de items de una respuesta JSON, por defecto el limit es 25, el máximo permitido es 50.
@@ -365,7 +365,10 @@ Se debe enviar un Json con la siguiente estructura.
 - **classification**, indica la clase del producto 0 es producto, 1 es servicio (Integer)
 - **stockControl**, indica si el producto controlara stock No(0) o Si (1) (Boolean).
 - **productTypeId**, Id del tipo de producto (Integer)
+- **serialNumber**, indica si el producto controla o no series. No (0) o Si (1) (Integer)
+- **isLot**, indica si la serie se podrá repetir. No (0) o Si (1) (Integer)
 - **taxes**, Arreglo que referencia los [id's de impuesto](/CL/impuestos#get-lista-de-impuestos) asociados al producto.
+
 
 :::tip
 Si no se definen impuestos en la creación del producto, se asignarán los configurados por defecto en Bsale.

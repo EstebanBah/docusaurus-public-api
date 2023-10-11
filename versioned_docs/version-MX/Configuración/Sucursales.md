@@ -88,7 +88,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
     {
       "href": "https://api.bsale.io/v1/offices/2.json",
       "id": 2,
-      "name": "Casa Matriz - Puerto Varas",
+      "name": "Casa Matriz - Cdmx",
       "description": "",
       "address": "Direccion de la sucursal",
       "latitude": "",
@@ -205,11 +205,11 @@ Para crear un cliente, se debe enviar un JSON con la siguiente estructura:
   "latitude": "",
   "isVirtual": 0,
   "address": "Santa Rosa 402",
-  "country": "Chile",
-  "municipality": "Puerto Varas",
-  "city": "Puerto Varas",
+  "country": "México",
+  "municipality": "Ciudad de México",
+  "city": "Ciudad de México",
   "costCenter": "25",
-  "description": "Oficina"
+  "description": "Oficina central"
 }
 ```
  
@@ -225,9 +225,9 @@ Para crear un cliente, se debe enviar un JSON con la siguiente estructura:
   "href": "https://api.bsale.io/v1/offices/5.json",
   "address": "Santa Rosa 402",
   "id": 5,
-  "city": "Puerto Varas",
-  "municipality": "Puerto Varas",
-  "country": "Chile",
+  "city": "Ciudad de México",
+  "municipality": "Ciudad de México",
+  "country": "México",
   "costCenter": "25",
   "description": "Oficina",
   "imagestionCellarId": 0
@@ -260,11 +260,11 @@ Se debe enviar un Json con la siguiente estructura
   "href": "https://api.bsale.io/v1/offices/5.json",
   "address": "SSanta Rosa 402 oficina B",
   "id": 5,
-  "city": "Puerto Varas",
-  "municipality": "Puerto Varas",
-  "country": "Chile",
+  "city": "Ciudad de México",
+  "municipality": "Ciudad de México",
+  "country": "México",
   "costCenter": "25",
-  "description": "Oficina",
+  "description": "Oficina central",
   "imagestionCellarId": 0
 }
 ```

@@ -8,7 +8,7 @@ slug: /documentos/despachos
 
 # Despacho
 
-Generación de documentos tipo despacho. _(ej Guías de despacho electrónicas)_, listar despachos generados, detalles incluidos en el despacho. .
+Generación de documentos tipo despacho. _(ej Guías de despacho electrónicas)_, listar despachos generados, detalles incluidos en el despacho.
 
 Cómo funciona la interfaz de Bsale, mira éstos videos:
 
@@ -52,16 +52,17 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 ```
 
 ### Atributos
-| Atributo      | Descripción | Tipo dato | 
-| ----------- | ----------- | ----------- | 
-| **href**      | url del documento despacho     | String       | 
-| **id**   | identificador único del despacho   | Integer | 
-| **shippingDate**   | fecha del despacho   | Integer | 
-| **address**   | dirección del despacho   | String | 
-| **municipality**   | comuna del despacho  | String | 
-| **city**   | ciudad del despacho   | String | 
+| Atributo      | Descripción | Tipo dato |
+| ----------- | ----------- | ----------- |
+| **href**      | url del documento despacho     | String       |
+| **id**   | identificador único del despacho   | Integer |
+| **shippingDate**   | fecha del despacho   | Integer |
+| **address**   | dirección del despacho   | String |
+| **municipality**   | comuna del despacho  | String |
+| **city**   | ciudad del despacho   | String |
 | **recipient**   | destinatario del despacho    | String |
 | **state**   | estado del descuento indica si el descuento esta activo(0) o inactivo (1)   | Boolean |
+| **received**   | estado de la recepción traslado interno (0) No recibida (1) Recibida   | Boolean |
 | **office**   | nodo que indica la relación con la sucursal en la que fue emitida el despacho.   |  |
 | **shipping_type**   | nodo que indica la relación con el tipo de despacho.  |  |
 | **guide**   | nodo que indica el documento guía de despacho.  |  |

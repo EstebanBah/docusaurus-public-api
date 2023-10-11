@@ -6,10 +6,10 @@ slug: /documentos
 ---
 
 # Documentos
-Listar documentos generados en Bsale, del tipo venta, pre-venta, despachos, etc. Se puede obtener detalles, referencias, datos generales, etc. 
+Listar documentos generados en Bsale, del tipo venta, pre-venta, envíos, etc. Se puede obtener detalles, referencias, datos generales, etc. 
 
 :::info
-**Crear documentos** del tipo venta o documentos asociados al proceso de venta (notas de venta, cotizaciones, etc). 
+**Crear documentos** del tipo venta (tickets, facturas) o documentos asociados al proceso de venta (notas de venta, cotizaciones, etc). 
 
 :::
 
@@ -46,17 +46,17 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
   "purchaseTotalAmount": 0,
   "urlTimbre": null,
   "ted": null,
-  "urlPublicView": "http://app2.bsale.cl/view/2/a2d9b4da5128?sfd=99",
-  "urlPdf": "http://app2.bsale.cl/view/2/a2d9b4da5128.pdf?sfd=99",
-  "urlPublicViewOriginal": "http://app2.bsale.cl/view/2/a2d9b4da5128",
-  "urlPdfOriginal": "http://app2.bsale.cl/view/2/a2d9b4da5128.pdf",
+  "urlPublicView": "http://app2.bsale.io/view/2/a2d9b4da5128?sfd=99",
+  "urlPdf": "http://app2.bsale.io/view/2/a2d9b4da5128.pdf?sfd=99",
+  "urlPublicViewOriginal": "http://app2.bsale.io/view/2/a2d9b4da5128",
+  "urlPdfOriginal": "http://app2.bsale.io/view/2/a2d9b4da5128.pdf",
   "token": "a2d9b4da5128",
   "state": 0,
   "userId": 2,
   "urlXml": null,
-  "address": null,
-  "municipality": null,
-  "city": null,
+  "address": "INSURGENTES NORTE  123",
+  "district": "ÁLVARO OBREGÓN",
+  "city": "SAN ÁNGEL",
   "informed": 1,
   "responseMsg": null,
   "document_type": {
@@ -123,10 +123,10 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 |  **token**   | token único del documento        | String        |
 |  **state**   | estado del documento indica si el documento esta activo(0) o inactivo (1)         | Boolean        |
 |  **urlXml**   | respaldo del documento electrónico         | String        |
-|  **address**   | dirección del documento        | String        |
-|  **municipality**   | comuna del documento        | String        |
-|  **city**   | ciudad del documento        | String        |
-|  **informed**   | indica si el documento fue informado, 0 es correcto, 1 es enviado, 2 es rechazado        | Integer        |
+|  **address**   | dirección del cliente        | String        |
+|  **district**   | Colonia del cliente        | String        |
+|  **city**   | ciudad del cliente        | String        |
+|  **informed**   | indica si el documento fue informado al SAT, **0 es correcto, 1 es enviado, 2 es rechazado**       | Integer        |
 | **responseMsg**   | respuesta de la declaración del documento, en caso de ser electrónico        | String        |
 | **document_type**   | nodo que indica el tipo del documento al cual pertenece el documento.        | Text        |
 | **client**   | nodo que indica el cliente al cual se le emitió el documento.        | Text        |
@@ -170,7 +170,6 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 - `GET /v1/documents.json?expand=[document_types,client,office,details,payments]`
 - `GET /v1/documents.json?emissiondate=1309478400&-expirationdate=1309478400&state=0`
 - `GET /v1/documents.json?emissiondaterange=[1414800000,1417391990]`
-- `GET /v1/documents.json?referencecode=801`
 - `GET /v1/documents.json?referencenumber=123`
 - `GET /v1/documents.json?referencecode=801&referencenumber=123`
 - `GET /v1/documents.json?detailid=5350`
@@ -211,16 +210,16 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
   "purchaseTotalAmount": 0,
   "urlTimbre": null,
   "ted": null,
-  "urlPublicView": "http://app2.bsale.cl/view/2/f806d6a6ae73?sfd=99",
-  "urlPdf": "http://app2.bsale.cl/view/2/f806d6a6ae73.pdf?sfd=99",
-  "urlPublicViewOriginal": "http://app2.bsale.cl/view/2/f806d6a6ae73",
-  "urlPdfOriginal": "http://app2.bsale.cl/view/2/f806d6a6ae73.pdf",
+  "urlPublicView": "http://app2.bsale.io/view/2/f806d6a6ae73?sfd=99",
+  "urlPdf": "http://app2.bsale.io/view/2/f806d6a6ae73.pdf?sfd=99",
+  "urlPublicViewOriginal": "http://app2.bsale.io/view/2/f806d6a6ae73",
+  "urlPdfOriginal": "http://app2.bsale.io/view/2/f806d6a6ae73.pdf",
   "token": "f806d6a6ae73",
   "state": 0,
   "urlXml": null,
   "address": "San Francisco 402, jj perez 7248",
-  "municipality": "Santiago",
-  "city": "Santiago",
+  "district": "ÁLVARO OBREGÓN",
+  "city": "SAN ÁNGEL",
   "informed": 2,
   "responseMsg": null,
   "document_type": {
@@ -278,7 +277,6 @@ Entrega los costos asociados a una venta solo si los productos fueron despachado
 #### Parámetros
 - **documentid**, filtra por el id del documento.
 - **number**, filtra documentos por el folio.
-- **codesii**, filtra documentos por el código tributario.
 
 #### Ejemplos
 - `GET /v1/documents/costs.json?documentid=145071`
@@ -501,7 +499,7 @@ Entrega los costos asociados a una venta solo si los productos fueron despachado
 - GET `/v1/documents/9682/attributes.json` 
 
 :::info
-Retorna los [atributos dinámicos](/MX/atributos-dinamicos) asociados al documento, **no electrónicos**.
+Retorna los [atributos dinámicos](/MX/atributos-dinamicos) asociados al documento.
 :::
 
 ```json title="Response /documents/9682/attributes.json "
@@ -536,11 +534,7 @@ Retorna los [atributos dinámicos](/MX/atributos-dinamicos) asociados al documen
 ## POST un documento
 - POST `/v1/documents.json`
 
-:::note
-La generación de documentos sólo se soportan documentos no electrónicos
-:::
-
-Para crear un documento de venta ya sea electrónico (Factura y Boleta Electrónica) o no (Nota de venta, Factura y Boleta manual), se debe enviar un JSON con la siguiente estructura:
+Para crear un documento de venta ya sea electrónico (ej Factura) o no (ej ticket), se debe enviar un JSON con la siguiente estructura:
 
 ### Referencias y fechas
 
@@ -551,7 +545,8 @@ Para crear un documento de venta ya sea electrónico (Factura y Boleta Electrón
   "priceListId": 18,
   "emissionDate": 1407715200,
   "expirationDate": 1407715200,
-  "declareSii": 1
+  "declare": 1,
+  "cfdiUse": 612
 }
 ```
 - **documentTypeId**, [Id del tipo de documento](/MX/tipos-de-documentos) que indicara si es factura, boleta, nota de venta etc. (Integer).
@@ -559,9 +554,12 @@ Para crear un documento de venta ya sea electrónico (Factura y Boleta Electrón
 - **priceListId**, [Id de la lista de precio](/MX/listas-de-precio) utilizada por el documento, si no es especificada se utilizara la lista de precio por defecto de la sucursal (Integer).
 - **emissionDate**, Fecha de emisión del documento (Integer) (no se debe aplicar zona horaria, solo considerar la fecha).
 - **expirationDate**, Fecha vencimiento del documento (Integer) (no se debe aplicar zona horaria, solo considerar la fecha).
+- **declare**, Si se desea declarar el documento ante SAT se envía 1, en caso contrario un 0 (Boolean).
+- **cdfiUse**, Código uso cfdi del documento a generar (String).
+
 
 ### Vendedor
-Es posible que necesites asociar un vendedor diferente al que hace la petición para crear el documento, para eso debes enviar el atributo `sellerId`, con el `id` vendedor (usuario) en Bsale.
+Es posible que necesites asociar un vendedor diferente al que hace la petición para crear el documento, para eso debes enviar el atributo `sellerId`, con el `id` vendedor [(Usuario)](/MX/usuarios) en Bsale.
 ```json 
 {
    "sellerId": 5
@@ -602,27 +600,31 @@ En algunos documentos no es necesario agregar el cliente como en el caso de la b
 ```json 
 {
   "client": {
-    "code": "98765432-1",
+    "code": "XA987654321",
     "city": "Capital del Oeste",
     "company": "Capsule Corp",
-    "municipality": "Capital del Oeste",
+    "district": "Capital del Oeste",
     "activity": "Development and research",
     "address": "Hoi Poi #750",
-    "email": "dr@brief.cl",
-    "companyOrPerson": 1
+    "email": "dr@brief.mx",
+    "postalCode": "10740",
+    "regime": "612"
   }
 }
 ```
-- **code**, Identificador del cliente (String).
+
+- **code**, RFC del cliente (String).
 - **city**, Ciudad del cliente  (String).
-- **company**, Razón social del cliente (String).
-- **municipality**, Comuna del cliente (String).
+- **company**, Nombre, denominación o razón social (String)
+- **district**, Colonia del cliente (String).
 - **activity**, Giro del cliente (String).
 - **address**, Dirección del cliente (String). 
 - **email**, indica el correo electronico del cliente  (String).
 - **companyOrPerson**, indica si el cliente es persona natural o empresa (0)Persona o (1)Empresa (Boolean).
 - **firstName**, Nombre de persona (String).
 - **lastName**, Apellido de persona (String).
+- **postalCode**, Código postal del cliente (String).
+- **regime**, Código régimen del cliente (String).
 
 :::tip
 Opcionalmente puedes utilizar el parámetro `clientId` si el cliente ya esta creado en Bsale y conoces su identificador.
@@ -647,13 +649,13 @@ Si necesitas que Bsale **envie el documento al correo del cliente** puedes agreg
 ```json 
 {
   "client": {
-    "code": "98765432-1",
+    "code": "987654321",
     "city": "Capital del Oeste",
     "company": "Capsule Corp",
-    "municipality": "Capital del Oeste",
+    "district": "Capital del Oeste",
     "activity": "Development and research",
     "address": "Hoi Poi #750",
-    "email": "dr@brief.cl",
+    "email": "dr@brief.mx",
     "companyOrPerson": 1
   },
   "sendEmail": 1
@@ -661,6 +663,10 @@ Si necesitas que Bsale **envie el documento al correo del cliente** puedes agreg
 ```
 
 ### Detalles
+
+:::caution
+`netUnitValue` **no debe registrarse valores negativos**, si se envía será rechazado por la entidad tributaria (SAT) .
+:::
 
 ```json 
 {
@@ -703,7 +709,7 @@ Si controlas stock, puedes usar `code` o `variantId` o `barCode` para referencia
 :::
 
 #### Sin control de stock
-En el caso de solo necesitar **declarar documentos en el SII con Bsale**, el detalle tendría una estructura similar a:
+En el caso de solo necesitar **declarar documentos en el SAT con Bsale**, el detalle tendría una estructura similar a:
 ```json 
 {
    "details": [
@@ -796,7 +802,7 @@ Para usar atributos adicionales deben primero deben crearse y referenciar su id.
 :::
 
 ### Id externo (opcional)
-Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad de emisión. La API buscará por el id al hacer POST de un documento, y si ya existe retornará el documento que se generó previamente en vez de generar uno nuevo.
+Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad de emisión en un tipo de documento. La API buscará por el id al hacer POST de un documento, si ya existe el id en los registros del asociados a un tipo de documento, retornará el documento que se generó previamente en vez de generar uno nuevo.
 ```json 
 {
    "salesId": "AAA000012"
@@ -809,55 +815,39 @@ Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad
 #### Envío
 ```json title="POST /documents.json "
 {
-  "documentTypeId": 8,
-  "officeId": 1,
-  "emissionDate": 1407715200,
-  "expirationDate": 1407715200,
-  "declareSii": 1,
-  "priceListId": 18,
-  "client": {
-    "code": "12345678-9",
-    "city": "Puerto Varas",
-    "company": "Imaginex",
-    "municipality": "comuna",
-    "activity": "giro",
-    "address": "direccion"
-  },
-  "details": [
-    {
-      "variantId": 1,
-      "netUnitValue": 53975,
-      "quantity": 1,
-      "taxId": "[1,2]",
-      "comment": "Producto 1",
-      "discount": 0
-    }
-  ],
-  "payments": [
-    {
-      "paymentTypeId": 1,
-      "amount": 70000,
-      "recordDate": 1407715200
-    }
-  ],
-  "references": [
-    {
-      "number": 123,
-      "referenceDate": 1407715200,
-      "reason": "Orden de Compra 123",
-      "codeSii": 801
-    }
-  ],
-  "dynamicAttributes": [
-    {
-      "description": "098 codigo servicio",
-      "dynamicAttributeId": 17
+    "documentTypeId": 5,
+    "officeId": 1,
+    "emissionDate": 1690848000,
+    "declare": 1,
+    "priceListId": 1,
+    "client": {
+        "code": "CACX7600101P8",
+        "company": "XOCHILT CASAS CHAVEZ",
+        "activity": "Giro Informática",
+        "district": "Colonia",
+        "city": "Ciudad de Méxic",
+        "address": "Varsovia No. 1000",
+        "email": "api@bsale.com.mx",
+        "postalCode": "10740",
+        "regime": "612"
     },
-    {
-      "description": "Observacion nomal, sin anotaciones",
-      "dynamicAttributeId": 18
-    }
-  ]
+    "cfdiUse": "CP01",
+    "details": [
+        {
+            "variantId": 15,
+            "netUnitValue": 6974.13,
+            "quantity": 1,
+            "taxId": "[1]",
+            "discount": 0
+        }
+    ],
+    "payments": [
+        {
+            "recordDate": 1690848000,
+            "amount": 8090,
+            "paymentTypeId": 1
+        }
+    ]
 }
 ```
 
@@ -865,45 +855,91 @@ Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad
 
 ```json title="201 Response /documents.json "
 {
-  "urlTimbre": "http://s3.amazonaws.com/bsale/timbres/T33_F933.png",
-  "client": {
-    "href": "https://api.bsale.io/v1/clients/211.json",
-    "id": "211"
-  },
-  "address": "direccion valida",
-  "token": "a1a3291afd78",
-  "userId": 1,
-  "exemptAmount": 0,
-  "office": {
-    "href": "https://api.bsale.io/v1/offices/1.json",
-    "id": "1"
-  },
-  "urlXml": " ",
-  "expirationDate": 1407643200,
-  "municipality": "puerto montt",
-  "netAmount": 53975,
-  "totalAmount": 74486,
-  "document_type": {
-    "href": "https://api.bsale.io/v1/document_types/8.json",
-    "id": "8"
-  },
-  "taxAmount": 20511,
-  "number": 933,
-  "href": "https://api.bsale.io/v1/documents/11561.json",
-  "emissionDate": 1407643200,
-  "urlPdf": "http://app.bsale.cl/view/339/a1a3291afd78.pdf",
-  "id": 11561,
-  "references": {
-    "href": "https://api.bsale.io/v1/documents/11561/references.json"
-  },
-  "city": "puerto montt",
-  "state": 0
+    "href": "https://api.bsale.io/v1/documents/9241.json",
+    "id": 9241,
+    "emissionDate": 1690848000,
+    "expirationDate": 1690848000,
+    "generationDate": 1690936236,
+    "number": 3409,
+    "serialNumber": "0000-3409",
+    "trackingNumber": "",
+    "totalAmount": 8090.0,
+    "netAmount": 6974.137931,
+    "taxAmount": 1115.862069,
+    "exemptAmount": 0.0,
+    "notExemptAmount": 6974.137931,
+    "exportTotalAmount": 0.0,
+    "exportNetAmount": 0.0,
+    "exportTaxAmount": 0.0,
+    "exportExemptAmount": 0.0,
+    "commissionRate": 0.0,
+    "commissionNetAmount": 0.0,
+    "commissionTaxAmount": 0.0,
+    "commissionTotalAmount": 0.0,
+    "percentageTaxWithheld": 0.0,
+    "purchaseTaxAmount": 0.0,
+    "purchaseTotalAmount": 0.0,
+    "address": "Varsovia No. 1000",
+    "district": "Juarez",
+    "city": "Ciudad de México",
+    "stamp": "https://s3.amazonaws.com/bsale/8888/timbres/00816afe6b0.png",
+    "urlPublicView": "https://app2.bsale.com.mx/view/8888/00816afe6b0?sfd=99",
+    "urlPdf": "https://app2.bsale.com.mx/view/8888/00816afe6b0.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.com.mx/view/8888/00816afe6b0",
+    "urlPdfOriginal": "https://app2.bsale.com.mx/view/8888/00816afe6b0.pdf",
+    "token": "00816afe6b0",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://bsale.s3.amazonaws.com/8888/cfdi/64c9a3adb163e8b2316bded3.xml",
+    "salesId": null,
+    "informed": 0,
+    "responseMsg": null,
+    "document_type": {
+        "href": "https://api.bsale.io/v1/document_types/5.json",
+        "id": "5"
+    },
+    "client": {
+        "href": "https://api.bsale.io/v1/clients/30.json",
+        "id": "30"
+    },
+    "office": {
+        "href": "https://api.bsale.io/v1/offices/1.json",
+        "id": "1"
+    },
+    "user": {
+        "href": "https://api.bsale.io/v1/users/2.json",
+        "id": "2"
+    },
+    "coin": {
+        "href": "https://api.bsale.io/v1/coins/1.json",
+        "id": "1"
+    },
+    "references": {
+        "href": "https://api.bsale.io/v1/documents/9241/references.json"
+    },
+    "document_taxes": {
+        "href": "https://api.bsale.io/v1/documents/9241/document_taxes.json"
+    },
+    "details": {
+        "href": "https://api.bsale.io/v1/documents/9241/details.json"
+    },
+    "sellers": {
+        "href": "https://api.bsale.io/v1/documents/9241/sellers.json"
+    },
+    "attributes": {
+        "href": "https://api.bsale.io/v1/documents/9241/attributes.json"
+    }
 }
 ```
 
 ## DELETE un documento
 
-DELETE `/v1/documents/30.json?officeId=2`, elimina un documento no electrónico
+DELETE `/v1/documents/:id.json?officeId=2`, elimina un documento no electrónico
 
-- Se debe enviar la sucursal en la cual se eliminara el documento
+- **id**, id del documento en Bsale
 
+:::tip
+
+Se debe enviar **la sucursal** `officeId` en la cual se eliminará el documento requerido
+
+:::

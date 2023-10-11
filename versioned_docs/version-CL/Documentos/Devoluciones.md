@@ -344,6 +344,26 @@ Opcionalmente si generas una nota de crédito que ajusta el precio del documento
 - **quantity**, Cantidad a devolver (Float).
 - **unitValue**, Valor unitario neto del detalle (String). [detalle del documento]
 
+### Forma de pago en nueva venta
+:::tip
+Para generar este tipo de devolución es obligatorio especificar el cliente.
+:::
+
+
+```json 
+    "payments": [
+        {
+            "recordDate": 1639667641,
+            "amount": 11900,
+            "paymentTypeId": 3,
+            "documentTypeId": 9,
+            "number": 125
+        }
+    ]
+```
+- **documentTypeId**, Id del tipo de documento de la nota de crédito (Integer).
+- **number**, folio de la nota de crédito devolución (Integer).
+
 ## Ejemplo JSON
 ### Envío
 ```json title="POST /returns.json "
@@ -404,23 +424,6 @@ Opcionalmente si generas una nota de crédito que ajusta el precio del documento
   "id": 71
 }
 ```
-
-## Devolución como forma de pago en nueva venta
-Para las notas de crédito es obligatorio especificar el cliente.
-
-```json title="Ejemplo de envío en forma de pago documento"
-    "payments": [
-        {
-            "recordDate": 1639667641,
-            "amount": 11900,
-            "paymentTypeId": 3,
-            "documentTypeId": 9,
-            "number": 125
-        }
-    ]
-```
-- **documentTypeId**, Id del tipo de documento de la nota de crédito (Integer).
-- **number**, folio de la nota de crédito devolución (Integer).
 
 ## POST anular devolución
 - POST `/v1/returns/146/annulments.json` 

@@ -229,3 +229,192 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
    "variantCost": 3200.0
 }
 ```
+## POST una devolución
+- POST `/v1/returns.json`
+Para crear una devolución y su respectiva nota da crédito se debe enviar un JSON con la siguiente estructura:
+
+### Referencias y fechas
+
+```json
+{
+  "documentTypeId": 9,
+  "officeId": 1,
+  "referenceDocumentId": 11528,
+  "emissionDate": 1407384000,
+  "motive": "Bonificación por pago",
+  "declare": 1,
+  "priceAdjustment": 1,
+  "editTexts": 0,
+  "type": 1
+}
+```
+- **documentTypeId**, Id del tipo de documento que indicara si es factura, boleta, nota de venta etc. (Integer).
+- **officeId**, Id de la sucursal donde se emite el documento, si no es especificada el documento quedara asignado a la sucursal por defecto del sistema (Integer).
+- **referenceDocumentId**, Id del documento original al cual se le va hacer la devolución (Integer).
+- **emissionDate**, Fecha de emisión de la devolución, se envía en formato GMT (Integer).
+- **expirationDate**, Fecha vencimiento de la devolución, se envía en formato GMT (Integer).
+- **motive**, Indica el motivo de la devolución (String).
+- **declare**, Si se desea declarar el documento al Servicio de impuestos internos se envía 1, en caso contrario un 0 (Boolean).
+- **priceAdjustment**, Si la devolución corresponde a un ajuste de precio de los productos se envía **1**, en caso contrario 0 (Boolean).
+- **type**, Indica como se va a devolver el dinero del documento, **0** para devolución dinero, **1** para forma pago nueva venta, **2** para abono linea de crédito (Condonación), **3** para otra devolución (Integer).
+
+### Cliente de una devolución
+Para las notas de crédito **es obligatorio** especificar el cliente.
+
+:::note
+Para le generación de devoluciones, el cliente es obligatorio. Si el documento de referencia tiene asociado datos de cliente, se deben indicar los mismos datos en la devolución.
+:::
+
+```json 
+{
+  "client": {
+    "code": "XAXX010101000",
+    "city": "Ciudad de México",
+    "district": "JUAREZ",
+    "company": "PUBLICO EN GENERAL",
+    "address": "VARSOVIA 111"
+  }
+}
+```
+- **code**, Rut del cliente (String).
+- **city**, Ciudad del cliente  (String).
+- **company**, Razón social del cliente (String).
+- **municipality**, Comuna del cliente (String).
+- **activity**, Giro del cliente (String).
+- **address**, Dirección del cliente (String). 
+- **firstName**, Nombre de persona (String).
+- **lastName**, Apellido de persona (String).
+
+
+### Detalles de la devolución
+#### Tipos de una devolución
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="quant" label="Ajustar precios" default>
+        Si se desea crear una devolución para ajustar el precio de los productos, se debe enviar el editTexts en 0 y el priceAdjustment en 1, ademas de enviar en el nodo details solo los detalles que van a cambiar de precio del documento original (quantity = 0, unitValue = nuevo precio)
+  </TabItem>
+  <TabItem value="texts" label="Devolver cantidades">
+    Si se desea crear una devolución solo para retornar productos, se debe enviar el editTexts en 0 y el priceAdjustment en 0, ademas de enviar en el nodo details solo los detalles que van a cambiar de cantidad del documento original (quantity = nueva cantidad, unitValue = 0).
+  </TabItem>
+</Tabs>
+
+
+:::tip
+Además de indicar el `referenceDocumentId` se debe referenciar el id de detalle de la venta: `documentDetailId`
+:::
+
+```json title=" Ejemplo devolución cantidades"
+{
+  "details": [
+    {
+      "documentDetailId": 21493,
+      "quantity": 1,
+      "unitValue": 0
+    }
+  ]
+}
+```
+
+:::tip
+Opcionalmente si generas una nota de crédito que ajusta el precio del documento original, puedes cambiar la descripcion del del item con el atributo comment
+:::
+
+```json title="Ejemplo ajuste de precios"
+{
+  "details": [
+    {
+      "documentDetailId": 21493,
+      "comment": "Nueva descripción del item",
+      "quantity": 1,
+      "unitValue": 0
+    }
+  ]
+}
+```
+
+- **documentDetailId**, Id del [detalle del documento] original que se va a devolver (Integer).
+- **quantity**, Cantidad a devolver (Float).
+- **unitValue**, Valor unitario neto del detalle (String). [detalle del documento]
+
+### Forma de pago en nueva venta
+:::tip
+Para generar este tipo de devolución es obligatorio especificar el cliente.
+:::
+
+```json 
+    "payments": [
+        {
+            "recordDate": 1639667641,
+            "amount": 11900,
+            "paymentTypeId": 3,
+            "documentTypeId": 9,
+            "number": 125
+        }
+    ]
+```
+- **documentTypeId**, Id del tipo de documento de la nota de crédito (Integer).
+- **number**, folio de la nota de crédito devolución (Integer).
+
+## Ejemplo JSON
+### Envío
+```json title="POST /returns.json "
+{
+  "documentTypeId": 9,
+  "officeId": 1,
+  "expirationDate": 1407384000,
+  "emissionDate": 1407384000,
+  "referenceDocumentId": 11528,
+  "motive": "Descuento o bonificación",
+  "declareSii": 1,
+  "priceAdjustment": 1,
+  "editTexts": 0,
+  "type": 1,
+  "client": {
+    "code": "XAXX010101000",
+    "city": "Ciudad de México",
+    "district": "JUAREZ",
+    "company": "PUBLICO EN GENERAL",
+    "address": "VARSOVIA 111"
+  },
+  "details": [
+    {
+      "documentDetailId": 21493,
+      "quantity": 0,
+      "unitValue": 1250
+    }
+  ]
+}
+```
+
+### Respuesta
+```json title="201 Response /returns.json "
+{
+  "credit_note": {
+    "href": "https://api.bsale.io/v1/documents/11539.json",
+    "id": "11539"
+  },
+  "reference_document": {
+    "href": "https://api.bsale.io/v1/documents/11528.json",
+    "id": "11528"
+  },
+  "amount": 6490,
+  "code": "140745397411",
+  "type": 1,
+  "editTexts": 0,
+  "href": "https://api.bsale.io/v1/returns/71.json",
+  "returnDate": 1407384000,
+  "details": {
+    "href": "https://api.bsale.io/v1/returns/71/details.json"
+  },
+  "office": {
+    "href": "https://api.bsale.io/v1/offices/1.json",
+    "id": "1"
+  },
+  "motive": "Descuento o bonificación",
+  "priceAdjustment": 0,
+  "id": 71
+}
+```

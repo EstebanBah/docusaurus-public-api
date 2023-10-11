@@ -1,11 +1,22 @@
 ---
 title: OAuth 2.0
-slug: /OAuth
+slug: /oauth
 ---
+
+# Accesos en producción
+
+Lo primero que debes seguir para conectarte a la API de Bsale es que puedas obtener la autorización para acceder a los recursos de esta. Esta autorización evidentemente la tendrá que dar quien tenga privilegios para ellos y sea el “dueño” de los datos.
+
+:::tip
+
+Hay **2 formas** de obtener `access_token` en **producción**. _(Si buscas un token para pruebas 👉 [lée acá](/get-started))_
+- Solicitando el token por correo a ayuda@bsale.app
+- O que el usuario se autentifique en tu aplicación mediante el OAuth, que es lo que explicaremos de aqui en adelante 👇
+:::
 
 ### OAuth 2.0
 :::caution
-**Deberás implementar OAuth 2.0 cuando la integración esté lista** y desees que tus clientes conecten ambas apps sin necesidad de pedir un token por mail. 
+**Deberás implementar OAuth 2.0 cuando tu integración esté lista** y desees que tus clientes conecten ambas apps sin necesidad de pedir un token por mail. 
 :::
 #### Cómo funciona OAuth 2.0
 
@@ -13,7 +24,7 @@ slug: /OAuth
   <summary>Un poco de historia 🎓 </summary>
   <div>
     <div>OAuth es un estándar abierto que permite la autorización segura mediante el uso de un API. En la actualidad se usa desde octubre de 2012, en su versión OAuth 2.0 donde sus principales mejoras son que ahora proporciona flujos de autorización para aplicaciones web, de escritorio, teléfonos móviles. Actualmente servicios como Google, Facebook, Azure Active Directory, Github solo admiten el protocolo OAuth 2.0.<br/>
-    Recordemos que OAuth 2.0 es realmente un framework de autorización, que lo que hace es permitir que las aplicaciones obtengan acceso limitado a las cuentas de usuario de algunos servicios como la API de Bsale. Su funcionamiento básicamente consiste en delegar el permiso de autenticación del usuario al servicio que gestiona dichas cuentas, de modo que es el propio servicio, quien otorga acceso a las aplicaciones de terceros.
+    Recordemos que OAuth 2.0 es realmente un framework de autorización, que lo que hace es permitir que las aplicaciones obtengan acceso limitado a las cuentas de usuario de algunos servicios como la API de Bsale. Su funcionamiento básicamente consiste en delegar el permiso de autenticación del usuario al servicio que gestiona dichas cuentas, de modo que es el propio servicio, quien otorga acceso a las aplicaciones de terceros
     </div>
     <br/>
     <details>
@@ -24,7 +35,7 @@ slug: /OAuth
 <tbody>
   <tr>
     <td><b>Cliente</b></td>
-    <td>Es la aplicación que quiere acceder a un a instancia de Bsale, mediante el “consumo” de los “Endpoints” contenidos en la API de BSale.</td>
+    <td>Es la aplicación que quiere acceder a un a instancia de Bsale, mediante el “consumo” de los “Endpoints” contenidos en la API de BSale</td>
   </tr>
   <tr>
     <td><b>Usuario</b></td>
@@ -32,7 +43,7 @@ slug: /OAuth
   </tr>
   <tr>
     <td><b>Servidor</b></td>
-    <td>El servidor de autorización recibe las peticiones de acceso de aplicaciones que desean usar el inicio de sesión Bsale. Este servidor se encarga de verificar la identidad del usuario y del servicio que solicita acceso, permitiendo o denegando la solicitud, luego de lo cual enviará al solicitante un código de autorización, con el cual podrá solicitar el token de acceso definitivo.</td>
+    <td>El servidor de autorización recibe las peticiones de acceso de aplicaciones que desean usar el inicio de sesión Bsale. Este servidor se encarga de verificar la identidad del usuario y del servicio que solicita acceso, permitiendo o denegando la solicitud, luego de lo cual enviará al solicitante un código de autorización, con el cual podrá solicitar el token de acceso definitivo</td>
   </tr>
 </tbody>
 </table>
@@ -47,7 +58,7 @@ slug: /OAuth
 Perfecto ahora que tenemos claro cómo funciona el protocolo veamos en términos específicos que debes hacer.
 Para ello vamos a dividir el proceso en 3 etapas:
 
-## Etapa I: Grant request
+### Etapa I: Grant request
 En esta etapa es en la que se valida al usuario que dará acceso a la aplicación a la cuenta. Lo primero que debes hacer es  redirigir al usuario a la pantalla de autorización:
 
 ```curl
@@ -58,19 +69,19 @@ Esta llamada debe contener  3 parámetros:
 
 - **app_id** Corresponde  al ID de la aplicación, el cual lo obtienes al registrarla.
 - **redirect_uri** URL al cual se redireccionará  una vez que el usuario autorice.
-- **client_code** Corresponde al código que identifica la instancia, en Perú por ejemplo será el RUC y en Chile el RUT.
+- **client_code** Corresponde al código que identifica la instancia productiva en Bsale. RUT, RUC o RFC.
   
-![img alt](/img/loginOauth.png)
+![img alt](/img/loginOauth2.png)
 
-En esta pantalla el usuario que aprobará deberá loguearse con sus credenciales de Bsale.
+En esta pantalla el usuario que aprobará deberá loguearse con sus credenciales de Bsale
 
 :::info
 Si las credenciales son correctas el usuario será dirigido a una pantalla donde podrá autorizar el acceso de  la aplicación a los recursos de la empresa o instancia.
 :::
 
-![img alt](/img/authOauth.png)
+![img alt](/img/authOauth2.png)
 
-## Etapa II: Authorization Grant
+### Etapa II: Authorization Grant
 Luego que el usuario autorizó a la aplicación , este será redirigido a la URL que se definió en el parámetro `redirect_uri` y se le concatenará un el código de autorización, el cual podrá usar la aplicación para solicitar su token.
 
 ```curl
@@ -79,8 +90,8 @@ https://ejemplo/v1/oauth/test/?code=xxxx
 Donde
 - **code** código de autorización para ser utilizado en la solicitud de obtención del token.
 
-## Etapa III: Request Access Token
-Excelente ya casi hemos terminado. Ahora el servidor de autorización te mandó concatenada en tu URL el código el cual podrás utilizar para solicitar el token de acceso.
+### Etapa III: Request Access Token
+Excelente ya casi hemos terminado. Ahora   el servidor de autorización te mandó concatenada en tu URL el código el cual podrás utilizar para solicitar el token de acceso.
 
 Con este código deberás hacer una última llamada a la API de autorización mediante un request a :
 
@@ -97,7 +108,7 @@ Con este código deberás hacer una última llamada a la API de autorización me
 **Donde**
 - **code** Corresponde al código de autorización que te llegó en el redireccionamiento.
 - **usrToken** Corresponde al token  del integrador (se asigna cuando uno de inscribe como integrador).
-- **appId** Identificador único de la aplicación que quiere acceder.
+- **appId** Identificador único de la aplicación que quiere acceder
 
 Un ejemplo de respuesta sería:
 
@@ -111,5 +122,9 @@ Un ejemplo de respuesta sería:
    }
 }
 ```
+Y como respuesta tendrás el `access_token` que servirá para autentificar las peticiones a la API
 
-Y como respuesta tendrás el `access_token` que servirá para autentificar las peticiones a la API.
+:::danger
+Para solicitar tu **app_id** y utilizar **OAuth**, deberás completar [**este formulario de google**](https://forms.gle/Ucjd6aEb4jY6t89r7). Y te responderemos con las credenciales necesarias para utilizar el servicio y autentificar nuevos clientes de forma mas simple.
+
+:::

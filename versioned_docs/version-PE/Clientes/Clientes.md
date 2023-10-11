@@ -14,7 +14,7 @@ Cómo funciona la interfaz de Bsale, mira éstos videos:
 - Gestión de clientes [Ver](https://www.youtube.com/watch?v=j5UE9VjaY2w) 
 
 :::info
-El RUC, se almacena en el `code`, es importante que valides los datos antes de enviar.
+El RUT, se almacena en el `code`, es importante que valides el identificador antes de enviar.
 :::
 
 ## Estructura JSON
@@ -63,7 +63,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 | **id**   | identificador único del clientes   | Integer |
 | **firstName** | nombre del cliente | String |
 | **lastName** | apellido del cliente | String |
-| **code** | ruc del cliente | String |
+| **code** | rut del cliente | String |
 | **phone** | teléfono del cliente | String |
 | **company** | empresa del cliente | String |
 | **note** | una descripción del cliente | String |
@@ -93,7 +93,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 - **offset**, permite paginar los items de una respuesta JSON, por defecto el offset es 0.
 - **fields**, solo devolver atributos específicos de un recurso
 - **expand**, permite expandir instancias y colecciones para traer relaciones en una sola petición.
-- **code**, Permite filtrar por ruc del cliente.
+- **code**, Permite filtrar por rut del cliente.
 - **firstname**, filtra los clientes por nombre.
 - **lastname**, filtra los clientes por apellido.
 - **email**, filtra los clientes por email.
@@ -590,7 +590,7 @@ Si el cliente es extranjero se debe enviar el atributo `isForeigner` en **1**, p
 }
 ```
 :::tip
-Si envías `isForeigner` con valor 1, Bsale generará un rut **55555555-5** por defecto. Si necesitas que la representación visual del documento indique un DNI, NIT, NIF etc Puedes enviar el adicionalmente el `code` de cliente con su valor.
+Los clientes marcados como extranjeros (`isForeigner`) se declararán con el DNI, NIT, PASAPORTE o identificador ingresado en el atributo `code`. Si el dato ingresado supera los 8 digitos sólo se enviarán los últimos 8 digitos registrados.
 :::
 
 ## PUT un cliente

@@ -39,21 +39,25 @@ const config = {
           versions: {
             CL: {
               banner: "none",
-              label: '🌎 CL',
+              label: '📄 CL',
               badge: true,
               path: '/CL',
             },
             PE: {
               banner: "none",
-              label: '🌎 PE',
+              label: '📄 PE',
             },
             MX: {
-              label: '🌎 MX',
-              banner: "unmaintained"
+              label: '📄 MX',
+              banner: "none"
             }
           }
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+        },
+        gtag: {
+          trackingID: 'G-368177980',
+          anonymizeIP: true,
         },
         blog: {
           showReadingTime: false,
@@ -71,14 +75,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Inicio',
         logo: {
           alt: 'logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            to: '/primeros-pasos',
+            to: '/get-started',
             position: 'left',
             label: 'Primeros Pasos',
           },
@@ -89,13 +92,13 @@ const config = {
           },
          {
             to: '/faq',
-            position: 'left',
-            label: 'faq',
+            position: 'right',
+            label: '📖 faq',
           },
           {
             to: '/changelog',
             position: 'right',
-            label: 'Changelog',
+            label: '📢 Changelog',
           },
           {
             type: 'docsVersionDropdown',
@@ -117,12 +120,12 @@ const config = {
             items: [
               {
                 label: 'Primeros pasos',
-                to: '/CL/primeros-pasos',
+                to: '/CL/first-steps',
               },
-              {
-                label: 'Casos de uso',
-                to: '/blog',
-              },
+             // {
+              //  label: 'Casos de uso',
+              //  to: '/blog',
+             // },
             ],
           },
           {

@@ -193,3 +193,132 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
    "count": 135
 }
 ```
+
+
+## POST aceptación o reclamo
+- POST `/v1/dtes/claims.json` Para aceptar o reclamar un documento
+
+### Ejemplo JSON
+
+#### Envío
+
+```json title="POST  /dtes/claims.json"
+{
+   "document":{
+      "issuer":{
+         "code":"96798520-1"
+      },
+      "code":"33",
+      "number":1502570
+   },
+   "actionCode":"ERM"
+}
+```
+
+-   **document.issuer.code**, Numero identificador.
+-   **document.code**, Código del documento.
+-   **document.number**, Numero del documento.
+-   **actionCode**, Acción que se realizara.
+
+
+#### Respuesta
+
+```json title="Response /dtes/claims.json"
+{
+    "code": 200,
+    "data": {
+        "cpn": {
+            "date": "2022-12-11T05:37:53.876+00:00",
+            "id": 4,
+            "code": "76136144-9"
+        },
+        "document": {
+            "number": "78632",
+            "code": "43",
+            "issuer": {
+                "code": "77398220-1"
+            }
+        },
+        "events": [],
+        "trackingNumber": "EVENT1686865973440C4CL"
+    }
+}
+```
+
+:::info
+Guarda el `trackingNumber` para después consultar sobre el estado del documento
+:::
+
+## GET estado de aceptación o reclamo
+- GET `/v1/dtes/claims.json` Para obtener el estado del documento mediante Querys Params
+
+#### Parámetros
+
+-   **tracking_number**, Tracking Number del documento.
+-   **document_number**, Numero del documento.
+-   **document_code**, Código del documento.
+
+#### Ejemplos
+
+-   `GET /v1/dtes/claims.json?tracking_number=EVENT1688564392667C4CL`
+
+
+```json title="Response /dtes/claims.json?tracking_number=EVENT1688564392667C4CL"
+{
+    "code": 200,
+    "data": {
+        "trackingNumber": "EVENT1671341479154C15248",
+        "cpnCode": "16077551-3",
+        "issuerCode": "78876140-6",
+        "actionCode": "ERM",
+        "documentCode": "33",
+        "documentNumber": "930010",
+        "response": {
+                "code": "0",
+                "description": "Accion Completada OK"
+         },
+        "generationDate": 1671341479
+    }
+}
+```
+-   `GET /v1/dtes/claims.json?document_code=33&document_number=1502570`
+
+
+```json title="Response /dtes/claims.json?document_code=33&document_number=1502570"
+{
+    "code": 200,
+    "data": [
+        {
+            "trackingNumber": "EVENT1671341479154C15248",
+            "cpnCode": "16077551-3",
+            "issuerCode": "78876140-6",
+            "actionCode": "ERM",
+            "documentCode": "33",
+            "documentNumber": "930010",
+            "response": {
+                "code": "0",
+                "description": "Accion Completada OK"
+            },
+            "generationDate": 1671341479
+        },
+        {
+            "trackingNumber": "EVENT1671341479154C15248",
+            "cpnCode": "16077551-3",
+            "issuerCode": "78876140-6",
+            "actionCode": "ERM",
+            "documentCode": "33",
+            "documentNumber": "930010",
+            "response": {
+                "code": "0",
+                "description": "Accion Completada OK"
+            },
+            "generationDate": 1671341479
+        }
+    ]
+}
+```
+
+:::info
+- Si buscar por `tracking_number` no necesitas agregar `document_code` o `document_number`
+- Si buscas por `document_code` necesitas también agregar el `document_number`.
+:::

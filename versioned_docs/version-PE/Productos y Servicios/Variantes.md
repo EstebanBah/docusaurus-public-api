@@ -365,9 +365,7 @@ Para crear una variante, se debe enviar un JSON con la siguiente estructura:
    "description": "Age of empires II"
 }
 ```
-- **description**, nombre del tipo de producto (String).
-- **code**, indica el SKU que tendrá la variante, de no tenerlo, Bsale asigna uno automático (Integer)
-- **barCode**, indica el código de barra que tendrá la variante, de no tenerlo, Bsale asigna uno automático (Integer)
+- **name**, nombre del tipo de producto (String).
  
 ### Atributos (opcional)
 Si el tipo de producto al que pertenece la variante posee atributos, se deben enviar los valores que estos van a tener, junto con el `id` del atributo.

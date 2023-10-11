@@ -454,18 +454,18 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 ]
 ```
 ## GET documentos de venta
-- GET `/v1/payments/purchases.json` retornará los documentos asociados al cliente.
+- GET `/v1/clients/purchases.json` retornará los documentos asociados al cliente.
 
 #### Parámetros
 - **clientid**, Permite filtrar por id del cliente.
-- **code**, Permite filtrar por rut del cliente.
+- **code**, Permite filtrar por rfc del cliente.
   
 #### Ejemplos
-- `GET /v1/payments/purchases.json?code=7513098-8`
-- `GET /v1/payments/purchases.json?clientid=7`
+- `GET /v1/clients/purchases.json?code=XAXX010101000`
+- `GET /v1/clients/purchases.json?clientid=7`
 
 
-```json title="Response /payments/purchases.json"
+```json title="Response /clients/purchases.json"
 {
   "href": "https://api.bsale.io/v1/documents.json",
   "count": 43,
@@ -494,9 +494,9 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
       "percentageTaxWithheld": 0,
       "purchaseTaxAmount": 0,
       "purchaseTotalAmount": 0,
-      "address": "Cerro El Plomo 5855, Las Condes, Chile",
+      "address": "Cerro El Plomo 5855, Las Condes, Mx",
       "municipality": "Las Condes",
-      "city": "Chile",
+      "city": "Mx",
       "urlTimbre": null,
       "ted": null,
       "urlPublicView": "http://app2.bsale.cl/view/18790/d132cb4d5f82?sfd=99",
@@ -566,9 +566,9 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
       "percentageTaxWithheld": 0,
       "purchaseTaxAmount": 0,
       "purchaseTotalAmount": 0,
-      "address": "Cerro El Plomo 5855, Las Condes, Chile",
+      "address": "Cerro El Plomo 5855, Las Condes, Mx",
       "municipality": "Las Condes",
-      "city": "Chile",
+      "city": "Mx",
       "urlTimbre": null,
       "ted": null,
       "urlPublicView": "http://app2.bsale.cl/view/18790/8a350bb0a82d?sfd=99",
@@ -638,9 +638,9 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
       "percentageTaxWithheld": 0,
       "purchaseTaxAmount": 0,
       "purchaseTotalAmount": 0,
-      "address": "Cerro El Plomo 5855, Las Condes, Chile",
+      "address": "Cerro El Plomo 5855, Las Condes, Mx",
       "municipality": "Las Condes",
-      "city": "Chile",
+      "city": "Mx",
       "urlTimbre": null,
       "ted": null,
       "urlPublicView": "http://app2.bsale.cl/view/18790/960ca7eb7519?sfd=99",
@@ -694,18 +694,18 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 ```
 
 ## GET documentos pendientes de pago
-- GET `/v1/payments/unpaid_documents.json` retornará los documentos pendientes de pago asociados al cliente.
+- GET `/v1/clients/unpaid_documents.json` retornará los documentos pendientes de pago asociados al cliente.
 
 #### Parámetros
 - **clientid**, Permite filtrar por id del cliente.
-- **code**, Permite filtrar por rut del cliente.
+- **code**, Permite filtrar por rfc del cliente.
 - **comparisondate**, Permite separar los documentos vencidos de los por vencer, por defecto es la fecha del momento de la consulta
   
 #### Ejemplos
-- `GET /v1/payments/unpaid_documents.json?code=7513098-8`
-- `GET /v1/payments/unpaid_documents.json?clientid=1`
-- `GET /v1/payments/unpaid_documents.json?comparisondate=1437436800`
-- `GET /v1/payments/unpaid_documents.json?code=7513098-8&comparisondate=1437436800`
+- `GET /v1/clients/unpaid_documents.json?code=XAXX010101000`
+- `GET /v1/clients/unpaid_documents.json?clientid=1`
+- `GET /v1/clients/unpaid_documents.json?comparisondate=1437436800`
+- `GET /v1/clients/unpaid_documents.json?code=XAXX010101000&comparisondate=1437436800`
 
 ```json title="Response /payments/purchases.json"
 {
@@ -717,8 +717,8 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
     "id": 1,
     "firstName": "Roberto",
     "lastName": "",
-    "code": "7513098-8",
-    "company": "Roberto Mancilla"
+    "code": "XAXX010101000",
+    "company": "Público en general"
   },
   "overdue_documents": [
     {
