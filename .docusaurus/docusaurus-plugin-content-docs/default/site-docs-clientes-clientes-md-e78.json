@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Clientes/Clientes",
+  "id": "Clientes/Clientes",
+  "title": "Clientes",
+  "description": "Crear, editar y listar clientes",
+  "source": "@site/docs/Clientes/Clientes.md",
+  "sourceDirName": "Clientes",
+  "slug": "/clientes",
+  "permalink": "/docusaurus-public-api/next/clientes",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30,
+    "title": "Clientes",
+    "description": "Crear, editar y listar clientes",
+    "slug": "/clientes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/next/productos-y-servicios/webhooks"
+  },
+  "next": {
+    "title": "Pagos",
+    "permalink": "/docusaurus-public-api/next/pagos"
+  }
+}

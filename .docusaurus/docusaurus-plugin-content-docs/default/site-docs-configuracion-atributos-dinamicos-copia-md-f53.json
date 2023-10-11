@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Atributos dinámicos - copia",
+  "id": "Configuración/Atributos dinámicos - copia",
+  "title": "Atributos dinámicos",
+  "description": "Listar atributos dinámicos",
+  "source": "@site/docs\\Configuración\\Atributos dinámicos - copia.md",
+  "sourceDirName": "Configuración",
+  "slug": "/atributos-dinamicos",
+  "permalink": "/docusaurus-public-api/atributos-dinamicos",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Atributos dinámicos",
+    "description": "Listar atributos dinámicos",
+    "slug": "/atributos-dinamicos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Envíos",
+    "permalink": "/docusaurus-public-api/envíos"
+  },
+  "next": {
+    "title": "Atributos dinámicos",
+    "permalink": "/docusaurus-public-api/atributos-dinamicos"
+  }
+}

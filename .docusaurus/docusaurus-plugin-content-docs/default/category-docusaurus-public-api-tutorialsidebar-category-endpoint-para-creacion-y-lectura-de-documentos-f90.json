@@ -1,0 +1,15 @@
+{
+  "title": "Endpoint para creación y lectura de documentos",
+  "slug": "/category/documentos",
+  "permalink": "/docusaurus-public-api/category/documentos",
+  "navigation": {
+    "previous": {
+      "title": "Primeros pasos",
+      "permalink": "/docusaurus-public-api/primeros-pasos"
+    },
+    "next": {
+      "title": "Documentos",
+      "permalink": "/docusaurus-public-api/documentos"
+    }
+  }
+}

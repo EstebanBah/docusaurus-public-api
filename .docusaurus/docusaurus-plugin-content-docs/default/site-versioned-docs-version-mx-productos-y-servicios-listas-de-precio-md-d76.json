@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Productos y Servicios/Listas de precio",
+  "id": "version-MX/Productos y Servicios/Listas de precio",
+  "title": "Listas de precio",
+  "description": "Crear, editar y listar precios",
+  "source": "@site/versioned_docs/version-MX/Productos y Servicios/Listas de precio.md",
+  "sourceDirName": "Productos y Servicios",
+  "slug": "/listas-de-precio",
+  "permalink": "/docusaurus-public-api/MX/listas-de-precio",
+  "draft": false,
+  "tags": [],
+  "version": "MX",
+  "sidebarPosition": 24,
+  "frontMatter": {
+    "sidebar_position": 24,
+    "title": "Listas de precio",
+    "description": "Crear, editar y listar precios",
+    "slug": "/listas-de-precio"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Stocks",
+    "permalink": "/docusaurus-public-api/MX/stocks"
+  },
+  "next": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/MX/productos-y-servicios/webhooks"
+  }
+}

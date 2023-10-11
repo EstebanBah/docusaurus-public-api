@@ -1,0 +1,25 @@
+{
+  "unversionedId": "home",
+  "id": "version-MX/home",
+  "title": "Inicio",
+  "description": "El equipo de Bsale ha puesto a disposición de la comunidad de desarrolladores una API, la cual permite acceder a un conjunto de métodos orientados a facilitar la integración, desde sistemas externos hacia Bsale.",
+  "source": "@site/versioned_docs/version-MX/home.md",
+  "sourceDirName": ".",
+  "slug": "/inicio",
+  "permalink": "/docusaurus-public-api/MX/inicio",
+  "draft": false,
+  "tags": [],
+  "version": "MX",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "home",
+    "sidebar_position": 1,
+    "title": "Inicio",
+    "slug": "/inicio"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Primeros pasos",
+    "permalink": "/docusaurus-public-api/MX/primeros-pasos"
+  }
+}

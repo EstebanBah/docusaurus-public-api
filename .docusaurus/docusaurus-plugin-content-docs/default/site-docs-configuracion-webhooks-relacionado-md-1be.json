@@ -1,0 +1,37 @@
+{
+  "unversionedId": "Configuración/Webhooks relacionado",
+  "id": "Configuración/Webhooks relacionado",
+  "title": "Webhooks",
+  "description": "Obtención datos instancia",
+  "source": "@site/docs\\Configuración\\Webhooks relacionado.md",
+  "sourceDirName": "Configuración",
+  "slug": "/configuracion/webhooks",
+  "permalink": "/docusaurus-public-api/next/configuracion/webhooks",
+  "draft": false,
+  "tags": [
+    {
+      "label": "webhooks",
+      "permalink": "/docusaurus-public-api/next/tags/webhooks"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 59.1,
+  "frontMatter": {
+    "sidebar_position": 59.1,
+    "title": "Webhooks",
+    "description": "Obtención datos instancia",
+    "slug": "/configuracion/webhooks",
+    "tags": [
+      "webhooks"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tipos de despacho",
+    "permalink": "/docusaurus-public-api/next/tipos-de-despacho"
+  },
+  "next": {
+    "title": "Formas de pago",
+    "permalink": "/docusaurus-public-api/next/formas-de-pago"
+  }
+}

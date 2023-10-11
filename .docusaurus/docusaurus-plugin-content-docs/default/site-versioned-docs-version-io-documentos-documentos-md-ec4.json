@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Documentos/Documentos",
+  "id": "version-io/Documentos/Documentos",
+  "title": "Documentos",
+  "description": "Crear, editar y listar documentos",
+  "source": "@site/versioned_docs/version-io/Documentos/Documentos.md",
+  "sourceDirName": "Documentos",
+  "slug": "/documentos",
+  "permalink": "/docusaurus-public-api/documentos",
+  "draft": false,
+  "tags": [],
+  "version": "io",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Documentos",
+    "description": "Crear, editar y listar documentos",
+    "slug": "/documentos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Primeros pasos",
+    "permalink": "/docusaurus-public-api/primeros-pasos"
+  },
+  "next": {
+    "title": "Despachos",
+    "permalink": "/docusaurus-public-api/documentos/despachos"
+  }
+}

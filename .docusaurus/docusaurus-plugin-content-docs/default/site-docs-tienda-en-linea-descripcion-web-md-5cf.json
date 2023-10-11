@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Tienda en línea/Descripcion web",
+  "id": "Tienda en línea/Descripcion web",
+  "title": "Descripción web",
+  "description": "Listar información de productos ecommerce",
+  "source": "@site/docs\\Tienda en línea\\Descripcion web.md",
+  "sourceDirName": "Tienda en línea",
+  "slug": "/descripcion-web",
+  "permalink": "/docusaurus-public-api/next/descripcion-web",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 41,
+  "frontMatter": {
+    "sidebar_position": 41,
+    "title": "Descripción web",
+    "description": "Listar información de productos ecommerce",
+    "slug": "/descripcion-web"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pedidos web",
+    "permalink": "/docusaurus-public-api/next/pedidos-web"
+  },
+  "next": {
+    "title": "Envíos",
+    "permalink": "/docusaurus-public-api/next/envíos"
+  }
+}

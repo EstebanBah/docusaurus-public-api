@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Formas de pago/Formas de pago - copia",
+  "id": "Configuración/Formas de pago/Formas de pago - copia",
+  "title": "Formas de pago",
+  "description": "Crear y listar Formas de pago",
+  "source": "@site/docs\\Configuración\\Formas de pago\\Formas de pago - copia.md",
+  "sourceDirName": "Configuración/Formas de pago",
+  "slug": "/formas-de-pago",
+  "permalink": "/docusaurus-public-api/formas-de-pago",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 57,
+  "frontMatter": {
+    "sidebar_position": 57,
+    "title": "Formas de pago",
+    "description": "Crear y listar Formas de pago",
+    "slug": "/formas-de-pago"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tipos de despacho",
+    "permalink": "/docusaurus-public-api/tipos-de-despacho"
+  },
+  "next": {
+    "title": "Formas de pago",
+    "permalink": "/docusaurus-public-api/formas-de-pago"
+  }
+}

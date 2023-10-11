@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Información electrónica/Códigos tributarios",
+  "id": "Información electrónica/Códigos tributarios",
+  "title": "Códigos tributarios",
+  "description": "Listar códigos tributarios",
+  "source": "@site/docs\\Información electrónica\\Códigos tributarios.md",
+  "sourceDirName": "Información electrónica",
+  "slug": "/codigos-tributarios",
+  "permalink": "/docusaurus-public-api/next/codigos-tributarios",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 61,
+  "frontMatter": {
+    "sidebar_position": 61,
+    "title": "Códigos tributarios",
+    "description": "Listar códigos tributarios",
+    "slug": "/codigos-tributarios"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tipos de libro",
+    "permalink": "/docusaurus-public-api/next/tipos-de-libros"
+  },
+  "next": {
+    "title": "Impuestos",
+    "permalink": "/docusaurus-public-api/next/impuestos"
+  }
+}

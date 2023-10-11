@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Tipos de documentos - copia",
+  "id": "Configuración/Tipos de documentos - copia",
+  "title": "Tipos de documentos",
+  "description": "Listar y editar Tipos de documentos",
+  "source": "@site/docs\\Configuración\\Tipos de documentos - copia.md",
+  "sourceDirName": "Configuración",
+  "slug": "/tipos-de-documentos",
+  "permalink": "/docusaurus-public-api/tipos-de-documentos",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 55,
+  "frontMatter": {
+    "sidebar_position": 55,
+    "title": "Tipos de documentos",
+    "description": "Listar y editar Tipos de documentos",
+    "slug": "/tipos-de-documentos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Monedas",
+    "permalink": "/docusaurus-public-api/monedas"
+  },
+  "next": {
+    "title": "Tipos de documentos",
+    "permalink": "/docusaurus-public-api/tipos-de-documentos"
+  }
+}

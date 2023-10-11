@@ -1,0 +1,96 @@
+{
+  "pluginId": "default",
+  "version": "io",
+  "label": "io",
+  "banner": null,
+  "badge": true,
+  "noIndex": false,
+  "className": "docs-version-io",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Inicio",
+        "href": "/docusaurus-public-api/inicio",
+        "docId": "home"
+      },
+      {
+        "type": "link",
+        "label": "Primeros pasos",
+        "href": "/docusaurus-public-api/primeros-pasos",
+        "docId": "primeros-pasos"
+      },
+      {
+        "type": "category",
+        "label": "Tienda en línea",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Pedidos web",
+            "href": "/docusaurus-public-api/pedidos-web",
+            "docId": "Tienda en línea/Pedidos web"
+          },
+          {
+            "type": "link",
+            "label": "Descripción web",
+            "href": "/docusaurus-public-api/descripcion-web",
+            "docId": "Tienda en línea/Descripcion web"
+          },
+          {
+            "type": "link",
+            "label": "Envíos",
+            "href": "/docusaurus-public-api/envíos",
+            "docId": "Tienda en línea/envios"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Webhooks",
+        "href": "/docusaurus-public-api/webhooks",
+        "docId": "webhooks"
+      }
+    ]
+  },
+  "docs": {
+    "home": {
+      "id": "home",
+      "title": "Inicio",
+      "description": "El equipo de Bsale ha puesto a disposición de la comunidad de desarrolladores una API, la cual permite acceder a un conjunto de métodos orientados a facilitar la integración, desde sistemas externos hacia Bsale.",
+      "sidebar": "tutorialSidebar"
+    },
+    "primeros-pasos": {
+      "id": "primeros-pasos",
+      "title": "Primeros pasos",
+      "description": "My document description",
+      "sidebar": "tutorialSidebar"
+    },
+    "Tienda en línea/Descripcion web": {
+      "id": "Tienda en línea/Descripcion web",
+      "title": "Descripción web",
+      "description": "Listar información de productos ecommerce",
+      "sidebar": "tutorialSidebar"
+    },
+    "Tienda en línea/envios": {
+      "id": "Tienda en línea/envios",
+      "title": "Envíos",
+      "description": "Genera envíos mediante tienda en línea Bsale",
+      "sidebar": "tutorialSidebar"
+    },
+    "Tienda en línea/Pedidos web": {
+      "id": "Tienda en línea/Pedidos web",
+      "title": "Pedidos web",
+      "description": "Crear, editar y listar pedidos web",
+      "sidebar": "tutorialSidebar"
+    },
+    "webhooks": {
+      "id": "webhooks",
+      "title": "Webhooks",
+      "description": "Servicio de notificaciones mediante eventos",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

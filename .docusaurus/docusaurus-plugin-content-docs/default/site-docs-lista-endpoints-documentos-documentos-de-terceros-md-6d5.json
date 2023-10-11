@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Lista endpoints/Documentos/Documentos de terceros",
+  "id": "Lista endpoints/Documentos/Documentos de terceros",
+  "title": "Documentos de terceros",
+  "description": "Listar documentos de compras",
+  "source": "@site/docs/Lista endpoints/Documentos/Documentos de terceros.md",
+  "sourceDirName": "Lista endpoints/Documentos",
+  "slug": "/documentos-de-terceros",
+  "permalink": "/docusaurus-public-api/documentos-de-terceros",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Documentos de terceros",
+    "description": "Listar documentos de compras",
+    "slug": "/documentos-de-terceros"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Devoluciones",
+    "permalink": "/docusaurus-public-api/devoluciones"
+  },
+  "next": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/documentos/webhooks"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "webhooks",
+  "id": "webhooks",
+  "title": "Webhooks",
+  "description": "Servicio de notificaciones mediante eventos",
+  "source": "@site/docs/webhooks.md",
+  "sourceDirName": ".",
+  "slug": "/webhooks",
+  "permalink": "/docusaurus-public-api/next/webhooks",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Webhooks",
+    "description": "Servicio de notificaciones mediante eventos",
+    "slug": "/webhooks"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Envíos",
+    "permalink": "/docusaurus-public-api/next/envíos"
+  }
+}

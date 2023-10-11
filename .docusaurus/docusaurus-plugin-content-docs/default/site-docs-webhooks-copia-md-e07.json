@@ -1,0 +1,27 @@
+{
+  "unversionedId": "webhooks - copia",
+  "id": "webhooks - copia",
+  "title": "Webhooks",
+  "description": "Servicio de notificaciones mediante eventos",
+  "source": "@site/docs/webhooks - copia.md",
+  "sourceDirName": ".",
+  "slug": "/webhooks",
+  "permalink": "/docusaurus-public-api/webhooks",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Webhooks",
+    "description": "Servicio de notificaciones mediante eventos",
+    "slug": "/webhooks"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Envíos",
+    "permalink": "/docusaurus-public-api/envíos"
+  },
+  "next": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/webhooks"
+  }
+}

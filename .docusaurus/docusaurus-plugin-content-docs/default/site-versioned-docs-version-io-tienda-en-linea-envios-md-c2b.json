@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Tienda en línea/envios",
+  "id": "version-io/Tienda en línea/envios",
+  "title": "Envíos",
+  "description": "Genera envíos mediante tienda en línea Bsale",
+  "source": "@site/versioned_docs\\version-io\\Tienda en línea\\envios.md",
+  "sourceDirName": "Tienda en línea",
+  "slug": "/envíos",
+  "permalink": "/docusaurus-public-api/envíos",
+  "draft": false,
+  "tags": [],
+  "version": "io",
+  "frontMatter": {
+    "title": "Envíos",
+    "description": "Genera envíos mediante tienda en línea Bsale",
+    "slug": "/envíos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Descripción web",
+    "permalink": "/docusaurus-public-api/descripcion-web"
+  },
+  "next": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/webhooks"
+  }
+}

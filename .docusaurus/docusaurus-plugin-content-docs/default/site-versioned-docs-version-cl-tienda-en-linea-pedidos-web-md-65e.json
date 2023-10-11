@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Tienda en línea/Pedidos web",
+  "id": "version-CL/Tienda en línea/Pedidos web",
+  "title": "Pedidos web",
+  "description": "Crear, editar y listar pedidos web",
+  "source": "@site/versioned_docs/version-CL/Tienda en línea/Pedidos web.md",
+  "sourceDirName": "Tienda en línea",
+  "slug": "/pedidos-web",
+  "permalink": "/docusaurus-public-api/CL/pedidos-web",
+  "draft": false,
+  "tags": [],
+  "version": "CL",
+  "sidebarPosition": 40,
+  "frontMatter": {
+    "sidebar_position": 40,
+    "title": "Pedidos web",
+    "description": "Crear, editar y listar pedidos web",
+    "slug": "/pedidos-web"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Impuestos",
+    "permalink": "/docusaurus-public-api/CL/impuestos"
+  },
+  "next": {
+    "title": "Descripción web",
+    "permalink": "/docusaurus-public-api/CL/descripcion-web"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Información electrónica/Impuestos",
+  "id": "Información electrónica/Impuestos",
+  "title": "Impuestos",
+  "description": "Listar Impuestos",
+  "source": "@site/docs\\Información electrónica\\Impuestos.md",
+  "sourceDirName": "Información electrónica",
+  "slug": "/impuestos",
+  "permalink": "/docusaurus-public-api/next/impuestos",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 62,
+  "frontMatter": {
+    "sidebar_position": 62,
+    "title": "Impuestos",
+    "description": "Listar Impuestos",
+    "slug": "/impuestos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Códigos tributarios",
+    "permalink": "/docusaurus-public-api/next/codigos-tributarios"
+  },
+  "next": {
+    "title": "Pedidos web",
+    "permalink": "/docusaurus-public-api/next/pedidos-web"
+  }
+}

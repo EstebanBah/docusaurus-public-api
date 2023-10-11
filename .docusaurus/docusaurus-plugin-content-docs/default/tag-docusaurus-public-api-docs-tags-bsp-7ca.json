@@ -1,0 +1,14 @@
+{
+  "label": "bsp",
+  "permalink": "/docusaurus-public-api/docs/tags/bsp",
+  "allTagsPath": "/docusaurus-public-api/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Documentos/leave_request",
+      "title": "Solicitud de baja de servicio",
+      "description": "Objetivos",
+      "permalink": "/docusaurus-public-api/docs/Documentos/leave_request"
+    }
+  ]
+}

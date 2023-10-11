@@ -1,0 +1,27 @@
+{
+  "unversionedId": "FAQ",
+  "id": "FAQ",
+  "title": "Webhooks",
+  "description": "Preguntas frecuentes",
+  "source": "@site/docs/FAQ.md",
+  "sourceDirName": ".",
+  "slug": "/faq",
+  "permalink": "/docusaurus-public-api/faq",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Webhooks",
+    "description": "Preguntas frecuentes",
+    "slug": "/faq"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/formas-de-pago/webhooks"
+  },
+  "next": {
+    "title": "Tipos de libro",
+    "permalink": "/docusaurus-public-api/tipos-de-libros"
+  }
+}

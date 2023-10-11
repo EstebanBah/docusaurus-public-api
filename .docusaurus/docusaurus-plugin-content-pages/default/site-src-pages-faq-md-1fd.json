@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/docusaurus-public-api/faq",
+  "source": "@site/src/pages/faq.md",
+  "title": "Preguntas frecuentes",
+  "description": "Todos los mensajes de error entregan un código de error y un mensaje descriptivo del error.",
+  "frontMatter": {
+    "title": "Preguntas frecuentes",
+    "slug": "/faq"
+  }
+}

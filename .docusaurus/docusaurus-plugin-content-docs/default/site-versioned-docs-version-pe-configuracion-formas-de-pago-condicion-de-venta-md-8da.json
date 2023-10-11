@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Formas de pago/Condición de venta",
+  "id": "version-PE/Configuración/Formas de pago/Condición de venta",
+  "title": "Condición de venta",
+  "description": "Crear y listar Condición de venta",
+  "source": "@site/versioned_docs\\version-PE\\Configuración\\Formas de pago\\Condición de venta.md",
+  "sourceDirName": "Configuración/Formas de pago",
+  "slug": "/condicion-de-venta",
+  "permalink": "/docusaurus-public-api/PE/condicion-de-venta",
+  "draft": false,
+  "tags": [],
+  "version": "PE",
+  "sidebarPosition": 58,
+  "frontMatter": {
+    "sidebar_position": 58,
+    "title": "Condición de venta",
+    "description": "Crear y listar Condición de venta",
+    "slug": "/condicion-de-venta"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Formas de pago",
+    "permalink": "/docusaurus-public-api/PE/formas-de-pago"
+  },
+  "next": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/PE/formas-de-pago/webhooks"
+  }
+}

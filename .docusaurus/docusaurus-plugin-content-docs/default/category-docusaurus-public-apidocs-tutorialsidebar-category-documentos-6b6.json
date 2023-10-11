@@ -1,0 +1,15 @@
+{
+  "title": "Documentos",
+  "slug": "/category/documentos",
+  "permalink": "/docusaurus-public-api/docs/category/documentos",
+  "navigation": {
+    "previous": {
+      "title": "Congratulations!",
+      "permalink": "/docusaurus-public-api/docs/tutorial-basics/congratulations"
+    },
+    "next": {
+      "title": "Documentos",
+      "permalink": "/docusaurus-public-api/docs/documentos"
+    }
+  }
+}

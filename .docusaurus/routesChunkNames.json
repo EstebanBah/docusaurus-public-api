@@ -1,0 +1,635 @@
+{
+  "/docusaurus-public-api/blog-45c": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "cd2aff0c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "metadata": "5455c45b"
+  },
+  "/docusaurus-public-api/blog/archive-30c": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "cd2aff0c"
+    },
+    "archive": "bf97302f"
+  },
+  "/docusaurus-public-api/blog/first-blog-post-bbc": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "cd2aff0c"
+    },
+    "sidebar": "814f3328",
+    "content": "e273c56f"
+  },
+  "/docusaurus-public-api/blog/long-blog-post-0a9": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "cd2aff0c"
+    },
+    "sidebar": "814f3328",
+    "content": "73664a40"
+  },
+  "/docusaurus-public-api/blog/mdx-blog-post-b94": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "cd2aff0c"
+    },
+    "sidebar": "814f3328",
+    "content": "59362658"
+  },
+  "/docusaurus-public-api/blog/tags-be3": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "cd2aff0c"
+    },
+    "sidebar": "814f3328",
+    "tags": "2cb1149f"
+  },
+  "/docusaurus-public-api/blog/tags/docusaurus-2db": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "cd2aff0c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "tag": "f1b57f46",
+    "listMetadata": "f1243a4b"
+  },
+  "/docusaurus-public-api/blog/tags/facebook-2e9": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "cd2aff0c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      }
+    ],
+    "tag": "3b16d51b",
+    "listMetadata": "f3d21d17"
+  },
+  "/docusaurus-public-api/blog/tags/hello-0e0": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "cd2aff0c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      }
+    ],
+    "tag": "7d559639",
+    "listMetadata": "8e87792c"
+  },
+  "/docusaurus-public-api/blog/tags/hola-866": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "cd2aff0c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "tag": "cd6baea8",
+    "listMetadata": "0cbd2a11"
+  },
+  "/docusaurus-public-api/blog/welcome-cc6": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "cd2aff0c"
+    },
+    "sidebar": "814f3328",
+    "content": "d9f32620"
+  },
+<<<<<<< Updated upstream
+  "/docusaurus-public-api/Changelog-d6e": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "d9ba81a4"
+    },
+    "content": "7933de17"
+  },
+=======
+>>>>>>> Stashed changes
+  "/docusaurus-public-api/CL/tags-3d6": {
+    "__comp": "3720c009",
+    "__context": {
+      "plugin": "0d3364eb"
+    },
+    "tags": "e7423054"
+  },
+  "/docusaurus-public-api/CL/tags/webhooks-5a2": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "0d3364eb"
+    },
+    "tag": "c596df95"
+  },
+  "/docusaurus-public-api/FAQ-378": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "d9ba81a4"
+    },
+    "content": "71f67b86"
+  },
+  "/docusaurus-public-api/markdown-page-058": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "d9ba81a4"
+    },
+    "content": "393be207"
+  },
+  "/docusaurus-public-api/MX/tags-6f7": {
+    "__comp": "3720c009",
+    "__context": {
+      "plugin": "0d3364eb"
+    },
+    "tags": "07a3f163"
+  },
+  "/docusaurus-public-api/MX/tags/webhooks-346": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "0d3364eb"
+    },
+    "tag": "b947ed9b"
+  },
+  "/docusaurus-public-api/Oauth-4ff": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "d9ba81a4"
+    },
+    "content": "bd141434"
+  },
+  "/docusaurus-public-api/PE/tags-828": {
+    "__comp": "3720c009",
+    "__context": {
+      "plugin": "0d3364eb"
+    },
+    "tags": "70cf81d1"
+  },
+  "/docusaurus-public-api/PE/tags/webhooks-691": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "0d3364eb"
+    },
+    "tag": "18f47f2e"
+  },
+  "/docusaurus-public-api/Primeros-pasos-421": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "d9ba81a4"
+    },
+    "content": "50a93595"
+  },
+  "/docusaurus-public-api/CL-fc4": {
+    "__comp": "1be78505",
+    "__context": {
+      "plugin": "0d3364eb"
+    },
+    "versionMetadata": "598e389b"
+  },
+  "/docusaurus-public-api/CL/atributos-dinamicos-a21": {
+    "__comp": "17896441",
+    "content": "ba564768"
+  },
+  "/docusaurus-public-api/CL/clientes-fff": {
+    "__comp": "17896441",
+    "content": "570bd55f"
+  },
+  "/docusaurus-public-api/CL/codigos-tributarios-d8c": {
+    "__comp": "17896441",
+    "content": "ab7041c8"
+  },
+  "/docusaurus-public-api/CL/condicion-de-venta-139": {
+    "__comp": "17896441",
+    "content": "88c2146b"
+  },
+  "/docusaurus-public-api/CL/configuracion/webhooks-798": {
+    "__comp": "17896441",
+    "content": "3328e280"
+  },
+  "/docusaurus-public-api/CL/descripcion-web-28f": {
+    "__comp": "17896441",
+    "content": "23431b3d"
+  },
+  "/docusaurus-public-api/CL/descuentos-fcc": {
+    "__comp": "17896441",
+    "content": "18502ad3"
+  },
+  "/docusaurus-public-api/CL/devoluciones-798": {
+    "__comp": "17896441",
+    "content": "e5cd9708"
+  },
+  "/docusaurus-public-api/CL/documentos-3f4": {
+    "__comp": "17896441",
+    "content": "d1e22076"
+  },
+  "/docusaurus-public-api/CL/documentos-de-terceros-a31": {
+    "__comp": "17896441",
+    "content": "e90bc717"
+  },
+  "/docusaurus-public-api/CL/documentos/despachos-747": {
+    "__comp": "17896441",
+    "content": "768c9537"
+  },
+  "/docusaurus-public-api/CL/documentos/webhooks-e40": {
+    "__comp": "17896441",
+    "content": "93889e83"
+  },
+  "/docusaurus-public-api/CL/envíos-ef4": {
+    "__comp": "17896441",
+    "content": "e102af70"
+  },
+  "/docusaurus-public-api/CL/formas-de-pago-6de": {
+    "__comp": "17896441",
+    "content": "14fbb496"
+  },
+  "/docusaurus-public-api/CL/formas-de-pago/webhooks-585": {
+    "__comp": "17896441",
+    "content": "0ea920a3"
+  },
+  "/docusaurus-public-api/CL/impuestos-886": {
+    "__comp": "17896441",
+    "content": "104f48d4"
+  },
+  "/docusaurus-public-api/CL/listas-de-precio-905": {
+    "__comp": "17896441",
+    "content": "c3d4b770"
+  },
+  "/docusaurus-public-api/CL/monedas-9a0": {
+    "__comp": "17896441",
+    "content": "ab667e00"
+  },
+  "/docusaurus-public-api/CL/pagos-1c6": {
+    "__comp": "17896441",
+    "content": "d178fa3c"
+  },
+  "/docusaurus-public-api/CL/pagos/webhooks-ed2": {
+    "__comp": "17896441",
+    "content": "a3dbcec9"
+  },
+  "/docusaurus-public-api/CL/pedidos-web-218": {
+    "__comp": "17896441",
+    "content": "65ee972f"
+  },
+  "/docusaurus-public-api/CL/primeros-pasos-50a": {
+    "__comp": "17896441",
+    "content": "b9391859"
+  },
+  "/docusaurus-public-api/CL/productos-y-servicios-084": {
+    "__comp": "17896441",
+    "content": "d63226c5"
+  },
+  "/docusaurus-public-api/CL/productos-y-servicios/webhooks-a7d": {
+    "__comp": "17896441",
+    "content": "95d92c98"
+  },
+  "/docusaurus-public-api/CL/stocks-b70": {
+    "__comp": "17896441",
+    "content": "2d929cba"
+  },
+  "/docusaurus-public-api/CL/sucursales-0f0": {
+    "__comp": "17896441",
+    "content": "5d61b97e"
+  },
+  "/docusaurus-public-api/CL/tipos-de-despacho-f39": {
+    "__comp": "17896441",
+    "content": "9c36b08a"
+  },
+  "/docusaurus-public-api/CL/tipos-de-documentos-82f": {
+    "__comp": "17896441",
+    "content": "e1c4ef32"
+  },
+  "/docusaurus-public-api/CL/tipos-de-libros-d2a": {
+    "__comp": "17896441",
+    "content": "f5005fe9"
+  },
+  "/docusaurus-public-api/CL/tipos-de-productos-y-servicios-4f8": {
+    "__comp": "17896441",
+    "content": "9938ce04"
+  },
+  "/docusaurus-public-api/CL/usuarios-22a": {
+    "__comp": "17896441",
+    "content": "20d86c2a"
+  },
+  "/docusaurus-public-api/CL/variantes-d50": {
+    "__comp": "17896441",
+    "content": "875fc619"
+  },
+  "/docusaurus-public-api/CL/webhooks-8c3": {
+    "__comp": "17896441",
+    "content": "e6659f73"
+  },
+  "/docusaurus-public-api/MX-6d0": {
+    "__comp": "1be78505",
+    "__context": {
+      "plugin": "0d3364eb"
+    },
+    "versionMetadata": "58fb62fa"
+  },
+  "/docusaurus-public-api/MX/atributos-dinamicos-ba9": {
+    "__comp": "17896441",
+    "content": "1b2febc8"
+  },
+  "/docusaurus-public-api/MX/clientes-365": {
+    "__comp": "17896441",
+    "content": "46223517"
+  },
+  "/docusaurus-public-api/MX/codigos-tributarios-e04": {
+    "__comp": "17896441",
+    "content": "35e8ed99"
+  },
+  "/docusaurus-public-api/MX/condicion-de-venta-a82": {
+    "__comp": "17896441",
+    "content": "c140c78a"
+  },
+  "/docusaurus-public-api/MX/configuracion/webhooks-cce": {
+    "__comp": "17896441",
+    "content": "5fa298ec"
+  },
+  "/docusaurus-public-api/MX/descripcion-web-e0c": {
+    "__comp": "17896441",
+    "content": "767b4c87"
+  },
+  "/docusaurus-public-api/MX/descuentos-f22": {
+    "__comp": "17896441",
+    "content": "c40ec3ac"
+  },
+  "/docusaurus-public-api/MX/devoluciones-035": {
+    "__comp": "17896441",
+    "content": "ab7780ca"
+  },
+  "/docusaurus-public-api/MX/documentos-aed": {
+    "__comp": "17896441",
+    "content": "036321bb"
+  },
+  "/docusaurus-public-api/MX/documentos-de-terceros-1af": {
+    "__comp": "17896441",
+    "content": "3ae4f47f"
+  },
+  "/docusaurus-public-api/MX/documentos/despachos-7b1": {
+    "__comp": "17896441",
+    "content": "680440b3"
+  },
+  "/docusaurus-public-api/MX/documentos/webhooks-099": {
+    "__comp": "17896441",
+    "content": "3f335b75"
+  },
+  "/docusaurus-public-api/MX/envíos-5ec": {
+    "__comp": "17896441",
+    "content": "99206e1c"
+  },
+  "/docusaurus-public-api/MX/formas-de-pago-833": {
+    "__comp": "17896441",
+    "content": "8df510af"
+  },
+  "/docusaurus-public-api/MX/formas-de-pago/webhooks-423": {
+    "__comp": "17896441",
+    "content": "ee4d58dc"
+  },
+  "/docusaurus-public-api/MX/impuestos-744": {
+    "__comp": "17896441",
+    "content": "2a8915f9"
+  },
+  "/docusaurus-public-api/MX/listas-de-precio-048": {
+    "__comp": "17896441",
+    "content": "d765bcc4"
+  },
+  "/docusaurus-public-api/MX/monedas-7d7": {
+    "__comp": "17896441",
+    "content": "aa054dc4"
+  },
+  "/docusaurus-public-api/MX/pagos-c72": {
+    "__comp": "17896441",
+    "content": "11eab007"
+  },
+  "/docusaurus-public-api/MX/pagos/webhooks-04d": {
+    "__comp": "17896441",
+    "content": "7fe23a51"
+  },
+  "/docusaurus-public-api/MX/pedidos-web-40d": {
+    "__comp": "17896441",
+    "content": "564e3a97"
+  },
+  "/docusaurus-public-api/MX/primeros-pasos-1b3": {
+    "__comp": "17896441",
+    "content": "3390c6b7"
+  },
+  "/docusaurus-public-api/MX/productos-y-servicios-851": {
+    "__comp": "17896441",
+    "content": "4f6bcb08"
+  },
+  "/docusaurus-public-api/MX/productos-y-servicios/webhooks-2dd": {
+    "__comp": "17896441",
+    "content": "18e4681f"
+  },
+  "/docusaurus-public-api/MX/stocks-781": {
+    "__comp": "17896441",
+    "content": "785baa48"
+  },
+  "/docusaurus-public-api/MX/sucursales-fd7": {
+    "__comp": "17896441",
+    "content": "fda8286a"
+  },
+  "/docusaurus-public-api/MX/tipos-de-despacho-1e2": {
+    "__comp": "17896441",
+    "content": "54b20ccb"
+  },
+  "/docusaurus-public-api/MX/tipos-de-documentos-f06": {
+    "__comp": "17896441",
+    "content": "9157ad9c"
+  },
+  "/docusaurus-public-api/MX/tipos-de-libros-670": {
+    "__comp": "17896441",
+    "content": "8b2b6aab"
+  },
+  "/docusaurus-public-api/MX/tipos-de-productos-y-servicios-b15": {
+    "__comp": "17896441",
+    "content": "93cf3025"
+  },
+  "/docusaurus-public-api/MX/usuarios-e9b": {
+    "__comp": "17896441",
+    "content": "cb95d581"
+  },
+  "/docusaurus-public-api/MX/variantes-e55": {
+    "__comp": "17896441",
+    "content": "562cec7d"
+  },
+  "/docusaurus-public-api/MX/webhooks-f40": {
+    "__comp": "17896441",
+    "content": "32e0c451"
+  },
+  "/docusaurus-public-api/PE-25d": {
+    "__comp": "1be78505",
+    "__context": {
+      "plugin": "0d3364eb"
+    },
+    "versionMetadata": "e4bbe8d2"
+  },
+  "/docusaurus-public-api/PE/atributos-dinamicos-0c6": {
+    "__comp": "17896441",
+    "content": "63c72f84"
+  },
+  "/docusaurus-public-api/PE/clientes-c8d": {
+    "__comp": "17896441",
+    "content": "0be611fd"
+  },
+  "/docusaurus-public-api/PE/codigos-tributarios-be2": {
+    "__comp": "17896441",
+    "content": "c7f817bc"
+  },
+  "/docusaurus-public-api/PE/condicion-de-venta-74c": {
+    "__comp": "17896441",
+    "content": "2be9ccc0"
+  },
+  "/docusaurus-public-api/PE/configuracion/webhooks-684": {
+    "__comp": "17896441",
+    "content": "30e3c270"
+  },
+  "/docusaurus-public-api/PE/descripcion-web-e4b": {
+    "__comp": "17896441",
+    "content": "4c9ae8b3"
+  },
+  "/docusaurus-public-api/PE/descuentos-dbf": {
+    "__comp": "17896441",
+    "content": "8719e82b"
+  },
+  "/docusaurus-public-api/PE/devoluciones-ecf": {
+    "__comp": "17896441",
+    "content": "49bc07b1"
+  },
+  "/docusaurus-public-api/PE/documentos-cb9": {
+    "__comp": "17896441",
+    "content": "2e5ce5d3"
+  },
+  "/docusaurus-public-api/PE/documentos/despachos-8e4": {
+    "__comp": "17896441",
+    "content": "baac60d2"
+  },
+  "/docusaurus-public-api/PE/documentos/webhooks-9e7": {
+    "__comp": "17896441",
+    "content": "894b4b74"
+  },
+  "/docusaurus-public-api/PE/envíos-20a": {
+    "__comp": "17896441",
+    "content": "7d83efff"
+  },
+  "/docusaurus-public-api/PE/formas-de-pago-6ee": {
+    "__comp": "17896441",
+    "content": "0962b955"
+  },
+  "/docusaurus-public-api/PE/formas-de-pago/webhooks-a14": {
+    "__comp": "17896441",
+    "content": "16ef75cf"
+  },
+  "/docusaurus-public-api/PE/impuestos-d03": {
+    "__comp": "17896441",
+    "content": "173c8ec8"
+  },
+  "/docusaurus-public-api/PE/listas-de-precio-542": {
+    "__comp": "17896441",
+    "content": "05f6acff"
+  },
+  "/docusaurus-public-api/PE/monedas-93d": {
+    "__comp": "17896441",
+    "content": "62d287c2"
+  },
+  "/docusaurus-public-api/PE/pagos-739": {
+    "__comp": "17896441",
+    "content": "1bab3097"
+  },
+  "/docusaurus-public-api/PE/pagos/webhooks-4d4": {
+    "__comp": "17896441",
+    "content": "962919c6"
+  },
+  "/docusaurus-public-api/PE/pedidos-web-cd2": {
+    "__comp": "17896441",
+    "content": "0ca68c3f"
+  },
+  "/docusaurus-public-api/PE/primeros-pasos-254": {
+    "__comp": "17896441",
+    "content": "61c68ce1"
+  },
+  "/docusaurus-public-api/PE/productos-y-servicios-ff4": {
+    "__comp": "17896441",
+    "content": "f7455f8f"
+  },
+  "/docusaurus-public-api/PE/productos-y-servicios/webhooks-cd9": {
+    "__comp": "17896441",
+    "content": "cba91dc9"
+  },
+  "/docusaurus-public-api/PE/stocks-ec1": {
+    "__comp": "17896441",
+    "content": "aea00b05"
+  },
+  "/docusaurus-public-api/PE/sucursales-686": {
+    "__comp": "17896441",
+    "content": "bcd8d730"
+  },
+  "/docusaurus-public-api/PE/tipos-de-despacho-8c4": {
+    "__comp": "17896441",
+    "content": "44e61be2"
+  },
+  "/docusaurus-public-api/PE/tipos-de-documentos-c56": {
+    "__comp": "17896441",
+    "content": "be16850c"
+  },
+  "/docusaurus-public-api/PE/tipos-de-productos-y-servicios-04d": {
+    "__comp": "17896441",
+    "content": "5929be31"
+  },
+  "/docusaurus-public-api/PE/usuarios-086": {
+    "__comp": "17896441",
+    "content": "5cc520d3"
+  },
+  "/docusaurus-public-api/PE/variantes-2c2": {
+    "__comp": "17896441",
+    "content": "8aeb906c"
+  },
+  "/docusaurus-public-api/PE/webhooks-338": {
+    "__comp": "17896441",
+    "content": "58c23097"
+  },
+  "/docusaurus-public-api/-224": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "d9ba81a4"
+    },
+    "config": "5e9f5e1a"
+  }
+}

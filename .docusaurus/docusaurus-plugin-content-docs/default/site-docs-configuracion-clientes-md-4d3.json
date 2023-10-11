@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Clientes",
+  "id": "Configuración/Clientes",
+  "title": "Clientes",
+  "description": "Crear, editar y listar clientes",
+  "source": "@site/docs\\Configuración\\Clientes.md",
+  "sourceDirName": "Configuración",
+  "slug": "/clientes",
+  "permalink": "/docusaurus-public-api/clientes",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Clientes",
+    "description": "Crear, editar y listar clientes",
+    "slug": "/clientes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Envíos",
+    "permalink": "/docusaurus-public-api/envíos"
+  },
+  "next": {
+    "title": "Atributos dinámicos",
+    "permalink": "/docusaurus-public-api/atributos-dinamicos"
+  }
+}

@@ -1,0 +1,4105 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "CL",
+<<<<<<< Updated upstream
+          "label": "📄 CL",
+=======
+          "label": "🌎 CL",
+>>>>>>> Stashed changes
+          "banner": null,
+          "badge": true,
+          "noIndex": false,
+          "className": "docs-version-CL",
+          "path": "/docusaurus-public-api/CL",
+          "tagsPath": "/docusaurus-public-api/CL/tags",
+          "isLast": true,
+          "sidebarFilePath": "C:\\Users\\ebaha\\docusaurus-public-api\\versioned_sidebars\\version-CL-sidebars.json",
+          "contentPath": "C:\\Users\\ebaha\\docusaurus-public-api\\versioned_docs\\version-CL",
+          "contentPathLocalized": "C:\\Users\\ebaha\\docusaurus-public-api\\i18n\\en\\docusaurus-plugin-content-docs\\version-CL",
+          "docs": [
+            {
+              "unversionedId": "Clientes/Clientes",
+              "id": "version-CL/Clientes/Clientes",
+              "title": "Clientes",
+              "description": "Crear, editar y listar clientes.",
+              "source": "@site/versioned_docs/version-CL/Clientes/Clientes.md",
+              "sourceDirName": "Clientes",
+              "slug": "/clientes",
+              "permalink": "/docusaurus-public-api/CL/clientes",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 30,
+              "frontMatter": {
+                "sidebar_position": 30,
+                "title": "Clientes",
+                "description": "Crear, editar y listar clientes.",
+                "slug": "/clientes"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/CL/productos-y-servicios/webhooks"
+              },
+              "next": {
+                "title": "Pagos",
+                "permalink": "/docusaurus-public-api/CL/pagos"
+              }
+            },
+            {
+              "unversionedId": "Clientes/Pagos",
+              "id": "version-CL/Clientes/Pagos",
+              "title": "Pagos",
+              "description": "Crear, editar y pagos de pagos",
+              "source": "@site/versioned_docs/version-CL/Clientes/Pagos.md",
+              "sourceDirName": "Clientes",
+              "slug": "/pagos",
+              "permalink": "/docusaurus-public-api/CL/pagos",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 31,
+              "frontMatter": {
+                "sidebar_position": 31,
+                "title": "Pagos",
+                "description": "Crear, editar y pagos de pagos",
+                "slug": "/pagos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Clientes",
+                "permalink": "/docusaurus-public-api/CL/clientes"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/CL/pagos/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Clientes/Webhooks relacionado",
+              "id": "version-CL/Clientes/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones pagos de documentos",
+              "source": "@site/versioned_docs/version-CL/Clientes/Webhooks relacionado.md",
+              "sourceDirName": "Clientes",
+              "slug": "/pagos/webhooks",
+              "permalink": "/docusaurus-public-api/CL/pagos/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/CL/tags/webhooks"
+                }
+              ],
+              "version": "CL",
+              "sidebarPosition": 32,
+              "frontMatter": {
+                "sidebar_position": 32,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones pagos de documentos",
+                "slug": "/pagos/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Pagos",
+                "permalink": "/docusaurus-public-api/CL/pagos"
+              },
+              "next": {
+                "title": "Atributos dinámicos",
+                "permalink": "/docusaurus-public-api/CL/atributos-dinamicos"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Atributos dinámicos",
+              "id": "version-CL/Configuración/Atributos dinámicos",
+              "title": "Atributos dinámicos",
+              "description": "Listar atributos dinámicos",
+              "source": "@site/versioned_docs/version-CL/Configuración/Atributos dinámicos.md",
+              "sourceDirName": "Configuración",
+              "slug": "/atributos-dinamicos",
+              "permalink": "/docusaurus-public-api/CL/atributos-dinamicos",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 50,
+              "frontMatter": {
+                "sidebar_position": 50,
+                "title": "Atributos dinámicos",
+                "description": "Listar atributos dinámicos",
+                "slug": "/atributos-dinamicos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/CL/pagos/webhooks"
+              },
+              "next": {
+                "title": "Descuentos",
+                "permalink": "/docusaurus-public-api/CL/descuentos"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Descuentos",
+              "id": "version-CL/Configuración/Descuentos",
+              "title": "Descuentos",
+              "description": "Listar descuentos",
+              "source": "@site/versioned_docs/version-CL/Configuración/Descuentos.md",
+              "sourceDirName": "Configuración",
+              "slug": "/descuentos",
+              "permalink": "/docusaurus-public-api/CL/descuentos",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 51,
+              "frontMatter": {
+                "sidebar_position": 51,
+                "title": "Descuentos",
+                "description": "Listar descuentos",
+                "slug": "/descuentos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Atributos dinámicos",
+                "permalink": "/docusaurus-public-api/CL/atributos-dinamicos"
+              },
+              "next": {
+                "title": "Sucursales",
+                "permalink": "/docusaurus-public-api/CL/sucursales"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Formas de pago/Condición de venta",
+              "id": "version-CL/Configuración/Formas de pago/Condición de venta",
+              "title": "Condición de venta",
+              "description": "Crear y listar Condición de venta",
+              "source": "@site/versioned_docs/version-CL/Configuración/Formas de pago/Condición de venta.md",
+              "sourceDirName": "Configuración/Formas de pago",
+              "slug": "/condicion-de-venta",
+              "permalink": "/docusaurus-public-api/CL/condicion-de-venta",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 58,
+              "frontMatter": {
+                "sidebar_position": 58,
+                "title": "Condición de venta",
+                "description": "Crear y listar Condición de venta",
+                "slug": "/condicion-de-venta"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Formas de pago",
+                "permalink": "/docusaurus-public-api/CL/formas-de-pago"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/CL/formas-de-pago/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Formas de pago/Formas de pago",
+              "id": "version-CL/Configuración/Formas de pago/Formas de pago",
+              "title": "Formas de pago",
+              "description": "Crear y listar Formas de pago",
+              "source": "@site/versioned_docs/version-CL/Configuración/Formas de pago/Formas de pago.md",
+              "sourceDirName": "Configuración/Formas de pago",
+              "slug": "/formas-de-pago",
+              "permalink": "/docusaurus-public-api/CL/formas-de-pago",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 57,
+              "frontMatter": {
+                "sidebar_position": 57,
+                "title": "Formas de pago",
+                "description": "Crear y listar Formas de pago",
+                "slug": "/formas-de-pago"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tipos de despacho",
+                "permalink": "/docusaurus-public-api/CL/tipos-de-despacho"
+              },
+              "next": {
+                "title": "Condición de venta",
+                "permalink": "/docusaurus-public-api/CL/condicion-de-venta"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Formas de pago/Webhooks relacionado",
+              "id": "version-CL/Configuración/Formas de pago/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones de pagos",
+              "source": "@site/versioned_docs/version-CL/Configuración/Formas de pago/Webhooks relacionado.md",
+              "sourceDirName": "Configuración/Formas de pago",
+              "slug": "/formas-de-pago/webhooks",
+              "permalink": "/docusaurus-public-api/CL/formas-de-pago/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/CL/tags/webhooks"
+                }
+              ],
+              "version": "CL",
+              "sidebarPosition": 59,
+              "frontMatter": {
+                "sidebar_position": 59,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones de pagos",
+                "slug": "/formas-de-pago/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Condición de venta",
+                "permalink": "/docusaurus-public-api/CL/condicion-de-venta"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/CL/configuracion/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Monedas",
+              "id": "version-CL/Configuración/Monedas",
+              "title": "Monedas",
+              "description": "Listar Monedas",
+              "source": "@site/versioned_docs/version-CL/Configuración/Monedas.md",
+              "sourceDirName": "Configuración",
+              "slug": "/monedas",
+              "permalink": "/docusaurus-public-api/CL/monedas",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 54,
+              "frontMatter": {
+                "sidebar_position": 54,
+                "title": "Monedas",
+                "description": "Listar Monedas",
+                "slug": "/monedas"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Usuarios",
+                "permalink": "/docusaurus-public-api/CL/usuarios"
+              },
+              "next": {
+                "title": "Tipos de documentos",
+                "permalink": "/docusaurus-public-api/CL/tipos-de-documentos"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Sucursales",
+              "id": "version-CL/Configuración/Sucursales",
+              "title": "Sucursales",
+              "description": "Crear, editar y listar sucursales",
+              "source": "@site/versioned_docs/version-CL/Configuración/Sucursales.md",
+              "sourceDirName": "Configuración",
+              "slug": "/sucursales",
+              "permalink": "/docusaurus-public-api/CL/sucursales",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 52,
+              "frontMatter": {
+                "sidebar_position": 52,
+                "title": "Sucursales",
+                "description": "Crear, editar y listar sucursales",
+                "slug": "/sucursales"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Descuentos",
+                "permalink": "/docusaurus-public-api/CL/descuentos"
+              },
+              "next": {
+                "title": "Usuarios",
+                "permalink": "/docusaurus-public-api/CL/usuarios"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Tipos de despacho",
+              "id": "version-CL/Configuración/Tipos de despacho",
+              "title": "Tipos de despacho",
+              "description": "Listar tipos de despacho",
+              "source": "@site/versioned_docs/version-CL/Configuración/Tipos de despacho.md",
+              "sourceDirName": "Configuración",
+              "slug": "/tipos-de-despacho",
+              "permalink": "/docusaurus-public-api/CL/tipos-de-despacho",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 56,
+              "frontMatter": {
+                "sidebar_position": 56,
+                "title": "Tipos de despacho",
+                "description": "Listar tipos de despacho",
+                "slug": "/tipos-de-despacho"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tipos de documentos",
+                "permalink": "/docusaurus-public-api/CL/tipos-de-documentos"
+              },
+              "next": {
+                "title": "Formas de pago",
+                "permalink": "/docusaurus-public-api/CL/formas-de-pago"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Tipos de documentos",
+              "id": "version-CL/Configuración/Tipos de documentos",
+              "title": "Tipos de documentos",
+              "description": "Listar y editar Tipos de documentos",
+              "source": "@site/versioned_docs/version-CL/Configuración/Tipos de documentos.md",
+              "sourceDirName": "Configuración",
+              "slug": "/tipos-de-documentos",
+              "permalink": "/docusaurus-public-api/CL/tipos-de-documentos",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 55,
+              "frontMatter": {
+                "sidebar_position": 55,
+                "title": "Tipos de documentos",
+                "description": "Listar y editar Tipos de documentos",
+                "slug": "/tipos-de-documentos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Monedas",
+                "permalink": "/docusaurus-public-api/CL/monedas"
+              },
+              "next": {
+                "title": "Tipos de despacho",
+                "permalink": "/docusaurus-public-api/CL/tipos-de-despacho"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Usuarios",
+              "id": "version-CL/Configuración/Usuarios",
+              "title": "Usuarios",
+              "description": "Listar Usuarios",
+              "source": "@site/versioned_docs/version-CL/Configuración/Usuarios.md",
+              "sourceDirName": "Configuración",
+              "slug": "/usuarios",
+              "permalink": "/docusaurus-public-api/CL/usuarios",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 53,
+              "frontMatter": {
+                "sidebar_position": 53,
+                "title": "Usuarios",
+                "description": "Listar Usuarios",
+                "slug": "/usuarios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sucursales",
+                "permalink": "/docusaurus-public-api/CL/sucursales"
+              },
+              "next": {
+                "title": "Monedas",
+                "permalink": "/docusaurus-public-api/CL/monedas"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Webhooks relacionado",
+              "id": "version-CL/Configuración/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Obtención datos instancia",
+              "source": "@site/versioned_docs/version-CL/Configuración/Webhooks relacionado.md",
+              "sourceDirName": "Configuración",
+              "slug": "/configuracion/webhooks",
+              "permalink": "/docusaurus-public-api/CL/configuracion/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/CL/tags/webhooks"
+                }
+              ],
+              "version": "CL",
+              "sidebarPosition": 59.1,
+              "frontMatter": {
+                "sidebar_position": 59.1,
+                "title": "Webhooks",
+                "description": "Obtención datos instancia",
+                "slug": "/configuracion/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/CL/formas-de-pago/webhooks"
+              },
+              "next": {
+                "title": "Tipos de libro",
+                "permalink": "/docusaurus-public-api/CL/tipos-de-libros"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Despachos",
+              "id": "version-CL/Documentos/Despachos",
+              "title": "Despachos",
+              "description": "Crear, editar y listar despachos",
+              "source": "@site/versioned_docs/version-CL/Documentos/Despachos.md",
+              "sourceDirName": "Documentos",
+              "slug": "/documentos/despachos",
+              "permalink": "/docusaurus-public-api/CL/documentos/despachos",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11,
+                "title": "Despachos",
+                "description": "Crear, editar y listar despachos",
+                "slug": "/documentos/despachos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Documentos",
+                "permalink": "/docusaurus-public-api/CL/documentos"
+              },
+              "next": {
+                "title": "Devoluciones",
+                "permalink": "/docusaurus-public-api/CL/devoluciones"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Devoluciones",
+              "id": "version-CL/Documentos/Devoluciones",
+              "title": "Devoluciones",
+              "description": "Crear y listar devoluciones",
+              "source": "@site/versioned_docs/version-CL/Documentos/Devoluciones.md",
+              "sourceDirName": "Documentos",
+              "slug": "/devoluciones",
+              "permalink": "/docusaurus-public-api/CL/devoluciones",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12,
+                "title": "Devoluciones",
+                "description": "Crear y listar devoluciones",
+                "slug": "/devoluciones"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Despachos",
+                "permalink": "/docusaurus-public-api/CL/documentos/despachos"
+              },
+              "next": {
+                "title": "Documentos de terceros",
+                "permalink": "/docusaurus-public-api/CL/documentos-de-terceros"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Documentos",
+              "id": "version-CL/Documentos/Documentos",
+              "title": "Documentos",
+              "description": "Crear, editar y listar documentos",
+              "source": "@site/versioned_docs/version-CL/Documentos/Documentos.md",
+              "sourceDirName": "Documentos",
+              "slug": "/documentos",
+              "permalink": "/docusaurus-public-api/CL/documentos",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9,
+                "title": "Documentos",
+                "description": "Crear, editar y listar documentos",
+                "slug": "/documentos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+<<<<<<< Updated upstream
+                "title": "Introducción",
+                "permalink": "/docusaurus-public-api/CL/first-steps"
+=======
+                "title": "Primeros pasos",
+                "permalink": "/docusaurus-public-api/CL/primeros-pasos"
+>>>>>>> Stashed changes
+              },
+              "next": {
+                "title": "Despachos",
+                "permalink": "/docusaurus-public-api/CL/documentos/despachos"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Documentos de terceros",
+              "id": "version-CL/Documentos/Documentos de terceros",
+              "title": "Documentos de terceros",
+              "description": "Listar documentos de compras",
+              "source": "@site/versioned_docs/version-CL/Documentos/Documentos de terceros.md",
+              "sourceDirName": "Documentos",
+              "slug": "/documentos-de-terceros",
+              "permalink": "/docusaurus-public-api/CL/documentos-de-terceros",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 13,
+              "frontMatter": {
+                "sidebar_position": 13,
+                "title": "Documentos de terceros",
+                "description": "Listar documentos de compras",
+                "slug": "/documentos-de-terceros"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Devoluciones",
+                "permalink": "/docusaurus-public-api/CL/devoluciones"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/CL/documentos/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Webhooks relacionado",
+              "id": "version-CL/Documentos/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones de documentos",
+              "source": "@site/versioned_docs/version-CL/Documentos/Webhooks relacionado.md",
+              "sourceDirName": "Documentos",
+              "slug": "/documentos/webhooks",
+              "permalink": "/docusaurus-public-api/CL/documentos/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/CL/tags/webhooks"
+                }
+              ],
+              "version": "CL",
+              "sidebarPosition": 14,
+              "frontMatter": {
+                "sidebar_position": 14,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones de documentos",
+                "slug": "/documentos/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Documentos de terceros",
+                "permalink": "/docusaurus-public-api/CL/documentos-de-terceros"
+              },
+              "next": {
+                "title": "Productos y servicios",
+                "permalink": "/docusaurus-public-api/CL/productos-y-servicios"
+              }
+            },
+            {
+              "unversionedId": "Información SII/Códigos tributarios",
+              "id": "version-CL/Información SII/Códigos tributarios",
+              "title": "Códigos tributarios",
+              "description": "Listar códigos tributarios",
+              "source": "@site/versioned_docs/version-CL/Información SII/Códigos tributarios.md",
+              "sourceDirName": "Información SII",
+              "slug": "/codigos-tributarios",
+              "permalink": "/docusaurus-public-api/CL/codigos-tributarios",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 61,
+              "frontMatter": {
+                "sidebar_position": 61,
+                "title": "Códigos tributarios",
+                "description": "Listar códigos tributarios",
+                "slug": "/codigos-tributarios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tipos de libro",
+                "permalink": "/docusaurus-public-api/CL/tipos-de-libros"
+              },
+              "next": {
+                "title": "Impuestos",
+                "permalink": "/docusaurus-public-api/CL/impuestos"
+              }
+            },
+            {
+              "unversionedId": "Información SII/Impuestos",
+              "id": "version-CL/Información SII/Impuestos",
+              "title": "Impuestos",
+              "description": "Listar Impuestos",
+              "source": "@site/versioned_docs/version-CL/Información SII/Impuestos.md",
+              "sourceDirName": "Información SII",
+              "slug": "/impuestos",
+              "permalink": "/docusaurus-public-api/CL/impuestos",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 62,
+              "frontMatter": {
+                "sidebar_position": 62,
+                "title": "Impuestos",
+                "description": "Listar Impuestos",
+                "slug": "/impuestos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Códigos tributarios",
+                "permalink": "/docusaurus-public-api/CL/codigos-tributarios"
+              },
+              "next": {
+                "title": "Pedidos web",
+                "permalink": "/docusaurus-public-api/CL/pedidos-web"
+              }
+            },
+            {
+              "unversionedId": "Información SII/Tipos de libros",
+              "id": "version-CL/Información SII/Tipos de libros",
+              "title": "Tipos de libro",
+              "description": "Listar Tipos de libro",
+              "source": "@site/versioned_docs/version-CL/Información SII/Tipos de libros.md",
+              "sourceDirName": "Información SII",
+              "slug": "/tipos-de-libros",
+              "permalink": "/docusaurus-public-api/CL/tipos-de-libros",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 60,
+              "frontMatter": {
+                "sidebar_position": 60,
+                "title": "Tipos de libro",
+                "description": "Listar Tipos de libro",
+                "slug": "/tipos-de-libros"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/CL/configuracion/webhooks"
+              },
+              "next": {
+                "title": "Códigos tributarios",
+                "permalink": "/docusaurus-public-api/CL/codigos-tributarios"
+              }
+            },
+            {
+              "unversionedId": "primeros-pasos",
+              "id": "version-CL/primeros-pasos",
+<<<<<<< Updated upstream
+              "title": "Introducción",
+              "description": "Primeros pasos para interactuar con la API de Bsale CL",
+              "source": "@site/versioned_docs/version-CL/intro.md",
+              "sourceDirName": ".",
+              "slug": "/first-steps",
+              "permalink": "/docusaurus-public-api/CL/first-steps",
+=======
+              "title": "Primeros pasos",
+              "description": "Primeros pasos para interactuar con la API de Bsale",
+              "source": "@site/versioned_docs/version-CL/intro.md",
+              "sourceDirName": ".",
+              "slug": "/primeros-pasos",
+              "permalink": "/docusaurus-public-api/CL/primeros-pasos",
+>>>>>>> Stashed changes
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "primeros-pasos",
+                "sidebar_position": 2,
+<<<<<<< Updated upstream
+                "title": "Introducción",
+                "description": "Primeros pasos para interactuar con la API de Bsale CL",
+                "slug": "/first-steps"
+=======
+                "title": "Primeros pasos",
+                "description": "Primeros pasos para interactuar con la API de Bsale",
+                "slug": "/primeros-pasos"
+>>>>>>> Stashed changes
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Documentos",
+                "permalink": "/docusaurus-public-api/CL/documentos"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Listas de precio",
+              "id": "version-CL/Productos y Servicios/Listas de precio",
+              "title": "Listas de precio",
+              "description": "Crear, editar y listar precios",
+              "source": "@site/versioned_docs/version-CL/Productos y Servicios/Listas de precio.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/listas-de-precio",
+              "permalink": "/docusaurus-public-api/CL/listas-de-precio",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 24,
+              "frontMatter": {
+                "sidebar_position": 24,
+                "title": "Listas de precio",
+                "description": "Crear, editar y listar precios",
+                "slug": "/listas-de-precio"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Stocks",
+                "permalink": "/docusaurus-public-api/CL/stocks"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/CL/productos-y-servicios/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Productos y servicios",
+              "id": "version-CL/Productos y Servicios/Productos y servicios",
+              "title": "Productos y servicios",
+              "description": "Crear, editar y listar productos y servicios",
+              "source": "@site/versioned_docs/version-CL/Productos y Servicios/Productos y servicios.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/productos-y-servicios",
+              "permalink": "/docusaurus-public-api/CL/productos-y-servicios",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 20,
+              "frontMatter": {
+                "sidebar_position": 20,
+                "title": "Productos y servicios",
+                "description": "Crear, editar y listar productos y servicios",
+                "slug": "/productos-y-servicios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/CL/documentos/webhooks"
+              },
+              "next": {
+                "title": "Tipos de productos y servicios",
+                "permalink": "/docusaurus-public-api/CL/tipos-de-productos-y-servicios"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Stocks",
+              "id": "version-CL/Productos y Servicios/Stocks",
+              "title": "Stocks",
+              "description": "Crear, editar y listar stocks",
+              "source": "@site/versioned_docs/version-CL/Productos y Servicios/Stocks.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/stocks",
+              "permalink": "/docusaurus-public-api/CL/stocks",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 23,
+              "frontMatter": {
+                "sidebar_position": 23,
+                "title": "Stocks",
+                "description": "Crear, editar y listar stocks",
+                "slug": "/stocks"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Variantes",
+                "permalink": "/docusaurus-public-api/CL/variantes"
+              },
+              "next": {
+                "title": "Listas de precio",
+                "permalink": "/docusaurus-public-api/CL/listas-de-precio"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Tipos de productos y servicios",
+              "id": "version-CL/Productos y Servicios/Tipos de productos y servicios",
+              "title": "Tipos de productos y servicios",
+              "description": "Crear, editar y listar tipos de productos",
+              "source": "@site/versioned_docs/version-CL/Productos y Servicios/Tipos de productos y servicios.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/tipos-de-productos-y-servicios",
+              "permalink": "/docusaurus-public-api/CL/tipos-de-productos-y-servicios",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 21,
+              "frontMatter": {
+                "sidebar_position": 21,
+                "title": "Tipos de productos y servicios",
+                "description": "Crear, editar y listar tipos de productos",
+                "slug": "/tipos-de-productos-y-servicios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Productos y servicios",
+                "permalink": "/docusaurus-public-api/CL/productos-y-servicios"
+              },
+              "next": {
+                "title": "Variantes",
+                "permalink": "/docusaurus-public-api/CL/variantes"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Variantes",
+              "id": "version-CL/Productos y Servicios/Variantes",
+              "title": "Variantes",
+              "description": "Crear, editar y listar variantes",
+              "source": "@site/versioned_docs/version-CL/Productos y Servicios/Variantes.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/variantes",
+              "permalink": "/docusaurus-public-api/CL/variantes",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 22,
+              "frontMatter": {
+                "sidebar_position": 22,
+                "title": "Variantes",
+                "description": "Crear, editar y listar variantes",
+                "slug": "/variantes"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tipos de productos y servicios",
+                "permalink": "/docusaurus-public-api/CL/tipos-de-productos-y-servicios"
+              },
+              "next": {
+                "title": "Stocks",
+                "permalink": "/docusaurus-public-api/CL/stocks"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Webhooks relacionado",
+              "id": "version-CL/Productos y Servicios/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones de productos y servicios",
+              "source": "@site/versioned_docs/version-CL/Productos y Servicios/Webhooks relacionado.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/productos-y-servicios/webhooks",
+              "permalink": "/docusaurus-public-api/CL/productos-y-servicios/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/CL/tags/webhooks"
+                }
+              ],
+              "version": "CL",
+              "sidebarPosition": 25,
+              "frontMatter": {
+                "sidebar_position": 25,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones de productos y servicios",
+                "slug": "/productos-y-servicios/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Listas de precio",
+                "permalink": "/docusaurus-public-api/CL/listas-de-precio"
+              },
+              "next": {
+                "title": "Clientes",
+                "permalink": "/docusaurus-public-api/CL/clientes"
+              }
+            },
+            {
+              "unversionedId": "Tienda en línea/Descripcion web",
+              "id": "version-CL/Tienda en línea/Descripcion web",
+              "title": "Descripción web",
+              "description": "Listar información de productos ecommerce",
+              "source": "@site/versioned_docs/version-CL/Tienda en línea/Descripcion web.md",
+              "sourceDirName": "Tienda en línea",
+              "slug": "/descripcion-web",
+              "permalink": "/docusaurus-public-api/CL/descripcion-web",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 41,
+              "frontMatter": {
+                "sidebar_position": 41,
+                "title": "Descripción web",
+                "description": "Listar información de productos ecommerce",
+                "slug": "/descripcion-web"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Pedidos web",
+                "permalink": "/docusaurus-public-api/CL/pedidos-web"
+              },
+              "next": {
+                "title": "Envíos",
+                "permalink": "/docusaurus-public-api/CL/envíos"
+              }
+            },
+            {
+              "unversionedId": "Tienda en línea/envios",
+              "id": "version-CL/Tienda en línea/envios",
+              "title": "Envíos",
+              "description": "Genera envíos mediante tienda en línea Bsale",
+              "source": "@site/versioned_docs/version-CL/Tienda en línea/envios.md",
+              "sourceDirName": "Tienda en línea",
+              "slug": "/envíos",
+              "permalink": "/docusaurus-public-api/CL/envíos",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "frontMatter": {
+                "title": "Envíos",
+                "description": "Genera envíos mediante tienda en línea Bsale",
+                "slug": "/envíos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Descripción web",
+                "permalink": "/docusaurus-public-api/CL/descripcion-web"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/CL/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Tienda en línea/Pedidos web",
+              "id": "version-CL/Tienda en línea/Pedidos web",
+              "title": "Pedidos web",
+              "description": "Crear, editar y listar pedidos web",
+              "source": "@site/versioned_docs/version-CL/Tienda en línea/Pedidos web.md",
+              "sourceDirName": "Tienda en línea",
+              "slug": "/pedidos-web",
+              "permalink": "/docusaurus-public-api/CL/pedidos-web",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "sidebarPosition": 40,
+              "frontMatter": {
+                "sidebar_position": 40,
+                "title": "Pedidos web",
+                "description": "Crear, editar y listar pedidos web",
+                "slug": "/pedidos-web"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Impuestos",
+                "permalink": "/docusaurus-public-api/CL/impuestos"
+              },
+              "next": {
+                "title": "Descripción web",
+                "permalink": "/docusaurus-public-api/CL/descripcion-web"
+              }
+            },
+            {
+              "unversionedId": "webhooks",
+              "id": "version-CL/webhooks",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones mediante eventos",
+              "source": "@site/versioned_docs/version-CL/webhooks.md",
+              "sourceDirName": ".",
+              "slug": "/webhooks",
+              "permalink": "/docusaurus-public-api/CL/webhooks",
+              "draft": false,
+              "tags": [],
+              "version": "CL",
+              "frontMatter": {
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones mediante eventos",
+                "slug": "/webhooks"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Envíos",
+                "permalink": "/docusaurus-public-api/CL/envíos"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "version-CL/primeros-pasos"
+              },
+              {
+                "type": "category",
+                "label": "Documentos",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Documentos/Despachos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Documentos/Devoluciones"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Documentos/Documentos de terceros"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Documentos/Webhooks relacionado"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "version-CL/Documentos/Documentos"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Productos y servicios",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Productos y Servicios/Tipos de productos y servicios"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Productos y Servicios/Variantes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Productos y Servicios/Stocks"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Productos y Servicios/Listas de precio"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Productos y Servicios/Webhooks relacionado"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "version-CL/Productos y Servicios/Productos y servicios"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Clientes",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Clientes/Pagos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Clientes/Webhooks relacionado"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "version-CL/Clientes/Clientes"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Configuración",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Configuración/Atributos dinámicos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Configuración/Descuentos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Configuración/Sucursales"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Configuración/Usuarios"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Configuración/Monedas"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Configuración/Tipos de documentos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Configuración/Tipos de despacho"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Formas de pago",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "version-CL/Configuración/Formas de pago/Condición de venta"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "version-CL/Configuración/Formas de pago/Webhooks relacionado"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "version-CL/Configuración/Formas de pago/Formas de pago"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Configuración/Webhooks relacionado"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Información SII",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Información SII/Tipos de libros"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Información SII/Códigos tributarios"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Información SII/Impuestos"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Tienda en línea",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Tienda en línea/Pedidos web"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Tienda en línea/Descripcion web"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-CL/Tienda en línea/envios"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "id": "version-CL/webhooks"
+              }
+            ]
+          }
+        },
+        {
+          "versionName": "PE",
+<<<<<<< Updated upstream
+          "label": "📄 PE",
+=======
+          "label": "🌎 PE",
+>>>>>>> Stashed changes
+          "banner": null,
+          "badge": true,
+          "noIndex": false,
+          "className": "docs-version-PE",
+          "path": "/docusaurus-public-api/PE",
+          "tagsPath": "/docusaurus-public-api/PE/tags",
+          "isLast": false,
+          "sidebarFilePath": "C:\\Users\\ebaha\\docusaurus-public-api\\versioned_sidebars\\version-PE-sidebars.json",
+          "contentPath": "C:\\Users\\ebaha\\docusaurus-public-api\\versioned_docs\\version-PE",
+          "contentPathLocalized": "C:\\Users\\ebaha\\docusaurus-public-api\\i18n\\en\\docusaurus-plugin-content-docs\\version-PE",
+          "docs": [
+            {
+              "unversionedId": "Clientes/Clientes",
+              "id": "version-PE/Clientes/Clientes",
+              "title": "Clientes",
+              "description": "Crear, editar y listar clientes",
+              "source": "@site/versioned_docs/version-PE/Clientes/Clientes.md",
+              "sourceDirName": "Clientes",
+              "slug": "/clientes",
+              "permalink": "/docusaurus-public-api/PE/clientes",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 30,
+              "frontMatter": {
+                "sidebar_position": 30,
+                "title": "Clientes",
+                "description": "Crear, editar y listar clientes",
+                "slug": "/clientes"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/PE/productos-y-servicios/webhooks"
+              },
+              "next": {
+                "title": "Pagos",
+                "permalink": "/docusaurus-public-api/PE/pagos"
+              }
+            },
+            {
+              "unversionedId": "Clientes/Pagos",
+              "id": "version-PE/Clientes/Pagos",
+              "title": "Pagos",
+              "description": "Crear, editar y pagos de pagos",
+              "source": "@site/versioned_docs/version-PE/Clientes/Pagos.md",
+              "sourceDirName": "Clientes",
+              "slug": "/pagos",
+              "permalink": "/docusaurus-public-api/PE/pagos",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 31,
+              "frontMatter": {
+                "sidebar_position": 31,
+                "title": "Pagos",
+                "description": "Crear, editar y pagos de pagos",
+                "slug": "/pagos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Clientes",
+                "permalink": "/docusaurus-public-api/PE/clientes"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/PE/pagos/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Clientes/Webhooks relacionado",
+              "id": "version-PE/Clientes/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones pagos de documentos",
+              "source": "@site/versioned_docs/version-PE/Clientes/Webhooks relacionado.md",
+              "sourceDirName": "Clientes",
+              "slug": "/pagos/webhooks",
+              "permalink": "/docusaurus-public-api/PE/pagos/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/PE/tags/webhooks"
+                }
+              ],
+              "version": "PE",
+              "sidebarPosition": 32,
+              "frontMatter": {
+                "sidebar_position": 32,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones pagos de documentos",
+                "slug": "/pagos/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Pagos",
+                "permalink": "/docusaurus-public-api/PE/pagos"
+              },
+              "next": {
+                "title": "Atributos dinámicos",
+                "permalink": "/docusaurus-public-api/PE/atributos-dinamicos"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Atributos dinámicos",
+              "id": "version-PE/Configuración/Atributos dinámicos",
+              "title": "Atributos dinámicos",
+              "description": "Listar atributos dinámicos",
+              "source": "@site/versioned_docs/version-PE/Configuración/Atributos dinámicos.md",
+              "sourceDirName": "Configuración",
+              "slug": "/atributos-dinamicos",
+              "permalink": "/docusaurus-public-api/PE/atributos-dinamicos",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 50,
+              "frontMatter": {
+                "sidebar_position": 50,
+                "title": "Atributos dinámicos",
+                "description": "Listar atributos dinámicos",
+                "slug": "/atributos-dinamicos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/PE/pagos/webhooks"
+              },
+              "next": {
+                "title": "Descuentos",
+                "permalink": "/docusaurus-public-api/PE/descuentos"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Descuentos",
+              "id": "version-PE/Configuración/Descuentos",
+              "title": "Descuentos",
+              "description": "Listar descuentos",
+              "source": "@site/versioned_docs/version-PE/Configuración/Descuentos.md",
+              "sourceDirName": "Configuración",
+              "slug": "/descuentos",
+              "permalink": "/docusaurus-public-api/PE/descuentos",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 51,
+              "frontMatter": {
+                "sidebar_position": 51,
+                "title": "Descuentos",
+                "description": "Listar descuentos",
+                "slug": "/descuentos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Atributos dinámicos",
+                "permalink": "/docusaurus-public-api/PE/atributos-dinamicos"
+              },
+              "next": {
+                "title": "Sucursales",
+                "permalink": "/docusaurus-public-api/PE/sucursales"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Formas de pago/Condición de venta",
+              "id": "version-PE/Configuración/Formas de pago/Condición de venta",
+              "title": "Condición de venta",
+              "description": "Crear y listar Condición de venta",
+              "source": "@site/versioned_docs/version-PE/Configuración/Formas de pago/Condición de venta.md",
+              "sourceDirName": "Configuración/Formas de pago",
+              "slug": "/condicion-de-venta",
+              "permalink": "/docusaurus-public-api/PE/condicion-de-venta",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 58,
+              "frontMatter": {
+                "sidebar_position": 58,
+                "title": "Condición de venta",
+                "description": "Crear y listar Condición de venta",
+                "slug": "/condicion-de-venta"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Formas de pago",
+                "permalink": "/docusaurus-public-api/PE/formas-de-pago"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/PE/formas-de-pago/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Formas de pago/Formas de pago",
+              "id": "version-PE/Configuración/Formas de pago/Formas de pago",
+              "title": "Formas de pago",
+              "description": "Crear y listar Formas de pago",
+              "source": "@site/versioned_docs/version-PE/Configuración/Formas de pago/Formas de pago.md",
+              "sourceDirName": "Configuración/Formas de pago",
+              "slug": "/formas-de-pago",
+              "permalink": "/docusaurus-public-api/PE/formas-de-pago",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 57,
+              "frontMatter": {
+                "sidebar_position": 57,
+                "title": "Formas de pago",
+                "description": "Crear y listar Formas de pago",
+                "slug": "/formas-de-pago"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tipos de despacho",
+                "permalink": "/docusaurus-public-api/PE/tipos-de-despacho"
+              },
+              "next": {
+                "title": "Condición de venta",
+                "permalink": "/docusaurus-public-api/PE/condicion-de-venta"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Formas de pago/Webhooks relacionado",
+              "id": "version-PE/Configuración/Formas de pago/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones de pagos",
+              "source": "@site/versioned_docs/version-PE/Configuración/Formas de pago/Webhooks relacionado.md",
+              "sourceDirName": "Configuración/Formas de pago",
+              "slug": "/formas-de-pago/webhooks",
+              "permalink": "/docusaurus-public-api/PE/formas-de-pago/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/PE/tags/webhooks"
+                }
+              ],
+              "version": "PE",
+              "sidebarPosition": 59,
+              "frontMatter": {
+                "sidebar_position": 59,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones de pagos",
+                "slug": "/formas-de-pago/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Condición de venta",
+                "permalink": "/docusaurus-public-api/PE/condicion-de-venta"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/PE/configuracion/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Monedas",
+              "id": "version-PE/Configuración/Monedas",
+              "title": "Monedas",
+              "description": "Listar Monedas",
+              "source": "@site/versioned_docs/version-PE/Configuración/Monedas.md",
+              "sourceDirName": "Configuración",
+              "slug": "/monedas",
+              "permalink": "/docusaurus-public-api/PE/monedas",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 54,
+              "frontMatter": {
+                "sidebar_position": 54,
+                "title": "Monedas",
+                "description": "Listar Monedas",
+                "slug": "/monedas"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Usuarios",
+                "permalink": "/docusaurus-public-api/PE/usuarios"
+              },
+              "next": {
+                "title": "Tipos de documentos",
+                "permalink": "/docusaurus-public-api/PE/tipos-de-documentos"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Sucursales",
+              "id": "version-PE/Configuración/Sucursales",
+              "title": "Sucursales",
+              "description": "Crear, editar y listar sucursales",
+              "source": "@site/versioned_docs/version-PE/Configuración/Sucursales.md",
+              "sourceDirName": "Configuración",
+              "slug": "/sucursales",
+              "permalink": "/docusaurus-public-api/PE/sucursales",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 52,
+              "frontMatter": {
+                "sidebar_position": 52,
+                "title": "Sucursales",
+                "description": "Crear, editar y listar sucursales",
+                "slug": "/sucursales"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Descuentos",
+                "permalink": "/docusaurus-public-api/PE/descuentos"
+              },
+              "next": {
+                "title": "Usuarios",
+                "permalink": "/docusaurus-public-api/PE/usuarios"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Tipos de despacho",
+              "id": "version-PE/Configuración/Tipos de despacho",
+              "title": "Tipos de despacho",
+              "description": "Listar tipos de despacho",
+              "source": "@site/versioned_docs/version-PE/Configuración/Tipos de despacho.md",
+              "sourceDirName": "Configuración",
+              "slug": "/tipos-de-despacho",
+              "permalink": "/docusaurus-public-api/PE/tipos-de-despacho",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 56,
+              "frontMatter": {
+                "sidebar_position": 56,
+                "title": "Tipos de despacho",
+                "description": "Listar tipos de despacho",
+                "slug": "/tipos-de-despacho"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tipos de documentos",
+                "permalink": "/docusaurus-public-api/PE/tipos-de-documentos"
+              },
+              "next": {
+                "title": "Formas de pago",
+                "permalink": "/docusaurus-public-api/PE/formas-de-pago"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Tipos de documentos",
+              "id": "version-PE/Configuración/Tipos de documentos",
+              "title": "Tipos de documentos",
+              "description": "Listar y editar Tipos de documentos",
+              "source": "@site/versioned_docs/version-PE/Configuración/Tipos de documentos.md",
+              "sourceDirName": "Configuración",
+              "slug": "/tipos-de-documentos",
+              "permalink": "/docusaurus-public-api/PE/tipos-de-documentos",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 55,
+              "frontMatter": {
+                "sidebar_position": 55,
+                "title": "Tipos de documentos",
+                "description": "Listar y editar Tipos de documentos",
+                "slug": "/tipos-de-documentos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Monedas",
+                "permalink": "/docusaurus-public-api/PE/monedas"
+              },
+              "next": {
+                "title": "Tipos de despacho",
+                "permalink": "/docusaurus-public-api/PE/tipos-de-despacho"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Usuarios",
+              "id": "version-PE/Configuración/Usuarios",
+              "title": "Usuarios",
+              "description": "Listar Usuarios",
+              "source": "@site/versioned_docs/version-PE/Configuración/Usuarios.md",
+              "sourceDirName": "Configuración",
+              "slug": "/usuarios",
+              "permalink": "/docusaurus-public-api/PE/usuarios",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 53,
+              "frontMatter": {
+                "sidebar_position": 53,
+                "title": "Usuarios",
+                "description": "Listar Usuarios",
+                "slug": "/usuarios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sucursales",
+                "permalink": "/docusaurus-public-api/PE/sucursales"
+              },
+              "next": {
+                "title": "Monedas",
+                "permalink": "/docusaurus-public-api/PE/monedas"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Webhooks relacionado",
+              "id": "version-PE/Configuración/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Obtención datos instancia",
+              "source": "@site/versioned_docs/version-PE/Configuración/Webhooks relacionado.md",
+              "sourceDirName": "Configuración",
+              "slug": "/configuracion/webhooks",
+              "permalink": "/docusaurus-public-api/PE/configuracion/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/PE/tags/webhooks"
+                }
+              ],
+              "version": "PE",
+              "sidebarPosition": 59.1,
+              "frontMatter": {
+                "sidebar_position": 59.1,
+                "title": "Webhooks",
+                "description": "Obtención datos instancia",
+                "slug": "/configuracion/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/PE/formas-de-pago/webhooks"
+              },
+              "next": {
+                "title": "Códigos tributarios",
+                "permalink": "/docusaurus-public-api/PE/codigos-tributarios"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Despachos",
+              "id": "version-PE/Documentos/Despachos",
+              "title": "Despachos",
+              "description": "Crear, editar y listar despachos",
+              "source": "@site/versioned_docs/version-PE/Documentos/Despachos.md",
+              "sourceDirName": "Documentos",
+              "slug": "/documentos/despachos",
+              "permalink": "/docusaurus-public-api/PE/documentos/despachos",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11,
+                "title": "Despachos",
+                "description": "Crear, editar y listar despachos",
+                "slug": "/documentos/despachos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Documentos",
+                "permalink": "/docusaurus-public-api/PE/documentos"
+              },
+              "next": {
+                "title": "Devoluciones",
+                "permalink": "/docusaurus-public-api/PE/devoluciones"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Devoluciones",
+              "id": "version-PE/Documentos/Devoluciones",
+              "title": "Devoluciones",
+              "description": "Crear y listar devoluciones",
+              "source": "@site/versioned_docs/version-PE/Documentos/Devoluciones.md",
+              "sourceDirName": "Documentos",
+              "slug": "/devoluciones",
+              "permalink": "/docusaurus-public-api/PE/devoluciones",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12,
+                "title": "Devoluciones",
+                "description": "Crear y listar devoluciones",
+                "slug": "/devoluciones"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Despachos",
+                "permalink": "/docusaurus-public-api/PE/documentos/despachos"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/PE/documentos/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Documentos",
+              "id": "version-PE/Documentos/Documentos",
+              "title": "Documentos",
+              "description": "Crear, editar y listar documentos",
+              "source": "@site/versioned_docs/version-PE/Documentos/Documentos.md",
+              "sourceDirName": "Documentos",
+              "slug": "/documentos",
+              "permalink": "/docusaurus-public-api/PE/documentos",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10,
+                "title": "Documentos",
+                "description": "Crear, editar y listar documentos",
+                "slug": "/documentos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+<<<<<<< Updated upstream
+                "title": "Introducción",
+                "permalink": "/docusaurus-public-api/PE/first-steps"
+=======
+                "title": "Primeros pasos",
+                "permalink": "/docusaurus-public-api/PE/primeros-pasos"
+>>>>>>> Stashed changes
+              },
+              "next": {
+                "title": "Despachos",
+                "permalink": "/docusaurus-public-api/PE/documentos/despachos"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Webhooks relacionado",
+              "id": "version-PE/Documentos/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones de documentos",
+              "source": "@site/versioned_docs/version-PE/Documentos/Webhooks relacionado.md",
+              "sourceDirName": "Documentos",
+              "slug": "/documentos/webhooks",
+              "permalink": "/docusaurus-public-api/PE/documentos/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/PE/tags/webhooks"
+                }
+              ],
+              "version": "PE",
+              "sidebarPosition": 14,
+              "frontMatter": {
+                "sidebar_position": 14,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones de documentos",
+                "slug": "/documentos/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Devoluciones",
+                "permalink": "/docusaurus-public-api/PE/devoluciones"
+              },
+              "next": {
+                "title": "Productos y servicios",
+                "permalink": "/docusaurus-public-api/PE/productos-y-servicios"
+              }
+            },
+            {
+              "unversionedId": "Información SUNAT/Códigos tributarios",
+              "id": "version-PE/Información SUNAT/Códigos tributarios",
+              "title": "Códigos tributarios",
+              "description": "Listar códigos tributarios",
+              "source": "@site/versioned_docs/version-PE/Información SUNAT/Códigos tributarios.md",
+              "sourceDirName": "Información SUNAT",
+              "slug": "/codigos-tributarios",
+              "permalink": "/docusaurus-public-api/PE/codigos-tributarios",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 61,
+              "frontMatter": {
+                "sidebar_position": 61,
+                "title": "Códigos tributarios",
+                "description": "Listar códigos tributarios",
+                "slug": "/codigos-tributarios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/PE/configuracion/webhooks"
+              },
+              "next": {
+                "title": "Impuestos",
+                "permalink": "/docusaurus-public-api/PE/impuestos"
+              }
+            },
+            {
+              "unversionedId": "Información SUNAT/Impuestos",
+              "id": "version-PE/Información SUNAT/Impuestos",
+              "title": "Impuestos",
+              "description": "Listar Impuestos",
+              "source": "@site/versioned_docs/version-PE/Información SUNAT/Impuestos.md",
+              "sourceDirName": "Información SUNAT",
+              "slug": "/impuestos",
+              "permalink": "/docusaurus-public-api/PE/impuestos",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 62,
+              "frontMatter": {
+                "sidebar_position": 62,
+                "title": "Impuestos",
+                "description": "Listar Impuestos",
+                "slug": "/impuestos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Códigos tributarios",
+                "permalink": "/docusaurus-public-api/PE/codigos-tributarios"
+              },
+              "next": {
+                "title": "Pedidos web",
+                "permalink": "/docusaurus-public-api/PE/pedidos-web"
+              }
+            },
+            {
+              "unversionedId": "primeros-pasos",
+              "id": "version-PE/primeros-pasos",
+<<<<<<< Updated upstream
+              "title": "Introducción",
+              "description": "Primeros pasos para interactuar con la API de Bsale PE",
+              "source": "@site/versioned_docs/version-PE/intro.md",
+              "sourceDirName": ".",
+              "slug": "/first-steps",
+              "permalink": "/docusaurus-public-api/PE/first-steps",
+=======
+              "title": "Primeros pasos",
+              "description": "Primeros pasos para interactuar con la API de Bsale",
+              "source": "@site/versioned_docs/version-PE/intro.md",
+              "sourceDirName": ".",
+              "slug": "/primeros-pasos",
+              "permalink": "/docusaurus-public-api/PE/primeros-pasos",
+>>>>>>> Stashed changes
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "primeros-pasos",
+                "sidebar_position": 2,
+<<<<<<< Updated upstream
+                "title": "Introducción",
+                "description": "Primeros pasos para interactuar con la API de Bsale PE",
+                "slug": "/first-steps"
+=======
+                "title": "Primeros pasos",
+                "description": "Primeros pasos para interactuar con la API de Bsale",
+                "slug": "/primeros-pasos"
+>>>>>>> Stashed changes
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Documentos",
+                "permalink": "/docusaurus-public-api/PE/documentos"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Listas de precio",
+              "id": "version-PE/Productos y Servicios/Listas de precio",
+              "title": "Listas de precio",
+              "description": "Crear, editar y listar precios",
+              "source": "@site/versioned_docs/version-PE/Productos y Servicios/Listas de precio.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/listas-de-precio",
+              "permalink": "/docusaurus-public-api/PE/listas-de-precio",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 24,
+              "frontMatter": {
+                "sidebar_position": 24,
+                "title": "Listas de precio",
+                "description": "Crear, editar y listar precios",
+                "slug": "/listas-de-precio"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Stocks",
+                "permalink": "/docusaurus-public-api/PE/stocks"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/PE/productos-y-servicios/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Productos y servicios",
+              "id": "version-PE/Productos y Servicios/Productos y servicios",
+              "title": "Productos y servicios",
+              "description": "Crear, editar y listar productos y servicios",
+              "source": "@site/versioned_docs/version-PE/Productos y Servicios/Productos y servicios.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/productos-y-servicios",
+              "permalink": "/docusaurus-public-api/PE/productos-y-servicios",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 20,
+              "frontMatter": {
+                "sidebar_position": 20,
+                "title": "Productos y servicios",
+                "description": "Crear, editar y listar productos y servicios",
+                "slug": "/productos-y-servicios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/PE/documentos/webhooks"
+              },
+              "next": {
+                "title": "Tipos de productos y servicios",
+                "permalink": "/docusaurus-public-api/PE/tipos-de-productos-y-servicios"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Stocks",
+              "id": "version-PE/Productos y Servicios/Stocks",
+              "title": "Stocks",
+              "description": "Crear, editar y listar stocks",
+              "source": "@site/versioned_docs/version-PE/Productos y Servicios/Stocks.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/stocks",
+              "permalink": "/docusaurus-public-api/PE/stocks",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 23,
+              "frontMatter": {
+                "sidebar_position": 23,
+                "title": "Stocks",
+                "description": "Crear, editar y listar stocks",
+                "slug": "/stocks"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Variantes",
+                "permalink": "/docusaurus-public-api/PE/variantes"
+              },
+              "next": {
+                "title": "Listas de precio",
+                "permalink": "/docusaurus-public-api/PE/listas-de-precio"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Tipos de productos y servicios",
+              "id": "version-PE/Productos y Servicios/Tipos de productos y servicios",
+              "title": "Tipos de productos y servicios",
+              "description": "Crear, editar y listar tipos de productos",
+              "source": "@site/versioned_docs/version-PE/Productos y Servicios/Tipos de productos y servicios.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/tipos-de-productos-y-servicios",
+              "permalink": "/docusaurus-public-api/PE/tipos-de-productos-y-servicios",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 21,
+              "frontMatter": {
+                "sidebar_position": 21,
+                "title": "Tipos de productos y servicios",
+                "description": "Crear, editar y listar tipos de productos",
+                "slug": "/tipos-de-productos-y-servicios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Productos y servicios",
+                "permalink": "/docusaurus-public-api/PE/productos-y-servicios"
+              },
+              "next": {
+                "title": "Variantes",
+                "permalink": "/docusaurus-public-api/PE/variantes"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Variantes",
+              "id": "version-PE/Productos y Servicios/Variantes",
+              "title": "Variantes",
+              "description": "Crear, editar y listar variantes",
+              "source": "@site/versioned_docs/version-PE/Productos y Servicios/Variantes.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/variantes",
+              "permalink": "/docusaurus-public-api/PE/variantes",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 22,
+              "frontMatter": {
+                "sidebar_position": 22,
+                "title": "Variantes",
+                "description": "Crear, editar y listar variantes",
+                "slug": "/variantes"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tipos de productos y servicios",
+                "permalink": "/docusaurus-public-api/PE/tipos-de-productos-y-servicios"
+              },
+              "next": {
+                "title": "Stocks",
+                "permalink": "/docusaurus-public-api/PE/stocks"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Webhooks relacionado",
+              "id": "version-PE/Productos y Servicios/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones de productos y servicios",
+              "source": "@site/versioned_docs/version-PE/Productos y Servicios/Webhooks relacionado.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/productos-y-servicios/webhooks",
+              "permalink": "/docusaurus-public-api/PE/productos-y-servicios/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/PE/tags/webhooks"
+                }
+              ],
+              "version": "PE",
+              "sidebarPosition": 25,
+              "frontMatter": {
+                "sidebar_position": 25,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones de productos y servicios",
+                "slug": "/productos-y-servicios/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Listas de precio",
+                "permalink": "/docusaurus-public-api/PE/listas-de-precio"
+              },
+              "next": {
+                "title": "Clientes",
+                "permalink": "/docusaurus-public-api/PE/clientes"
+              }
+            },
+            {
+              "unversionedId": "Tienda en línea/Descripcion web",
+              "id": "version-PE/Tienda en línea/Descripcion web",
+              "title": "Descripción web",
+              "description": "Listar información de productos ecommerce",
+              "source": "@site/versioned_docs/version-PE/Tienda en línea/Descripcion web.md",
+              "sourceDirName": "Tienda en línea",
+              "slug": "/descripcion-web",
+              "permalink": "/docusaurus-public-api/PE/descripcion-web",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 41,
+              "frontMatter": {
+                "sidebar_position": 41,
+                "title": "Descripción web",
+                "description": "Listar información de productos ecommerce",
+                "slug": "/descripcion-web"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Pedidos web",
+                "permalink": "/docusaurus-public-api/PE/pedidos-web"
+              },
+              "next": {
+                "title": "Envíos",
+                "permalink": "/docusaurus-public-api/PE/envíos"
+              }
+            },
+            {
+              "unversionedId": "Tienda en línea/envios",
+              "id": "version-PE/Tienda en línea/envios",
+              "title": "Envíos",
+              "description": "Genera envíos mediante tienda en línea Bsale",
+              "source": "@site/versioned_docs/version-PE/Tienda en línea/envios.md",
+              "sourceDirName": "Tienda en línea",
+              "slug": "/envíos",
+              "permalink": "/docusaurus-public-api/PE/envíos",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "frontMatter": {
+                "title": "Envíos",
+                "description": "Genera envíos mediante tienda en línea Bsale",
+                "slug": "/envíos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Descripción web",
+                "permalink": "/docusaurus-public-api/PE/descripcion-web"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/PE/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Tienda en línea/Pedidos web",
+              "id": "version-PE/Tienda en línea/Pedidos web",
+              "title": "Pedidos web",
+              "description": "Crear, editar y listar pedidos web",
+              "source": "@site/versioned_docs/version-PE/Tienda en línea/Pedidos web.md",
+              "sourceDirName": "Tienda en línea",
+              "slug": "/pedidos-web",
+              "permalink": "/docusaurus-public-api/PE/pedidos-web",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "sidebarPosition": 40,
+              "frontMatter": {
+                "sidebar_position": 40,
+                "title": "Pedidos web",
+                "description": "Crear, editar y listar pedidos web",
+                "slug": "/pedidos-web"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Impuestos",
+                "permalink": "/docusaurus-public-api/PE/impuestos"
+              },
+              "next": {
+                "title": "Descripción web",
+                "permalink": "/docusaurus-public-api/PE/descripcion-web"
+              }
+            },
+            {
+              "unversionedId": "webhooks",
+              "id": "version-PE/webhooks",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones mediante eventos",
+              "source": "@site/versioned_docs/version-PE/webhooks.md",
+              "sourceDirName": ".",
+              "slug": "/webhooks",
+              "permalink": "/docusaurus-public-api/PE/webhooks",
+              "draft": false,
+              "tags": [],
+              "version": "PE",
+              "frontMatter": {
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones mediante eventos",
+                "slug": "/webhooks"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Envíos",
+                "permalink": "/docusaurus-public-api/PE/envíos"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "version-PE/primeros-pasos"
+              },
+              {
+                "type": "category",
+                "label": "Documentos",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Documentos/Despachos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Documentos/Devoluciones"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Documentos/Webhooks relacionado"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "version-PE/Documentos/Documentos"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Productos y servicios",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Productos y Servicios/Tipos de productos y servicios"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Productos y Servicios/Variantes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Productos y Servicios/Stocks"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Productos y Servicios/Listas de precio"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Productos y Servicios/Webhooks relacionado"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "version-PE/Productos y Servicios/Productos y servicios"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Clientes",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Clientes/Pagos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Clientes/Webhooks relacionado"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "version-PE/Clientes/Clientes"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Configuración",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Configuración/Atributos dinámicos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Configuración/Descuentos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Configuración/Sucursales"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Configuración/Usuarios"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Configuración/Monedas"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Configuración/Tipos de documentos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Configuración/Tipos de despacho"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Formas de pago",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "version-PE/Configuración/Formas de pago/Condición de venta"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "version-PE/Configuración/Formas de pago/Webhooks relacionado"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "version-PE/Configuración/Formas de pago/Formas de pago"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Configuración/Webhooks relacionado"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Información SUNAT",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Información SUNAT/Códigos tributarios"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Información SUNAT/Impuestos"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Tienda en línea",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Tienda en línea/Pedidos web"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Tienda en línea/Descripcion web"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-PE/Tienda en línea/envios"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "id": "version-PE/webhooks"
+              }
+            ]
+          }
+        },
+        {
+          "versionName": "MX",
+<<<<<<< Updated upstream
+          "label": "📄 MX",
+          "banner": null,
+=======
+          "label": "🌎 MX",
+          "banner": "unmaintained",
+>>>>>>> Stashed changes
+          "badge": true,
+          "noIndex": false,
+          "className": "docs-version-MX",
+          "path": "/docusaurus-public-api/MX",
+          "tagsPath": "/docusaurus-public-api/MX/tags",
+          "isLast": false,
+          "sidebarFilePath": "C:\\Users\\ebaha\\docusaurus-public-api\\versioned_sidebars\\version-MX-sidebars.json",
+          "contentPath": "C:\\Users\\ebaha\\docusaurus-public-api\\versioned_docs\\version-MX",
+          "contentPathLocalized": "C:\\Users\\ebaha\\docusaurus-public-api\\i18n\\en\\docusaurus-plugin-content-docs\\version-MX",
+          "docs": [
+            {
+              "unversionedId": "Clientes/Clientes",
+              "id": "version-MX/Clientes/Clientes",
+              "title": "Clientes",
+              "description": "Crear, editar y listar clientes",
+              "source": "@site/versioned_docs/version-MX/Clientes/Clientes.md",
+              "sourceDirName": "Clientes",
+              "slug": "/clientes",
+              "permalink": "/docusaurus-public-api/MX/clientes",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 30,
+              "frontMatter": {
+                "sidebar_position": 30,
+                "title": "Clientes",
+                "description": "Crear, editar y listar clientes",
+                "slug": "/clientes"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/productos-y-servicios/webhooks"
+              },
+              "next": {
+                "title": "Pagos",
+                "permalink": "/docusaurus-public-api/MX/pagos"
+              }
+            },
+            {
+              "unversionedId": "Clientes/Pagos",
+              "id": "version-MX/Clientes/Pagos",
+              "title": "Pagos",
+              "description": "Crear, editar y pagos de pagos",
+              "source": "@site/versioned_docs/version-MX/Clientes/Pagos.md",
+              "sourceDirName": "Clientes",
+              "slug": "/pagos",
+              "permalink": "/docusaurus-public-api/MX/pagos",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 31,
+              "frontMatter": {
+                "sidebar_position": 31,
+                "title": "Pagos",
+                "description": "Crear, editar y pagos de pagos",
+                "slug": "/pagos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Clientes",
+                "permalink": "/docusaurus-public-api/MX/clientes"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/pagos/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Clientes/Webhooks relacionado",
+              "id": "version-MX/Clientes/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones pagos de documentos",
+              "source": "@site/versioned_docs/version-MX/Clientes/Webhooks relacionado.md",
+              "sourceDirName": "Clientes",
+              "slug": "/pagos/webhooks",
+              "permalink": "/docusaurus-public-api/MX/pagos/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/MX/tags/webhooks"
+                }
+              ],
+              "version": "MX",
+              "sidebarPosition": 32,
+              "frontMatter": {
+                "sidebar_position": 32,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones pagos de documentos",
+                "slug": "/pagos/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Pagos",
+                "permalink": "/docusaurus-public-api/MX/pagos"
+              },
+              "next": {
+                "title": "Atributos dinámicos",
+                "permalink": "/docusaurus-public-api/MX/atributos-dinamicos"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Atributos dinámicos",
+              "id": "version-MX/Configuración/Atributos dinámicos",
+              "title": "Atributos dinámicos",
+              "description": "Listar atributos dinámicos",
+              "source": "@site/versioned_docs/version-MX/Configuración/Atributos dinámicos.md",
+              "sourceDirName": "Configuración",
+              "slug": "/atributos-dinamicos",
+              "permalink": "/docusaurus-public-api/MX/atributos-dinamicos",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 50,
+              "frontMatter": {
+                "sidebar_position": 50,
+                "title": "Atributos dinámicos",
+                "description": "Listar atributos dinámicos",
+                "slug": "/atributos-dinamicos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/pagos/webhooks"
+              },
+              "next": {
+                "title": "Descuentos",
+                "permalink": "/docusaurus-public-api/MX/descuentos"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Descuentos",
+              "id": "version-MX/Configuración/Descuentos",
+              "title": "Descuentos",
+              "description": "Listar descuentos",
+              "source": "@site/versioned_docs/version-MX/Configuración/Descuentos.md",
+              "sourceDirName": "Configuración",
+              "slug": "/descuentos",
+              "permalink": "/docusaurus-public-api/MX/descuentos",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 51,
+              "frontMatter": {
+                "sidebar_position": 51,
+                "title": "Descuentos",
+                "description": "Listar descuentos",
+                "slug": "/descuentos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Atributos dinámicos",
+                "permalink": "/docusaurus-public-api/MX/atributos-dinamicos"
+              },
+              "next": {
+                "title": "Sucursales",
+                "permalink": "/docusaurus-public-api/MX/sucursales"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Formas de pago/Condición de venta",
+              "id": "version-MX/Configuración/Formas de pago/Condición de venta",
+              "title": "Condición de venta",
+              "description": "Crear y listar Condición de venta",
+              "source": "@site/versioned_docs/version-MX/Configuración/Formas de pago/Condición de venta.md",
+              "sourceDirName": "Configuración/Formas de pago",
+              "slug": "/condicion-de-venta",
+              "permalink": "/docusaurus-public-api/MX/condicion-de-venta",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 58,
+              "frontMatter": {
+                "sidebar_position": 58,
+                "title": "Condición de venta",
+                "description": "Crear y listar Condición de venta",
+                "slug": "/condicion-de-venta"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Formas de pago",
+                "permalink": "/docusaurus-public-api/MX/formas-de-pago"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/formas-de-pago/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Formas de pago/Formas de pago",
+              "id": "version-MX/Configuración/Formas de pago/Formas de pago",
+              "title": "Formas de pago",
+              "description": "Crear y listar Formas de pago",
+              "source": "@site/versioned_docs/version-MX/Configuración/Formas de pago/Formas de pago.md",
+              "sourceDirName": "Configuración/Formas de pago",
+              "slug": "/formas-de-pago",
+              "permalink": "/docusaurus-public-api/MX/formas-de-pago",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 57,
+              "frontMatter": {
+                "sidebar_position": 57,
+                "title": "Formas de pago",
+                "description": "Crear y listar Formas de pago",
+                "slug": "/formas-de-pago"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+<<<<<<< Updated upstream
+                "title": "Tipos de documentos",
+                "permalink": "/docusaurus-public-api/MX/tipos-de-documentos"
+=======
+                "title": "Tipos de despacho",
+                "permalink": "/docusaurus-public-api/MX/tipos-de-despacho"
+>>>>>>> Stashed changes
+              },
+              "next": {
+                "title": "Condición de venta",
+                "permalink": "/docusaurus-public-api/MX/condicion-de-venta"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Formas de pago/Webhooks relacionado",
+              "id": "version-MX/Configuración/Formas de pago/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones de pagos",
+              "source": "@site/versioned_docs/version-MX/Configuración/Formas de pago/Webhooks relacionado.md",
+              "sourceDirName": "Configuración/Formas de pago",
+              "slug": "/formas-de-pago/webhooks",
+              "permalink": "/docusaurus-public-api/MX/formas-de-pago/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/MX/tags/webhooks"
+                }
+              ],
+              "version": "MX",
+              "sidebarPosition": 59,
+              "frontMatter": {
+                "sidebar_position": 59,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones de pagos",
+                "slug": "/formas-de-pago/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Condición de venta",
+                "permalink": "/docusaurus-public-api/MX/condicion-de-venta"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/configuracion/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Monedas",
+              "id": "version-MX/Configuración/Monedas",
+              "title": "Monedas",
+              "description": "Listar Monedas",
+              "source": "@site/versioned_docs/version-MX/Configuración/Monedas.md",
+              "sourceDirName": "Configuración",
+              "slug": "/monedas",
+              "permalink": "/docusaurus-public-api/MX/monedas",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 54,
+              "frontMatter": {
+                "sidebar_position": 54,
+                "title": "Monedas",
+                "description": "Listar Monedas",
+                "slug": "/monedas"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Usuarios",
+                "permalink": "/docusaurus-public-api/MX/usuarios"
+              },
+              "next": {
+                "title": "Tipos de documentos",
+                "permalink": "/docusaurus-public-api/MX/tipos-de-documentos"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Sucursales",
+              "id": "version-MX/Configuración/Sucursales",
+              "title": "Sucursales",
+              "description": "Crear, editar y listar sucursales",
+              "source": "@site/versioned_docs/version-MX/Configuración/Sucursales.md",
+              "sourceDirName": "Configuración",
+              "slug": "/sucursales",
+              "permalink": "/docusaurus-public-api/MX/sucursales",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 52,
+              "frontMatter": {
+                "sidebar_position": 52,
+                "title": "Sucursales",
+                "description": "Crear, editar y listar sucursales",
+                "slug": "/sucursales"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Descuentos",
+                "permalink": "/docusaurus-public-api/MX/descuentos"
+              },
+              "next": {
+                "title": "Usuarios",
+                "permalink": "/docusaurus-public-api/MX/usuarios"
+              }
+            },
+            {
+<<<<<<< Updated upstream
+=======
+              "unversionedId": "Configuración/Tipos de despacho",
+              "id": "version-MX/Configuración/Tipos de despacho",
+              "title": "Tipos de despacho",
+              "description": "Listar tipos de despacho",
+              "source": "@site/versioned_docs/version-MX/Configuración/Tipos de despacho.md",
+              "sourceDirName": "Configuración",
+              "slug": "/tipos-de-despacho",
+              "permalink": "/docusaurus-public-api/MX/tipos-de-despacho",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 56,
+              "frontMatter": {
+                "sidebar_position": 56,
+                "title": "Tipos de despacho",
+                "description": "Listar tipos de despacho",
+                "slug": "/tipos-de-despacho"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tipos de documentos",
+                "permalink": "/docusaurus-public-api/MX/tipos-de-documentos"
+              },
+              "next": {
+                "title": "Formas de pago",
+                "permalink": "/docusaurus-public-api/MX/formas-de-pago"
+              }
+            },
+            {
+>>>>>>> Stashed changes
+              "unversionedId": "Configuración/Tipos de documentos",
+              "id": "version-MX/Configuración/Tipos de documentos",
+              "title": "Tipos de documentos",
+              "description": "Listar y editar Tipos de documentos",
+              "source": "@site/versioned_docs/version-MX/Configuración/Tipos de documentos.md",
+              "sourceDirName": "Configuración",
+              "slug": "/tipos-de-documentos",
+              "permalink": "/docusaurus-public-api/MX/tipos-de-documentos",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 55,
+              "frontMatter": {
+                "sidebar_position": 55,
+                "title": "Tipos de documentos",
+                "description": "Listar y editar Tipos de documentos",
+                "slug": "/tipos-de-documentos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Monedas",
+                "permalink": "/docusaurus-public-api/MX/monedas"
+              },
+              "next": {
+<<<<<<< Updated upstream
+                "title": "Formas de pago",
+                "permalink": "/docusaurus-public-api/MX/formas-de-pago"
+=======
+                "title": "Tipos de despacho",
+                "permalink": "/docusaurus-public-api/MX/tipos-de-despacho"
+>>>>>>> Stashed changes
+              }
+            },
+            {
+              "unversionedId": "Configuración/Usuarios",
+              "id": "version-MX/Configuración/Usuarios",
+              "title": "Usuarios",
+              "description": "Listar Usuarios",
+              "source": "@site/versioned_docs/version-MX/Configuración/Usuarios.md",
+              "sourceDirName": "Configuración",
+              "slug": "/usuarios",
+              "permalink": "/docusaurus-public-api/MX/usuarios",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 53,
+              "frontMatter": {
+                "sidebar_position": 53,
+                "title": "Usuarios",
+                "description": "Listar Usuarios",
+                "slug": "/usuarios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sucursales",
+                "permalink": "/docusaurus-public-api/MX/sucursales"
+              },
+              "next": {
+                "title": "Monedas",
+                "permalink": "/docusaurus-public-api/MX/monedas"
+              }
+            },
+            {
+              "unversionedId": "Configuración/Webhooks relacionado",
+              "id": "version-MX/Configuración/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Obtención datos instancia",
+              "source": "@site/versioned_docs/version-MX/Configuración/Webhooks relacionado.md",
+              "sourceDirName": "Configuración",
+              "slug": "/configuracion/webhooks",
+              "permalink": "/docusaurus-public-api/MX/configuracion/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/MX/tags/webhooks"
+                }
+              ],
+              "version": "MX",
+              "sidebarPosition": 59.1,
+              "frontMatter": {
+                "sidebar_position": 59.1,
+                "title": "Webhooks",
+                "description": "Obtención datos instancia",
+                "slug": "/configuracion/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/formas-de-pago/webhooks"
+              },
+              "next": {
+                "title": "Tipos de libro",
+                "permalink": "/docusaurus-public-api/MX/tipos-de-libros"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Despachos",
+              "id": "version-MX/Documentos/Despachos",
+              "title": "Despachos",
+              "description": "Crear, editar y listar despachos",
+              "source": "@site/versioned_docs/version-MX/Documentos/Despachos.md",
+              "sourceDirName": "Documentos",
+              "slug": "/documentos/despachos",
+              "permalink": "/docusaurus-public-api/MX/documentos/despachos",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11,
+                "title": "Despachos",
+                "description": "Crear, editar y listar despachos",
+                "slug": "/documentos/despachos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+<<<<<<< Updated upstream
+                "title": "Factura Global",
+                "permalink": "/docusaurus-public-api/MX/factura-global"
+=======
+                "title": "Documentos",
+                "permalink": "/docusaurus-public-api/MX/documentos"
+>>>>>>> Stashed changes
+              },
+              "next": {
+                "title": "Devoluciones",
+                "permalink": "/docusaurus-public-api/MX/devoluciones"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Devoluciones",
+              "id": "version-MX/Documentos/Devoluciones",
+              "title": "Devoluciones",
+              "description": "Crear y listar devoluciones",
+              "source": "@site/versioned_docs/version-MX/Documentos/Devoluciones.md",
+              "sourceDirName": "Documentos",
+              "slug": "/devoluciones",
+              "permalink": "/docusaurus-public-api/MX/devoluciones",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12,
+                "title": "Devoluciones",
+                "description": "Crear y listar devoluciones",
+                "slug": "/devoluciones"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Despachos",
+                "permalink": "/docusaurus-public-api/MX/documentos/despachos"
+              },
+              "next": {
+<<<<<<< Updated upstream
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/documentos/webhooks"
+=======
+                "title": "Documentos de terceros",
+                "permalink": "/docusaurus-public-api/MX/documentos-de-terceros"
+>>>>>>> Stashed changes
+              }
+            },
+            {
+              "unversionedId": "Documentos/Documentos",
+              "id": "version-MX/Documentos/Documentos",
+              "title": "Documentos",
+              "description": "Crear, editar y listar documentos",
+              "source": "@site/versioned_docs/version-MX/Documentos/Documentos.md",
+              "sourceDirName": "Documentos",
+              "slug": "/documentos",
+              "permalink": "/docusaurus-public-api/MX/documentos",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10,
+                "title": "Documentos",
+                "description": "Crear, editar y listar documentos",
+                "slug": "/documentos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+<<<<<<< Updated upstream
+                "title": "Introducción",
+                "permalink": "/docusaurus-public-api/MX/first-steps"
+              },
+              "next": {
+                "title": "Factura Global",
+                "permalink": "/docusaurus-public-api/MX/factura-global"
+              }
+            },
+            {
+              "unversionedId": "Documentos/Global",
+              "id": "version-MX/Documentos/Global",
+              "title": "Factura Global",
+              "description": "Crear y listar facturas globales",
+              "source": "@site/versioned_docs/version-MX/Documentos/Global.md",
+              "sourceDirName": "Documentos",
+              "slug": "/factura-global",
+              "permalink": "/docusaurus-public-api/MX/factura-global",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10,
+                "title": "Factura Global",
+                "description": "Crear y listar facturas globales",
+                "slug": "/factura-global"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Documentos",
+                "permalink": "/docusaurus-public-api/MX/documentos"
+=======
+                "title": "Primeros pasos",
+                "permalink": "/docusaurus-public-api/MX/primeros-pasos"
+>>>>>>> Stashed changes
+              },
+              "next": {
+                "title": "Despachos",
+                "permalink": "/docusaurus-public-api/MX/documentos/despachos"
+              }
+            },
+            {
+<<<<<<< Updated upstream
+=======
+              "unversionedId": "Documentos/Documentos de terceros",
+              "id": "version-MX/Documentos/Documentos de terceros",
+              "title": "Documentos de terceros",
+              "description": "Listar documentos de compras",
+              "source": "@site/versioned_docs/version-MX/Documentos/Documentos de terceros.md",
+              "sourceDirName": "Documentos",
+              "slug": "/documentos-de-terceros",
+              "permalink": "/docusaurus-public-api/MX/documentos-de-terceros",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 13,
+              "frontMatter": {
+                "sidebar_position": 13,
+                "title": "Documentos de terceros",
+                "description": "Listar documentos de compras",
+                "slug": "/documentos-de-terceros"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Devoluciones",
+                "permalink": "/docusaurus-public-api/MX/devoluciones"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/documentos/webhooks"
+              }
+            },
+            {
+>>>>>>> Stashed changes
+              "unversionedId": "Documentos/Webhooks relacionado",
+              "id": "version-MX/Documentos/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones de documentos",
+              "source": "@site/versioned_docs/version-MX/Documentos/Webhooks relacionado.md",
+              "sourceDirName": "Documentos",
+              "slug": "/documentos/webhooks",
+              "permalink": "/docusaurus-public-api/MX/documentos/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/MX/tags/webhooks"
+                }
+              ],
+              "version": "MX",
+              "sidebarPosition": 14,
+              "frontMatter": {
+                "sidebar_position": 14,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones de documentos",
+                "slug": "/documentos/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+<<<<<<< Updated upstream
+                "title": "Devoluciones",
+                "permalink": "/docusaurus-public-api/MX/devoluciones"
+=======
+                "title": "Documentos de terceros",
+                "permalink": "/docusaurus-public-api/MX/documentos-de-terceros"
+>>>>>>> Stashed changes
+              },
+              "next": {
+                "title": "Productos y servicios",
+                "permalink": "/docusaurus-public-api/MX/productos-y-servicios"
+              }
+            },
+            {
+              "unversionedId": "Información electrónica/Códigos tributarios",
+              "id": "version-MX/Información electrónica/Códigos tributarios",
+              "title": "Códigos tributarios",
+              "description": "Listar códigos tributarios",
+              "source": "@site/versioned_docs/version-MX/Información electrónica/Códigos tributarios.md",
+              "sourceDirName": "Información electrónica",
+              "slug": "/codigos-tributarios",
+              "permalink": "/docusaurus-public-api/MX/codigos-tributarios",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 61,
+              "frontMatter": {
+                "sidebar_position": 61,
+                "title": "Códigos tributarios",
+                "description": "Listar códigos tributarios",
+                "slug": "/codigos-tributarios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tipos de libro",
+                "permalink": "/docusaurus-public-api/MX/tipos-de-libros"
+              },
+              "next": {
+                "title": "Impuestos",
+                "permalink": "/docusaurus-public-api/MX/impuestos"
+              }
+            },
+            {
+              "unversionedId": "Información electrónica/Impuestos",
+              "id": "version-MX/Información electrónica/Impuestos",
+              "title": "Impuestos",
+              "description": "Listar Impuestos",
+              "source": "@site/versioned_docs/version-MX/Información electrónica/Impuestos.md",
+              "sourceDirName": "Información electrónica",
+              "slug": "/impuestos",
+              "permalink": "/docusaurus-public-api/MX/impuestos",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 62,
+              "frontMatter": {
+                "sidebar_position": 62,
+                "title": "Impuestos",
+                "description": "Listar Impuestos",
+                "slug": "/impuestos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Códigos tributarios",
+                "permalink": "/docusaurus-public-api/MX/codigos-tributarios"
+              },
+              "next": {
+                "title": "Pedidos web",
+                "permalink": "/docusaurus-public-api/MX/pedidos-web"
+              }
+            },
+            {
+              "unversionedId": "Información electrónica/Tipos de libros",
+              "id": "version-MX/Información electrónica/Tipos de libros",
+              "title": "Tipos de libro",
+              "description": "Listar Tipos de libro",
+              "source": "@site/versioned_docs/version-MX/Información electrónica/Tipos de libros.md",
+              "sourceDirName": "Información electrónica",
+              "slug": "/tipos-de-libros",
+              "permalink": "/docusaurus-public-api/MX/tipos-de-libros",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 60,
+              "frontMatter": {
+                "sidebar_position": 60,
+                "title": "Tipos de libro",
+                "description": "Listar Tipos de libro",
+                "slug": "/tipos-de-libros"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/configuracion/webhooks"
+              },
+              "next": {
+                "title": "Códigos tributarios",
+                "permalink": "/docusaurus-public-api/MX/codigos-tributarios"
+              }
+            },
+            {
+              "unversionedId": "primeros-pasos",
+              "id": "version-MX/primeros-pasos",
+<<<<<<< Updated upstream
+              "title": "Introducción",
+              "description": "Primeros pasos para interactuar con la API de Bsale Mx",
+              "source": "@site/versioned_docs/version-MX/intro.md",
+              "sourceDirName": ".",
+              "slug": "/first-steps",
+              "permalink": "/docusaurus-public-api/MX/first-steps",
+=======
+              "title": "Primeros pasos",
+              "description": "Primeros pasos para interactuar con la API de Bsale",
+              "source": "@site/versioned_docs/version-MX/intro.md",
+              "sourceDirName": ".",
+              "slug": "/primeros-pasos",
+              "permalink": "/docusaurus-public-api/MX/primeros-pasos",
+>>>>>>> Stashed changes
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "primeros-pasos",
+                "sidebar_position": 2,
+<<<<<<< Updated upstream
+                "title": "Introducción",
+                "description": "Primeros pasos para interactuar con la API de Bsale Mx",
+                "slug": "/first-steps"
+=======
+                "title": "Primeros pasos",
+                "description": "Primeros pasos para interactuar con la API de Bsale",
+                "slug": "/primeros-pasos"
+>>>>>>> Stashed changes
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Documentos",
+                "permalink": "/docusaurus-public-api/MX/documentos"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Listas de precio",
+              "id": "version-MX/Productos y Servicios/Listas de precio",
+              "title": "Listas de precio",
+              "description": "Crear, editar y listar precios",
+              "source": "@site/versioned_docs/version-MX/Productos y Servicios/Listas de precio.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/listas-de-precio",
+              "permalink": "/docusaurus-public-api/MX/listas-de-precio",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 24,
+              "frontMatter": {
+                "sidebar_position": 24,
+                "title": "Listas de precio",
+                "description": "Crear, editar y listar precios",
+                "slug": "/listas-de-precio"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Stocks",
+                "permalink": "/docusaurus-public-api/MX/stocks"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/productos-y-servicios/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Productos y servicios",
+              "id": "version-MX/Productos y Servicios/Productos y servicios",
+              "title": "Productos y servicios",
+              "description": "Crear, editar y listar productos y servicios",
+              "source": "@site/versioned_docs/version-MX/Productos y Servicios/Productos y servicios.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/productos-y-servicios",
+              "permalink": "/docusaurus-public-api/MX/productos-y-servicios",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 20,
+              "frontMatter": {
+                "sidebar_position": 20,
+                "title": "Productos y servicios",
+                "description": "Crear, editar y listar productos y servicios",
+                "slug": "/productos-y-servicios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/documentos/webhooks"
+              },
+              "next": {
+                "title": "Tipos de productos y servicios",
+                "permalink": "/docusaurus-public-api/MX/tipos-de-productos-y-servicios"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Stocks",
+              "id": "version-MX/Productos y Servicios/Stocks",
+              "title": "Stocks",
+              "description": "Crear, editar y listar stocks",
+              "source": "@site/versioned_docs/version-MX/Productos y Servicios/Stocks.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/stocks",
+              "permalink": "/docusaurus-public-api/MX/stocks",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 23,
+              "frontMatter": {
+                "sidebar_position": 23,
+                "title": "Stocks",
+                "description": "Crear, editar y listar stocks",
+                "slug": "/stocks"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Variantes",
+                "permalink": "/docusaurus-public-api/MX/variantes"
+              },
+              "next": {
+                "title": "Listas de precio",
+                "permalink": "/docusaurus-public-api/MX/listas-de-precio"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Tipos de productos y servicios",
+              "id": "version-MX/Productos y Servicios/Tipos de productos y servicios",
+              "title": "Tipos de productos y servicios",
+              "description": "Crear, editar y listar tipos de productos",
+              "source": "@site/versioned_docs/version-MX/Productos y Servicios/Tipos de productos y servicios.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/tipos-de-productos-y-servicios",
+              "permalink": "/docusaurus-public-api/MX/tipos-de-productos-y-servicios",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 21,
+              "frontMatter": {
+                "sidebar_position": 21,
+                "title": "Tipos de productos y servicios",
+                "description": "Crear, editar y listar tipos de productos",
+                "slug": "/tipos-de-productos-y-servicios"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Productos y servicios",
+                "permalink": "/docusaurus-public-api/MX/productos-y-servicios"
+              },
+              "next": {
+                "title": "Variantes",
+                "permalink": "/docusaurus-public-api/MX/variantes"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Variantes",
+              "id": "version-MX/Productos y Servicios/Variantes",
+              "title": "Variantes",
+              "description": "Crear, editar y listar variantes",
+              "source": "@site/versioned_docs/version-MX/Productos y Servicios/Variantes.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/variantes",
+              "permalink": "/docusaurus-public-api/MX/variantes",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 22,
+              "frontMatter": {
+                "sidebar_position": 22,
+                "title": "Variantes",
+                "description": "Crear, editar y listar variantes",
+                "slug": "/variantes"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tipos de productos y servicios",
+                "permalink": "/docusaurus-public-api/MX/tipos-de-productos-y-servicios"
+              },
+              "next": {
+                "title": "Stocks",
+                "permalink": "/docusaurus-public-api/MX/stocks"
+              }
+            },
+            {
+              "unversionedId": "Productos y Servicios/Webhooks relacionado",
+              "id": "version-MX/Productos y Servicios/Webhooks relacionado",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones de productos y servicios",
+              "source": "@site/versioned_docs/version-MX/Productos y Servicios/Webhooks relacionado.md",
+              "sourceDirName": "Productos y Servicios",
+              "slug": "/productos-y-servicios/webhooks",
+              "permalink": "/docusaurus-public-api/MX/productos-y-servicios/webhooks",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "webhooks",
+                  "permalink": "/docusaurus-public-api/MX/tags/webhooks"
+                }
+              ],
+              "version": "MX",
+              "sidebarPosition": 25,
+              "frontMatter": {
+                "sidebar_position": 25,
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones de productos y servicios",
+                "slug": "/productos-y-servicios/webhooks",
+                "tags": [
+                  "webhooks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Listas de precio",
+                "permalink": "/docusaurus-public-api/MX/listas-de-precio"
+              },
+              "next": {
+                "title": "Clientes",
+                "permalink": "/docusaurus-public-api/MX/clientes"
+              }
+            },
+            {
+              "unversionedId": "Tienda en línea/Descripcion web",
+              "id": "version-MX/Tienda en línea/Descripcion web",
+              "title": "Descripción web",
+              "description": "Listar información de productos ecommerce",
+              "source": "@site/versioned_docs/version-MX/Tienda en línea/Descripcion web.md",
+              "sourceDirName": "Tienda en línea",
+              "slug": "/descripcion-web",
+              "permalink": "/docusaurus-public-api/MX/descripcion-web",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 41,
+              "frontMatter": {
+                "sidebar_position": 41,
+                "title": "Descripción web",
+                "description": "Listar información de productos ecommerce",
+                "slug": "/descripcion-web"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Pedidos web",
+                "permalink": "/docusaurus-public-api/MX/pedidos-web"
+              },
+              "next": {
+                "title": "Envíos",
+                "permalink": "/docusaurus-public-api/MX/envíos"
+              }
+            },
+            {
+              "unversionedId": "Tienda en línea/envios",
+              "id": "version-MX/Tienda en línea/envios",
+              "title": "Envíos",
+              "description": "Genera envíos mediante tienda en línea Bsale",
+              "source": "@site/versioned_docs/version-MX/Tienda en línea/envios.md",
+              "sourceDirName": "Tienda en línea",
+              "slug": "/envíos",
+              "permalink": "/docusaurus-public-api/MX/envíos",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "frontMatter": {
+                "title": "Envíos",
+                "description": "Genera envíos mediante tienda en línea Bsale",
+                "slug": "/envíos"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Descripción web",
+                "permalink": "/docusaurus-public-api/MX/descripcion-web"
+              },
+              "next": {
+                "title": "Webhooks",
+                "permalink": "/docusaurus-public-api/MX/webhooks"
+              }
+            },
+            {
+              "unversionedId": "Tienda en línea/Pedidos web",
+              "id": "version-MX/Tienda en línea/Pedidos web",
+              "title": "Pedidos web",
+              "description": "Crear, editar y listar pedidos web",
+              "source": "@site/versioned_docs/version-MX/Tienda en línea/Pedidos web.md",
+              "sourceDirName": "Tienda en línea",
+              "slug": "/pedidos-web",
+              "permalink": "/docusaurus-public-api/MX/pedidos-web",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "sidebarPosition": 40,
+              "frontMatter": {
+                "sidebar_position": 40,
+                "title": "Pedidos web",
+                "description": "Crear, editar y listar pedidos web",
+                "slug": "/pedidos-web"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Impuestos",
+                "permalink": "/docusaurus-public-api/MX/impuestos"
+              },
+              "next": {
+                "title": "Descripción web",
+                "permalink": "/docusaurus-public-api/MX/descripcion-web"
+              }
+            },
+            {
+              "unversionedId": "webhooks",
+              "id": "version-MX/webhooks",
+              "title": "Webhooks",
+              "description": "Servicio de notificaciones mediante eventos",
+              "source": "@site/versioned_docs/version-MX/webhooks.md",
+              "sourceDirName": ".",
+              "slug": "/webhooks",
+              "permalink": "/docusaurus-public-api/MX/webhooks",
+              "draft": false,
+              "tags": [],
+              "version": "MX",
+              "frontMatter": {
+                "title": "Webhooks",
+                "description": "Servicio de notificaciones mediante eventos",
+                "slug": "/webhooks"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Envíos",
+                "permalink": "/docusaurus-public-api/MX/envíos"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "version-MX/primeros-pasos"
+              },
+              {
+                "type": "category",
+                "label": "Documentos",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+<<<<<<< Updated upstream
+                    "id": "version-MX/Documentos/Global"
+                  },
+                  {
+                    "type": "doc",
+=======
+>>>>>>> Stashed changes
+                    "id": "version-MX/Documentos/Despachos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Documentos/Devoluciones"
+                  },
+                  {
+                    "type": "doc",
+<<<<<<< Updated upstream
+=======
+                    "id": "version-MX/Documentos/Documentos de terceros"
+                  },
+                  {
+                    "type": "doc",
+>>>>>>> Stashed changes
+                    "id": "version-MX/Documentos/Webhooks relacionado"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "version-MX/Documentos/Documentos"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Productos y servicios",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Productos y Servicios/Tipos de productos y servicios"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Productos y Servicios/Variantes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Productos y Servicios/Stocks"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Productos y Servicios/Listas de precio"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Productos y Servicios/Webhooks relacionado"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "version-MX/Productos y Servicios/Productos y servicios"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Clientes",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Clientes/Pagos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Clientes/Webhooks relacionado"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "version-MX/Clientes/Clientes"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Configuración",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Configuración/Atributos dinámicos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Configuración/Descuentos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Configuración/Sucursales"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Configuración/Usuarios"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Configuración/Monedas"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Configuración/Tipos de documentos"
+                  },
+                  {
+<<<<<<< Updated upstream
+=======
+                    "type": "doc",
+                    "id": "version-MX/Configuración/Tipos de despacho"
+                  },
+                  {
+>>>>>>> Stashed changes
+                    "type": "category",
+                    "label": "Formas de pago",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "version-MX/Configuración/Formas de pago/Condición de venta"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "version-MX/Configuración/Formas de pago/Webhooks relacionado"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "version-MX/Configuración/Formas de pago/Formas de pago"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Configuración/Webhooks relacionado"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Información electrónica",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Información electrónica/Tipos de libros"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Información electrónica/Códigos tributarios"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Información electrónica/Impuestos"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Tienda en línea",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Tienda en línea/Pedidos web"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Tienda en línea/Descripcion web"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-MX/Tienda en línea/envios"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "id": "version-MX/webhooks"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/docusaurus-public-api/blog/welcome",
+            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "title": "Welcome",
+            "description": "Docusaurus blogging features are powered by the blog plugin.",
+            "date": "2021-08-26T00:00:00.000Z",
+            "formattedDate": "August 26, 2021",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/docusaurus-public-api/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/docusaurus-public-api/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/docusaurus-public-api/blog/tags/docusaurus"
+              }
+            ],
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              },
+              {
+                "name": "Yangshun Tay",
+                "title": "Front End Engineer @ Facebook",
+                "url": "https://github.com/yangshun",
+                "imageURL": "https://github.com/yangshun.png",
+                "key": "yangshun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome",
+              "authors": [
+                "slorber",
+                "yangshun"
+              ],
+              "tags": [
+                "facebook",
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "nextItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/docusaurus-public-api/blog/mdx-blog-post"
+            }
+          },
+<<<<<<< Updated upstream
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\r\n\r\nSimply add Markdown files (or folders) to the `blog` directory.\r\n\r\nRegular blog authors can be added to `authors.yml`.\r\n\r\nThe blog post date can be extracted from filenames, such as:\r\n\r\n- `2019-05-30-welcome.md`\r\n- `2019-05-30-welcome/index.md`\r\n\r\nA blog post folder can be convenient to co-locate blog post images:\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\nThe blog supports tags as well!\r\n\r\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+=======
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+>>>>>>> Stashed changes
+        },
+        {
+          "id": "mdx-blog-post",
+          "metadata": {
+            "permalink": "/docusaurus-public-api/blog/mdx-blog-post",
+            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+            "title": "MDX Blog Post",
+            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+            "date": "2021-08-01T00:00:00.000Z",
+            "formattedDate": "August 1, 2021",
+            "tags": [
+              {
+                "label": "docusaurus",
+                "permalink": "/docusaurus-public-api/blog/tags/docusaurus"
+              }
+            ],
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              }
+            ],
+            "frontMatter": {
+              "slug": "mdx-blog-post",
+              "title": "MDX Blog Post",
+              "authors": [
+                "slorber"
+              ],
+              "tags": [
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/docusaurus-public-api/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Long Blog Post",
+              "permalink": "/docusaurus-public-api/blog/long-blog-post"
+            }
+          },
+<<<<<<< Updated upstream
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\r\n\r\n:::tip\r\n\r\nUse the power of React to create interactive blog posts.\r\n\r\n```js\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n```\r\n\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n\r\n:::"
+=======
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+>>>>>>> Stashed changes
+        },
+        {
+          "id": "long-blog-post",
+          "metadata": {
+            "permalink": "/docusaurus-public-api/blog/long-blog-post",
+            "source": "@site/blog/2019-05-29-long-blog-post.md",
+            "title": "Long Blog Post",
+            "description": "This is the summary of a very long blog post,",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/docusaurus-public-api/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/docusaurus-public-api/blog/tags/docusaurus"
+              }
+            ],
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Endilie Yacop Sucipto",
+                "title": "Maintainer of Docusaurus",
+                "url": "https://github.com/endiliey",
+                "imageURL": "https://github.com/endiliey.png",
+                "key": "endi"
+              }
+            ],
+            "frontMatter": {
+              "slug": "long-blog-post",
+              "title": "Long Blog Post",
+              "authors": "endi",
+              "tags": [
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/docusaurus-public-api/blog/mdx-blog-post"
+            },
+            "nextItem": {
+              "title": "First Blog Post",
+              "permalink": "/docusaurus-public-api/blog/first-blog-post"
+            }
+          },
+<<<<<<< Updated upstream
+          "content": "This is the summary of a very long blog post,\r\n\r\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\r\n\r\n<!--truncate-->\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+=======
+          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+>>>>>>> Stashed changes
+        },
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/docusaurus-public-api/blog/first-blog-post",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/docusaurus-public-api/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/docusaurus-public-api/blog/tags/docusaurus"
+              }
+            ],
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-blog-post",
+              "title": "First Blog Post",
+              "authors": {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              },
+              "tags": [
+                "hola",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Long Blog Post",
+              "permalink": "/docusaurus-public-api/blog/long-blog-post"
+            }
+          },
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "metadata": {
+            "permalink": "/docusaurus-public-api/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/docusaurus-public-api/blog/tags/facebook": {
+          "label": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/docusaurus-public-api/blog/tags/facebook",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/docusaurus-public-api/blog/tags/facebook",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/docusaurus-public-api/blog/tags/hello": {
+          "label": "hello",
+          "items": [
+            "welcome",
+            "long-blog-post"
+          ],
+          "permalink": "/docusaurus-public-api/blog/tags/hello",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "long-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/docusaurus-public-api/blog/tags/hello",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/docusaurus-public-api/blog/tags/docusaurus": {
+          "label": "docusaurus",
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "permalink": "/docusaurus-public-api/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "mdx-blog-post",
+                "long-blog-post",
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/docusaurus-public-api/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 4,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/docusaurus-public-api/blog/tags/hola": {
+          "label": "hola",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/docusaurus-public-api/blog/tags/hola",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/docusaurus-public-api/blog/tags/hola",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/docusaurus-public-api/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+<<<<<<< Updated upstream
+        "permalink": "/docusaurus-public-api/changelog",
+        "source": "@site/src/pages/changelog.md",
+        "title": "Control de cambios API Bsale",
+        "description": "09/2023",
+        "frontMatter": {
+          "title": "Control de cambios API Bsale",
+          "slug": "/changelog"
+        }
+      },
+      {
+        "type": "mdx",
+        "permalink": "/docusaurus-public-api/faq",
+        "source": "@site/src/pages/faq.md",
+        "title": "Preguntas frecuentes",
+        "description": "Todos los mensajes de error entregan un código de error y un mensaje descriptivo del error.",
+=======
+        "permalink": "/docusaurus-public-api/FAQ",
+        "source": "@site/src/pages/FAQ.md",
+        "title": "Preguntas frecuentes",
+        "description": "Generalidades",
+>>>>>>> Stashed changes
+        "frontMatter": {
+          "title": "Preguntas frecuentes",
+          "slug": "/faq"
+        }
+      },
+      {
+<<<<<<< Updated upstream
+        "type": "mdx",
+        "permalink": "/docusaurus-public-api/get-started",
+        "source": "@site/src/pages/get-started.md",
+        "title": "Primeros pasos",
+        "description": "Generalidades",
+        "frontMatter": {
+          "title": "Primeros pasos",
+          "slug": "/get-started"
+        }
+      },
+      {
+=======
+>>>>>>> Stashed changes
+        "type": "jsx",
+        "permalink": "/docusaurus-public-api/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/docusaurus-public-api/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+<<<<<<< Updated upstream
+      },
+      {
+        "type": "mdx",
+        "permalink": "/docusaurus-public-api/oauth",
+        "source": "@site/src/pages/oauth.md",
+        "title": "OAuth 2.0",
+        "description": "Lo primero que debes seguir para conectarte a la API de Bsale es que puedas obtener la autorización para acceder a los recursos de esta. Esta autorización evidentemente la tendrá que dar quien tenga privilegios para ellos y sea el “dueño” de los datos.",
+        "frontMatter": {
+          "title": "OAuth 2.0",
+          "slug": "/oauth"
+        }
+=======
+>>>>>>> Stashed changes
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+<<<<<<< Updated upstream
+  "docusaurus-plugin-google-gtag": {},
+=======
+>>>>>>> Stashed changes
+  "docusaurus-theme-classic": {},
+  "@cmfcmf/docusaurus-search-local": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

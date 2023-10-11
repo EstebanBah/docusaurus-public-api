@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Usuarios",
+  "id": "version-CL/Configuración/Usuarios",
+  "title": "Usuarios",
+  "description": "Listar Usuarios",
+  "source": "@site/versioned_docs/version-CL/Configuración/Usuarios.md",
+  "sourceDirName": "Configuración",
+  "slug": "/usuarios",
+  "permalink": "/docusaurus-public-api/CL/usuarios",
+  "draft": false,
+  "tags": [],
+  "version": "CL",
+  "sidebarPosition": 53,
+  "frontMatter": {
+    "sidebar_position": 53,
+    "title": "Usuarios",
+    "description": "Listar Usuarios",
+    "slug": "/usuarios"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sucursales",
+    "permalink": "/docusaurus-public-api/CL/sucursales"
+  },
+  "next": {
+    "title": "Monedas",
+    "permalink": "/docusaurus-public-api/CL/monedas"
+  }
+}

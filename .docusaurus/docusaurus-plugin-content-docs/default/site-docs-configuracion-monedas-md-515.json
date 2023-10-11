@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Monedas",
+  "id": "Configuración/Monedas",
+  "title": "Monedas",
+  "description": "Listar Monedas",
+  "source": "@site/docs\\Configuración\\Monedas.md",
+  "sourceDirName": "Configuración",
+  "slug": "/monedas",
+  "permalink": "/docusaurus-public-api/next/monedas",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 54,
+  "frontMatter": {
+    "sidebar_position": 54,
+    "title": "Monedas",
+    "description": "Listar Monedas",
+    "slug": "/monedas"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Usuarios",
+    "permalink": "/docusaurus-public-api/next/usuarios"
+  },
+  "next": {
+    "title": "Tipos de documentos",
+    "permalink": "/docusaurus-public-api/next/tipos-de-documentos"
+  }
+}

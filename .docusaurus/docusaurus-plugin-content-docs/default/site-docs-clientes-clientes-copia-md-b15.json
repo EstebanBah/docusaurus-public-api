@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Clientes/Clientes - copia",
+  "id": "Clientes/Clientes - copia",
+  "title": "Clientes",
+  "description": "Crear, editar y listar clientes",
+  "source": "@site/docs/Clientes/Clientes - copia.md",
+  "sourceDirName": "Clientes",
+  "slug": "/clientes",
+  "permalink": "/docusaurus-public-api/clientes",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Clientes",
+    "description": "Crear, editar y listar clientes",
+    "slug": "/clientes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Clientes",
+    "permalink": "/docusaurus-public-api/clientes"
+  },
+  "next": {
+    "title": "Envíos",
+    "permalink": "/docusaurus-public-api/envíos"
+  }
+}

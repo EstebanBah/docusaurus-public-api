@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Formas de pago/Clientes",
+  "id": "Configuración/Formas de pago/Clientes",
+  "title": "Clientes",
+  "description": "Crear, editar y listar clientes",
+  "source": "@site/docs\\Configuración\\Formas de pago\\Clientes.md",
+  "sourceDirName": "Configuración/Formas de pago",
+  "slug": "/clientes",
+  "permalink": "/docusaurus-public-api/clientes",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30,
+    "title": "Clientes",
+    "description": "Crear, editar y listar clientes",
+    "slug": "/clientes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tipos de despacho",
+    "permalink": "/docusaurus-public-api/tipos-de-despacho"
+  },
+  "next": {
+    "title": "Pedidos web",
+    "permalink": "/docusaurus-public-api/pedidos-web"
+  }
+}

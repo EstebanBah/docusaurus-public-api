@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Información SII/Impuestos",
+  "id": "version-CL/Información SII/Impuestos",
+  "title": "Impuestos",
+  "description": "Listar Impuestos",
+  "source": "@site/versioned_docs\\version-CL\\Información SII\\Impuestos.md",
+  "sourceDirName": "Información SII",
+  "slug": "/impuestos",
+  "permalink": "/docusaurus-public-api/CL/impuestos",
+  "draft": false,
+  "tags": [],
+  "version": "CL",
+  "sidebarPosition": 62,
+  "frontMatter": {
+    "sidebar_position": 62,
+    "title": "Impuestos",
+    "description": "Listar Impuestos",
+    "slug": "/impuestos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Códigos tributarios",
+    "permalink": "/docusaurus-public-api/CL/codigos-tributarios"
+  },
+  "next": {
+    "title": "Pedidos web",
+    "permalink": "/docusaurus-public-api/CL/pedidos-web"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "unversionedId": "Configuración/Webhooks relacionado",
+  "id": "version-MX/Configuración/Webhooks relacionado",
+  "title": "Webhooks",
+  "description": "Obtención datos instancia",
+  "source": "@site/versioned_docs/version-MX/Configuración/Webhooks relacionado.md",
+  "sourceDirName": "Configuración",
+  "slug": "/configuracion/webhooks",
+  "permalink": "/docusaurus-public-api/MX/configuracion/webhooks",
+  "draft": false,
+  "tags": [
+    {
+      "label": "webhooks",
+      "permalink": "/docusaurus-public-api/MX/tags/webhooks"
+    }
+  ],
+  "version": "MX",
+  "sidebarPosition": 59.1,
+  "frontMatter": {
+    "sidebar_position": 59.1,
+    "title": "Webhooks",
+    "description": "Obtención datos instancia",
+    "slug": "/configuracion/webhooks",
+    "tags": [
+      "webhooks"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/MX/formas-de-pago/webhooks"
+  },
+  "next": {
+    "title": "Tipos de libro",
+    "permalink": "/docusaurus-public-api/MX/tipos-de-libros"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Pagos",
+  "id": "Configuración/Pagos",
+  "title": "Pagos",
+  "description": "Crear, editar y pagos de pagos",
+  "source": "@site/docs\\Configuración\\Pagos.md",
+  "sourceDirName": "Configuración",
+  "slug": "/pagos",
+  "permalink": "/docusaurus-public-api/pagos",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Pagos",
+    "description": "Crear, editar y pagos de pagos",
+    "slug": "/pagos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Envíos",
+    "permalink": "/docusaurus-public-api/envíos"
+  },
+  "next": {
+    "title": "Pedidos web",
+    "permalink": "/docusaurus-public-api/pedidos-web"
+  }
+}

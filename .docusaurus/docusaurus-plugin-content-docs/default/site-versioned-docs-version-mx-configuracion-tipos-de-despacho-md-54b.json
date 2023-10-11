@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Tipos de despacho",
+  "id": "version-MX/Configuración/Tipos de despacho",
+  "title": "Tipos de despacho",
+  "description": "Listar tipos de despacho",
+  "source": "@site/versioned_docs/version-MX/Configuración/Tipos de despacho.md",
+  "sourceDirName": "Configuración",
+  "slug": "/tipos-de-despacho",
+  "permalink": "/docusaurus-public-api/MX/tipos-de-despacho",
+  "draft": false,
+  "tags": [],
+  "version": "MX",
+  "sidebarPosition": 56,
+  "frontMatter": {
+    "sidebar_position": 56,
+    "title": "Tipos de despacho",
+    "description": "Listar tipos de despacho",
+    "slug": "/tipos-de-despacho"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tipos de documentos",
+    "permalink": "/docusaurus-public-api/MX/tipos-de-documentos"
+  },
+  "next": {
+    "title": "Formas de pago",
+    "permalink": "/docusaurus-public-api/MX/formas-de-pago"
+  }
+}

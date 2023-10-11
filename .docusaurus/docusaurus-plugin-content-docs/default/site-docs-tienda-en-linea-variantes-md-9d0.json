@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Tienda en línea/Variantes",
+  "id": "Tienda en línea/Variantes",
+  "title": "Variantes",
+  "description": "Crear, editar y listar variantes",
+  "source": "@site/docs\\Tienda en línea\\Variantes.md",
+  "sourceDirName": "Tienda en línea",
+  "slug": "/variantes",
+  "permalink": "/docusaurus-public-api/variantes",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Variantes",
+    "description": "Crear, editar y listar variantes",
+    "slug": "/variantes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Envíos",
+    "permalink": "/docusaurus-public-api/envíos"
+  }
+}

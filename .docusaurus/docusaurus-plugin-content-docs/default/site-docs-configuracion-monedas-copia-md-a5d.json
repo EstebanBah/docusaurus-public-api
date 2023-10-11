@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Monedas - copia",
+  "id": "Configuración/Monedas - copia",
+  "title": "Monedas",
+  "description": "Listar Monedas",
+  "source": "@site/docs\\Configuración\\Monedas - copia.md",
+  "sourceDirName": "Configuración",
+  "slug": "/Monedas",
+  "permalink": "/docusaurus-public-api/Monedas",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 54,
+  "frontMatter": {
+    "sidebar_position": 54,
+    "title": "Monedas",
+    "description": "Listar Monedas",
+    "slug": "/Monedas"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Usuarios",
+    "permalink": "/docusaurus-public-api/usuarios"
+  },
+  "next": {
+    "title": "Monedas",
+    "permalink": "/docusaurus-public-api/Monedas"
+  }
+}

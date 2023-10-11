@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Tipos de despacho",
+  "id": "version-PE/Configuración/Tipos de despacho",
+  "title": "Tipos de despacho",
+  "description": "Listar tipos de despacho",
+  "source": "@site/versioned_docs\\version-PE\\Configuración\\Tipos de despacho.md",
+  "sourceDirName": "Configuración",
+  "slug": "/tipos-de-despacho",
+  "permalink": "/docusaurus-public-api/PE/tipos-de-despacho",
+  "draft": false,
+  "tags": [],
+  "version": "PE",
+  "sidebarPosition": 56,
+  "frontMatter": {
+    "sidebar_position": 56,
+    "title": "Tipos de despacho",
+    "description": "Listar tipos de despacho",
+    "slug": "/tipos-de-despacho"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tipos de documentos",
+    "permalink": "/docusaurus-public-api/PE/tipos-de-documentos"
+  },
+  "next": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/PE/configuracion/webhooks"
+  }
+}

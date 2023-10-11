@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Documentos/Devoluciones",
+  "id": "Documentos/Devoluciones",
+  "title": "Devoluciones",
+  "description": "Crear y listar devoluciones",
+  "source": "@site/docs/Documentos/Devoluciones.md",
+  "sourceDirName": "Documentos",
+  "slug": "/devoluciones",
+  "permalink": "/docusaurus-public-api/next/devoluciones",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Devoluciones",
+    "description": "Crear y listar devoluciones",
+    "slug": "/devoluciones"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Despachos",
+    "permalink": "/docusaurus-public-api/next/documentos/despachos"
+  },
+  "next": {
+    "title": "Documentos de terceros",
+    "permalink": "/docusaurus-public-api/next/documentos-de-terceros"
+  }
+}
