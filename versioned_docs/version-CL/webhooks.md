@@ -35,9 +35,9 @@ https://api.bsale.io
 - **cpnId** Identificador único de la instancia (_Empresa_) en la cual se generó la acción. 
 - **resource** Endpoint donde podrás leer el recurso modificado.
 - **resourceId** Identificador único del recurso modificado.
-- **topic** Información respecto del tipo de recurso modificado (_Documentos, Productos, variantes, stock, precios_)
-- **action** Acción ejecutada sobre el recurso. Para ello se utiliza RESTful como estándar (`POST`, `PUT` o `DELETE`)
-- **send** fecha en formato de entero (`UNIX`)
+- **topic** Información respecto del tipo de recurso modificado. (_Documentos, Productos, variantes, stock, precios_)
+- **action** Acción ejecutada sobre el recurso. Para ello se utiliza RESTful como estándar. (`POST`, `PUT` o `DELETE`)
+- **send** fecha en formato de entero. (`UNIX`)
 
 :::tip
 Algunas notificaciones contendrán estructuras JSON con campos extras como por ejemplo **`officeId`**, en el caso de creación de documentos.
@@ -58,6 +58,6 @@ Para solicitar la activación, puedes escribirnos a ayuda@bsale.app indicandonos
 
 :::note
 
-Los webhooks que se indiquen como **beta**, deben ser solicitados a ayuda@bsale.app su implementación
+Los webhooks que se indiquen como **beta**, deben ser solicitados a ayuda@bsale.app su implementación.
 
 :::

@@ -1,0 +1,38 @@
+{
+  "label": "webhooks",
+  "permalink": "/docusaurus-public-api/en/MX/tags/webhooks",
+  "allTagsPath": "/docusaurus-public-api/en/MX/tags",
+  "count": 5,
+  "items": [
+    {
+      "id": "version-MX/Clientes/Webhooks relacionado",
+      "title": "Webhooks",
+      "description": "Servicio de notificaciones pagos de documentos",
+      "permalink": "/docusaurus-public-api/en/MX/pagos/webhooks"
+    },
+    {
+      "id": "version-MX/Configuración/Formas de pago/Webhooks relacionado",
+      "title": "Webhooks",
+      "description": "Servicio de notificaciones de pagos",
+      "permalink": "/docusaurus-public-api/en/MX/formas-de-pago/webhooks"
+    },
+    {
+      "id": "version-MX/Configuración/Webhooks relacionado",
+      "title": "Webhooks",
+      "description": "Obtención datos instancia",
+      "permalink": "/docusaurus-public-api/en/MX/configuracion/webhooks"
+    },
+    {
+      "id": "version-MX/Documentos/Webhooks relacionado",
+      "title": "Webhooks",
+      "description": "Servicio de notificaciones de documentos",
+      "permalink": "/docusaurus-public-api/en/MX/documentos/webhooks"
+    },
+    {
+      "id": "version-MX/Productos y Servicios/Webhooks relacionado",
+      "title": "Webhooks",
+      "description": "Servicio de notificaciones de productos y servicios",
+      "permalink": "/docusaurus-public-api/en/MX/productos-y-servicios/webhooks"
+    }
+  ]
+}

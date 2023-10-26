@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Tipos de documentos",
+  "id": "version-CL/Configuración/Tipos de documentos",
+  "title": "Tipos de documentos",
+  "description": "Listar y editar Tipos de documentos",
+  "source": "@site/versioned_docs\\version-CL\\Configuración\\Tipos de documentos.md",
+  "sourceDirName": "Configuración",
+  "slug": "/tipos-de-documentos",
+  "permalink": "/docusaurus-public-api/CL/tipos-de-documentos",
+  "draft": false,
+  "tags": [],
+  "version": "CL",
+  "sidebarPosition": 55,
+  "frontMatter": {
+    "sidebar_position": 55,
+    "title": "Tipos de documentos",
+    "description": "Listar y editar Tipos de documentos",
+    "slug": "/tipos-de-documentos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Monedas",
+    "permalink": "/docusaurus-public-api/CL/monedas"
+  },
+  "next": {
+    "title": "Tipos de despacho",
+    "permalink": "/docusaurus-public-api/CL/tipos-de-despacho"
+  }
+}

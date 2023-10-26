@@ -23,7 +23,7 @@ Cómo funciona la interfaz de Bsale, mira éstos videos:
 
 Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente estructura:
 
-```js title="Response /documents.json"
+```js title="Response v1/documents.json"
 {
   "href": "https://api.bsale.io/v1/documents/382.json",
   "id": 382,
@@ -200,7 +200,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
   "emissionDate": 1351652400,
   "expirationDate": 1351652400,
   "rcofDate": 1351652400,
-  "number": 1,
+  "number": 100,
   "totalAmount": 5117000,
   "netAmount": 4300000,
   "taxAmount": 817000,
@@ -1076,7 +1076,7 @@ Para usar atributos adicionales deben primero deben crearse y referenciar su id.
 :::
 
 ### Id externo (opcional)
-Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad de emisión. La API buscará por el id al hacer POST de un documento, y si ya existe retornará el documento que se generó previamente en vez de generar uno nuevo.
+Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad de emisión en cada tipo de documento. La API buscará por el id al hacer POST de un documento, y si ya existe retornará el documento que se generó previamente en vez de generar uno nuevo.
 ```json 
 {
    "salesId": "AAA000012"

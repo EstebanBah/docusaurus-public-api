@@ -1,0 +1,37 @@
+{
+  "unversionedId": "Documentos/Webhooks relacionado",
+  "id": "Documentos/Webhooks relacionado",
+  "title": "Webhooks",
+  "description": "Servicio de notificaciones de documentos",
+  "source": "@site/docs/Documentos/Webhooks relacionado.md",
+  "sourceDirName": "Documentos",
+  "slug": "/documentos/webhooks",
+  "permalink": "/docusaurus-public-api/next/documentos/webhooks",
+  "draft": false,
+  "tags": [
+    {
+      "label": "webhooks",
+      "permalink": "/docusaurus-public-api/next/tags/webhooks"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14,
+    "title": "Webhooks",
+    "description": "Servicio de notificaciones de documentos",
+    "slug": "/documentos/webhooks",
+    "tags": [
+      "webhooks"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentos de terceros",
+    "permalink": "/docusaurus-public-api/next/documentos-de-terceros"
+  },
+  "next": {
+    "title": "Productos y servicios",
+    "permalink": "/docusaurus-public-api/next/productos-y-servicios"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Información SII/Tipos de libros",
+  "id": "version-CL/Información SII/Tipos de libros",
+  "title": "Tipos de libro",
+  "description": "Listar Tipos de libro",
+  "source": "@site/versioned_docs/version-CL/Información SII/Tipos de libros.md",
+  "sourceDirName": "Información SII",
+  "slug": "/tipos-de-libros",
+  "permalink": "/docusaurus-public-api/CL/tipos-de-libros",
+  "draft": false,
+  "tags": [],
+  "version": "CL",
+  "sidebarPosition": 60,
+  "frontMatter": {
+    "sidebar_position": 60,
+    "title": "Tipos de libro",
+    "description": "Listar Tipos de libro",
+    "slug": "/tipos-de-libros"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/CL/configuracion/webhooks"
+  },
+  "next": {
+    "title": "Códigos tributarios",
+    "permalink": "/docusaurus-public-api/CL/codigos-tributarios"
+  }
+}

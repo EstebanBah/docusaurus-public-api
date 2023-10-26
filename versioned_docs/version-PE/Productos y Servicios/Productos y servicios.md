@@ -66,7 +66,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 | **product_taxes**   | nodo que indica los impuestos asociados al producto| |
 
 ## GET lista de productos
-- GET `/v1/products.json` retornará todos los despachos.
+- GET `/v1/products.json` retornará todos los productos.
 
 #### Parámetros
 - **limit**, limita la cantidad de items de una respuesta JSON, por defecto el limit es 25, el máximo permitido es 50.

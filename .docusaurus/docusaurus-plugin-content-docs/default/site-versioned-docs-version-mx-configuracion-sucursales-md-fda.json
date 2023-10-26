@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Sucursales",
+  "id": "version-MX/Configuración/Sucursales",
+  "title": "Sucursales",
+  "description": "Crear, editar y listar sucursales",
+  "source": "@site/versioned_docs/version-MX/Configuración/Sucursales.md",
+  "sourceDirName": "Configuración",
+  "slug": "/sucursales",
+  "permalink": "/docusaurus-public-api/MX/sucursales",
+  "draft": false,
+  "tags": [],
+  "version": "MX",
+  "sidebarPosition": 52,
+  "frontMatter": {
+    "sidebar_position": 52,
+    "title": "Sucursales",
+    "description": "Crear, editar y listar sucursales",
+    "slug": "/sucursales"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Descuentos",
+    "permalink": "/docusaurus-public-api/MX/descuentos"
+  },
+  "next": {
+    "title": "Usuarios",
+    "permalink": "/docusaurus-public-api/MX/usuarios"
+  }
+}

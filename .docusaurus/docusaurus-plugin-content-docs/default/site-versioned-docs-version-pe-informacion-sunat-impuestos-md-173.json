@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Información SUNAT/Impuestos",
+  "id": "version-PE/Información SUNAT/Impuestos",
+  "title": "Impuestos",
+  "description": "Listar Impuestos",
+  "source": "@site/versioned_docs/version-PE/Información SUNAT/Impuestos.md",
+  "sourceDirName": "Información SUNAT",
+  "slug": "/impuestos",
+  "permalink": "/docusaurus-public-api/PE/impuestos",
+  "draft": false,
+  "tags": [],
+  "version": "PE",
+  "sidebarPosition": 62,
+  "frontMatter": {
+    "sidebar_position": 62,
+    "title": "Impuestos",
+    "description": "Listar Impuestos",
+    "slug": "/impuestos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Códigos tributarios",
+    "permalink": "/docusaurus-public-api/PE/codigos-tributarios"
+  },
+  "next": {
+    "title": "Pedidos web",
+    "permalink": "/docusaurus-public-api/PE/pedidos-web"
+  }
+}

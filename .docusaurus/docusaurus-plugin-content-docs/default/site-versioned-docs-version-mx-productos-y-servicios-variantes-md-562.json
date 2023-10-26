@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Productos y Servicios/Variantes",
+  "id": "version-MX/Productos y Servicios/Variantes",
+  "title": "Variantes",
+  "description": "Crear, editar y listar variantes",
+  "source": "@site/versioned_docs/version-MX/Productos y Servicios/Variantes.md",
+  "sourceDirName": "Productos y Servicios",
+  "slug": "/variantes",
+  "permalink": "/docusaurus-public-api/MX/variantes",
+  "draft": false,
+  "tags": [],
+  "version": "MX",
+  "sidebarPosition": 22,
+  "frontMatter": {
+    "sidebar_position": 22,
+    "title": "Variantes",
+    "description": "Crear, editar y listar variantes",
+    "slug": "/variantes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tipos de productos y servicios",
+    "permalink": "/docusaurus-public-api/MX/tipos-de-productos-y-servicios"
+  },
+  "next": {
+    "title": "Stocks",
+    "permalink": "/docusaurus-public-api/MX/stocks"
+  }
+}

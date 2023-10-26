@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/docusaurus-public-api/get-started",
+  "source": "@site/src/pages/get-started.md",
+  "title": "Primeros pasos",
+  "description": "Generalidades",
+  "frontMatter": {
+    "title": "Primeros pasos",
+    "slug": "/get-started"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Atributos dinámicos",
+  "id": "Configuración/Atributos dinámicos",
+  "title": "Atributos dinámicos",
+  "description": "Listar atributos dinámicos",
+  "source": "@site/docs\\Configuración\\Atributos dinámicos.md",
+  "sourceDirName": "Configuración",
+  "slug": "/atributos-dinamicos",
+  "permalink": "/docusaurus-public-api/next/atributos-dinamicos",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {
+    "sidebar_position": 50,
+    "title": "Atributos dinámicos",
+    "description": "Listar atributos dinámicos",
+    "slug": "/atributos-dinamicos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/next/pagos/webhooks"
+  },
+  "next": {
+    "title": "Descuentos",
+    "permalink": "/docusaurus-public-api/next/descuentos"
+  }
+}

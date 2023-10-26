@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/docusaurus-public-api/Oauth",
+  "source": "@site/src/pages/Oauth.md",
+  "title": "OAuth 2.0",
+  "description": "OAuth 2.0",
+  "frontMatter": {
+    "title": "OAuth 2.0",
+    "slug": "/OAuth"
+  }
+}

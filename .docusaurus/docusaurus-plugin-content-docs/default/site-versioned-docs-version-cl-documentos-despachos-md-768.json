@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Documentos/Despachos",
+  "id": "version-CL/Documentos/Despachos",
+  "title": "Despachos",
+  "description": "Crear, editar y listar despachos",
+  "source": "@site/versioned_docs/version-CL/Documentos/Despachos.md",
+  "sourceDirName": "Documentos",
+  "slug": "/documentos/despachos",
+  "permalink": "/docusaurus-public-api/CL/documentos/despachos",
+  "draft": false,
+  "tags": [],
+  "version": "CL",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Despachos",
+    "description": "Crear, editar y listar despachos",
+    "slug": "/documentos/despachos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentos",
+    "permalink": "/docusaurus-public-api/CL/documentos"
+  },
+  "next": {
+    "title": "Devoluciones",
+    "permalink": "/docusaurus-public-api/CL/devoluciones"
+  }
+}

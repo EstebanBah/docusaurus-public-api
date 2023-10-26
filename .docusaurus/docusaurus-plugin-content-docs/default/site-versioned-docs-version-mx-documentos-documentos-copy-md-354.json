@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Documentos/Documentos copy",
+  "id": "version-MX/Documentos/Documentos copy",
+  "title": "Documentos",
+  "description": "Crear, editar y listar documentos",
+  "source": "@site/versioned_docs/version-MX/Documentos/Documentos copy.md",
+  "sourceDirName": "Documentos",
+  "slug": "/documentos",
+  "permalink": "/docusaurus-public-api/MX/documentos",
+  "draft": false,
+  "tags": [],
+  "version": "MX",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Documentos",
+    "description": "Crear, editar y listar documentos",
+    "slug": "/documentos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentos",
+    "permalink": "/docusaurus-public-api/MX/documentos"
+  },
+  "next": {
+    "title": "Despachos",
+    "permalink": "/docusaurus-public-api/MX/documentos/despachos"
+  }
+}

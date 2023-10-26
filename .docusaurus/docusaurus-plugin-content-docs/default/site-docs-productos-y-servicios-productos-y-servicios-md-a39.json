@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Productos y Servicios/Productos y servicios",
+  "id": "Productos y Servicios/Productos y servicios",
+  "title": "Productos y servicios",
+  "description": "Crear, editar y listar productos y servicios",
+  "source": "@site/docs/Productos y Servicios/Productos y servicios.md",
+  "sourceDirName": "Productos y Servicios",
+  "slug": "/productos-y-servicios",
+  "permalink": "/docusaurus-public-api/next/productos-y-servicios",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "sidebar_position": 20,
+    "title": "Productos y servicios",
+    "description": "Crear, editar y listar productos y servicios",
+    "slug": "/productos-y-servicios"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/next/documentos/webhooks"
+  },
+  "next": {
+    "title": "Tipos de productos y servicios",
+    "permalink": "/docusaurus-public-api/next/tipos-de-productos-y-servicios"
+  }
+}

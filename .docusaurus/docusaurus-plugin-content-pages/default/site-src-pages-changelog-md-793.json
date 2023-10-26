@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/docusaurus-public-api/Changelog",
+  "source": "@site/src/pages/Changelog.md",
+  "title": "Changelog API Bsale",
+  "description": "Liberaciones disponibles",
+  "frontMatter": {
+    "title": "Changelog API Bsale",
+    "slug": "/changelog"
+  }
+}

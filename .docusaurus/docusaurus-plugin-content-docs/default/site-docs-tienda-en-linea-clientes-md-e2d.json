@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Tienda en línea/Clientes",
+  "id": "Tienda en línea/Clientes",
+  "title": "Clientes",
+  "description": "Crear, editar y listar clientes",
+  "source": "@site/docs\\Tienda en línea\\Clientes.md",
+  "sourceDirName": "Tienda en línea",
+  "slug": "/clientes",
+  "permalink": "/docusaurus-public-api/clientes",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30,
+    "title": "Clientes",
+    "description": "Crear, editar y listar clientes",
+    "slug": "/clientes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Impuestos",
+    "permalink": "/docusaurus-public-api/impuestos"
+  },
+  "next": {
+    "title": "Pedidos web",
+    "permalink": "/docusaurus-public-api/pedidos-web"
+  }
+}

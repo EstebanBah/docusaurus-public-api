@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/docusaurus-public-api/changelog",
+  "source": "@site/src/pages/changelog.md",
+  "title": "Control de cambios API Bsale",
+  "description": "09/2023",
+  "frontMatter": {
+    "title": "Control de cambios API Bsale",
+    "slug": "/changelog"
+  }
+}

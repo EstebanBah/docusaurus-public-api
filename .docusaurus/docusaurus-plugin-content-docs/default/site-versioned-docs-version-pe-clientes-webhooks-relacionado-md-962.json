@@ -1,0 +1,37 @@
+{
+  "unversionedId": "Clientes/Webhooks relacionado",
+  "id": "version-PE/Clientes/Webhooks relacionado",
+  "title": "Webhooks",
+  "description": "Servicio de notificaciones pagos de documentos",
+  "source": "@site/versioned_docs/version-PE/Clientes/Webhooks relacionado.md",
+  "sourceDirName": "Clientes",
+  "slug": "/pagos/webhooks",
+  "permalink": "/docusaurus-public-api/PE/pagos/webhooks",
+  "draft": false,
+  "tags": [
+    {
+      "label": "webhooks",
+      "permalink": "/docusaurus-public-api/PE/tags/webhooks"
+    }
+  ],
+  "version": "PE",
+  "sidebarPosition": 32,
+  "frontMatter": {
+    "sidebar_position": 32,
+    "title": "Webhooks",
+    "description": "Servicio de notificaciones pagos de documentos",
+    "slug": "/pagos/webhooks",
+    "tags": [
+      "webhooks"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pagos",
+    "permalink": "/docusaurus-public-api/PE/pagos"
+  },
+  "next": {
+    "title": "Atributos dinámicos",
+    "permalink": "/docusaurus-public-api/PE/atributos-dinamicos"
+  }
+}

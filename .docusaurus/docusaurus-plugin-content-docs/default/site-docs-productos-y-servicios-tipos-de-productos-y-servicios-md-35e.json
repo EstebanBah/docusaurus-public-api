@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Productos y Servicios/Tipos de productos y servicios",
+  "id": "Productos y Servicios/Tipos de productos y servicios",
+  "title": "Tipos de productos y servicios",
+  "description": "Crear, editar y listar tipos de productos",
+  "source": "@site/docs/Productos y Servicios/Tipos de productos y servicios.md",
+  "sourceDirName": "Productos y Servicios",
+  "slug": "/tipos-de-productos-y-servicios",
+  "permalink": "/docusaurus-public-api/next/tipos-de-productos-y-servicios",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 21,
+  "frontMatter": {
+    "sidebar_position": 21,
+    "title": "Tipos de productos y servicios",
+    "description": "Crear, editar y listar tipos de productos",
+    "slug": "/tipos-de-productos-y-servicios"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Productos y servicios",
+    "permalink": "/docusaurus-public-api/next/productos-y-servicios"
+  },
+  "next": {
+    "title": "Variantes",
+    "permalink": "/docusaurus-public-api/next/variantes"
+  }
+}

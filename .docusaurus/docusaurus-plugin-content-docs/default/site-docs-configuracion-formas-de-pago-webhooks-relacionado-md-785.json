@@ -1,0 +1,37 @@
+{
+  "unversionedId": "Configuración/Formas de pago/Webhooks relacionado",
+  "id": "Configuración/Formas de pago/Webhooks relacionado",
+  "title": "Webhooks",
+  "description": "Servicio de notificaciones de pagos",
+  "source": "@site/docs\\Configuración\\Formas de pago\\Webhooks relacionado.md",
+  "sourceDirName": "Configuración/Formas de pago",
+  "slug": "/formas-de-pago/webhooks",
+  "permalink": "/docusaurus-public-api/next/formas-de-pago/webhooks",
+  "draft": false,
+  "tags": [
+    {
+      "label": "webhooks",
+      "permalink": "/docusaurus-public-api/next/tags/webhooks"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 59,
+  "frontMatter": {
+    "sidebar_position": 59,
+    "title": "Webhooks",
+    "description": "Servicio de notificaciones de pagos",
+    "slug": "/formas-de-pago/webhooks",
+    "tags": [
+      "webhooks"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Condición de venta",
+    "permalink": "/docusaurus-public-api/next/condicion-de-venta"
+  },
+  "next": {
+    "title": "Tipos de libro",
+    "permalink": "/docusaurus-public-api/next/tipos-de-libros"
+  }
+}

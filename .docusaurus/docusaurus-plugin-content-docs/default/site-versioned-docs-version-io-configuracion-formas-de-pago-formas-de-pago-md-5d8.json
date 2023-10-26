@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Formas de pago/Formas de pago",
+  "id": "version-io/Configuración/Formas de pago/Formas de pago",
+  "title": "Formas de pago",
+  "description": "Crear y listar Formas de pago",
+  "source": "@site/versioned_docs\\version-io\\Configuración\\Formas de pago\\Formas de pago.md",
+  "sourceDirName": "Configuración/Formas de pago",
+  "slug": "/formas-de-pago",
+  "permalink": "/docusaurus-public-api/formas-de-pago",
+  "draft": false,
+  "tags": [],
+  "version": "io",
+  "sidebarPosition": 57,
+  "frontMatter": {
+    "sidebar_position": 57,
+    "title": "Formas de pago",
+    "description": "Crear y listar Formas de pago",
+    "slug": "/formas-de-pago"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/configuracion/webhooks"
+  },
+  "next": {
+    "title": "Condición de venta",
+    "permalink": "/docusaurus-public-api/condicion-de-venta"
+  }
+}

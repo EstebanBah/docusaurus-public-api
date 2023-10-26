@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Documentos/leave_request",
+  "id": "Documentos/leave_request",
+  "title": "Solicitud de baja de servicio",
+  "description": "Objetivos",
+  "source": "@site/docs/Documentos/leave_request.md",
+  "sourceDirName": "Documentos",
+  "slug": "/Documentos/leave_request",
+  "permalink": "/docusaurus-public-api/Documentos/leave_request",
+  "draft": false,
+  "tags": [
+    {
+      "label": "bsp",
+      "permalink": "/docusaurus-public-api/tags/bsp"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Solicitud de baja de servicio",
+    "subtitle": "Aquí encontrarás los end-point asociados a la solicitud de baja de servicios.",
+    "author": "Gustavo",
+    "tags": [
+      "bsp"
+    ],
+    "api": "bsp"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentos de terceros",
+    "permalink": "/docusaurus-public-api/documentos-de-terceros"
+  },
+  "next": {
+    "title": "Envíos",
+    "permalink": "/docusaurus-public-api/envíos"
+  }
+}

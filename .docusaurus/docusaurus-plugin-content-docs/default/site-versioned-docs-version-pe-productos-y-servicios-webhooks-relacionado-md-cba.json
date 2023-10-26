@@ -1,0 +1,37 @@
+{
+  "unversionedId": "Productos y Servicios/Webhooks relacionado",
+  "id": "version-PE/Productos y Servicios/Webhooks relacionado",
+  "title": "Webhooks",
+  "description": "Servicio de notificaciones de productos y servicios",
+  "source": "@site/versioned_docs/version-PE/Productos y Servicios/Webhooks relacionado.md",
+  "sourceDirName": "Productos y Servicios",
+  "slug": "/productos-y-servicios/webhooks",
+  "permalink": "/docusaurus-public-api/PE/productos-y-servicios/webhooks",
+  "draft": false,
+  "tags": [
+    {
+      "label": "webhooks",
+      "permalink": "/docusaurus-public-api/PE/tags/webhooks"
+    }
+  ],
+  "version": "PE",
+  "sidebarPosition": 25,
+  "frontMatter": {
+    "sidebar_position": 25,
+    "title": "Webhooks",
+    "description": "Servicio de notificaciones de productos y servicios",
+    "slug": "/productos-y-servicios/webhooks",
+    "tags": [
+      "webhooks"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Listas de precio",
+    "permalink": "/docusaurus-public-api/PE/listas-de-precio"
+  },
+  "next": {
+    "title": "Clientes",
+    "permalink": "/docusaurus-public-api/PE/clientes"
+  }
+}

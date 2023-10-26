@@ -1,0 +1,34 @@
+{
+  "unversionedId": "primeros-pasos",
+  "id": "version-CL/primeros-pasos",
+  "title": "Primeros pasos",
+<<<<<<< Updated upstream
+  "description": "My document description",
+=======
+  "description": "Primeros pasos para interactuar con la API de Bsale",
+>>>>>>> Stashed changes
+  "source": "@site/versioned_docs/version-CL/intro.md",
+  "sourceDirName": ".",
+  "slug": "/primeros-pasos",
+  "permalink": "/docusaurus-public-api/CL/primeros-pasos",
+  "draft": false,
+  "tags": [],
+  "version": "CL",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "primeros-pasos",
+    "sidebar_position": 2,
+    "title": "Primeros pasos",
+<<<<<<< Updated upstream
+    "description": "My document description",
+=======
+    "description": "Primeros pasos para interactuar con la API de Bsale",
+>>>>>>> Stashed changes
+    "slug": "/primeros-pasos"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Documentos",
+    "permalink": "/docusaurus-public-api/CL/documentos"
+  }
+}

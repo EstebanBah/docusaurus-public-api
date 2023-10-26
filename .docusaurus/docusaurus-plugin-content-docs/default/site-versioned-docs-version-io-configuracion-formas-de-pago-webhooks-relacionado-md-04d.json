@@ -1,0 +1,37 @@
+{
+  "unversionedId": "Configuración/Formas de pago/Webhooks relacionado",
+  "id": "version-io/Configuración/Formas de pago/Webhooks relacionado",
+  "title": "Webhooks",
+  "description": "Servicio de notificaciones de pagos",
+  "source": "@site/versioned_docs\\version-io\\Configuración\\Formas de pago\\Webhooks relacionado.md",
+  "sourceDirName": "Configuración/Formas de pago",
+  "slug": "/formas-de-pago/webhooks",
+  "permalink": "/docusaurus-public-api/formas-de-pago/webhooks",
+  "draft": false,
+  "tags": [
+    {
+      "label": "webhooks",
+      "permalink": "/docusaurus-public-api/tags/webhooks"
+    }
+  ],
+  "version": "io",
+  "sidebarPosition": 59,
+  "frontMatter": {
+    "sidebar_position": 59,
+    "title": "Webhooks",
+    "description": "Servicio de notificaciones de pagos",
+    "slug": "/formas-de-pago/webhooks",
+    "tags": [
+      "webhooks"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Condición de venta",
+    "permalink": "/docusaurus-public-api/condicion-de-venta"
+  },
+  "next": {
+    "title": "Pedidos web",
+    "permalink": "/docusaurus-public-api/pedidos-web"
+  }
+}

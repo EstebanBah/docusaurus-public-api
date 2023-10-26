@@ -1,0 +1,559 @@
+{
+  "@cmfcmf/docusaurus-search-local": {
+    "default": {
+      "titleBoost": 5,
+      "contentBoost": 1,
+      "tagsBoost": 3,
+      "parentCategoriesBoost": 2,
+      "indexDocSidebarParentCategories": 0,
+      "maxSearchResults": 8
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docusaurus-public-api/",
+      "versions": [
+        {
+          "name": "CL",
+          "label": "🌎 CL",
+          "isLast": true,
+          "path": "/docusaurus-public-api/CL",
+          "mainDocId": "primeros-pasos",
+          "docs": [
+            {
+              "id": "Clientes/Clientes",
+              "path": "/docusaurus-public-api/CL/clientes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Clientes/Pagos",
+              "path": "/docusaurus-public-api/CL/pagos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Clientes/Webhooks relacionado",
+              "path": "/docusaurus-public-api/CL/pagos/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Atributos dinámicos",
+              "path": "/docusaurus-public-api/CL/atributos-dinamicos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Descuentos",
+              "path": "/docusaurus-public-api/CL/descuentos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Formas de pago/Condición de venta",
+              "path": "/docusaurus-public-api/CL/condicion-de-venta",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Formas de pago/Formas de pago",
+              "path": "/docusaurus-public-api/CL/formas-de-pago",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Formas de pago/Webhooks relacionado",
+              "path": "/docusaurus-public-api/CL/formas-de-pago/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Monedas",
+              "path": "/docusaurus-public-api/CL/monedas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Sucursales",
+              "path": "/docusaurus-public-api/CL/sucursales",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Tipos de despacho",
+              "path": "/docusaurus-public-api/CL/tipos-de-despacho",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Tipos de documentos",
+              "path": "/docusaurus-public-api/CL/tipos-de-documentos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Usuarios",
+              "path": "/docusaurus-public-api/CL/usuarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Webhooks relacionado",
+              "path": "/docusaurus-public-api/CL/configuracion/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Despachos",
+              "path": "/docusaurus-public-api/CL/documentos/despachos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Devoluciones",
+              "path": "/docusaurus-public-api/CL/devoluciones",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Documentos",
+              "path": "/docusaurus-public-api/CL/documentos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Documentos de terceros",
+              "path": "/docusaurus-public-api/CL/documentos-de-terceros",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Webhooks relacionado",
+              "path": "/docusaurus-public-api/CL/documentos/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Información SII/Códigos tributarios",
+              "path": "/docusaurus-public-api/CL/codigos-tributarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Información SII/Impuestos",
+              "path": "/docusaurus-public-api/CL/impuestos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Información SII/Tipos de libros",
+              "path": "/docusaurus-public-api/CL/tipos-de-libros",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "primeros-pasos",
+              "path": "/docusaurus-public-api/CL/primeros-pasos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Listas de precio",
+              "path": "/docusaurus-public-api/CL/listas-de-precio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Productos y servicios",
+              "path": "/docusaurus-public-api/CL/productos-y-servicios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Stocks",
+              "path": "/docusaurus-public-api/CL/stocks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Tipos de productos y servicios",
+              "path": "/docusaurus-public-api/CL/tipos-de-productos-y-servicios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Variantes",
+              "path": "/docusaurus-public-api/CL/variantes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Webhooks relacionado",
+              "path": "/docusaurus-public-api/CL/productos-y-servicios/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tienda en línea/Descripcion web",
+              "path": "/docusaurus-public-api/CL/descripcion-web",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tienda en línea/envios",
+              "path": "/docusaurus-public-api/CL/envíos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tienda en línea/Pedidos web",
+              "path": "/docusaurus-public-api/CL/pedidos-web",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "webhooks",
+              "path": "/docusaurus-public-api/CL/webhooks",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docusaurus-public-api/CL/primeros-pasos",
+                "label": "version-CL/primeros-pasos"
+              }
+            }
+          }
+        },
+        {
+          "name": "PE",
+          "label": "🌎 PE",
+          "isLast": false,
+          "path": "/docusaurus-public-api/PE",
+          "mainDocId": "primeros-pasos",
+          "docs": [
+            {
+              "id": "Clientes/Clientes",
+              "path": "/docusaurus-public-api/PE/clientes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Clientes/Pagos",
+              "path": "/docusaurus-public-api/PE/pagos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Clientes/Webhooks relacionado",
+              "path": "/docusaurus-public-api/PE/pagos/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Atributos dinámicos",
+              "path": "/docusaurus-public-api/PE/atributos-dinamicos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Descuentos",
+              "path": "/docusaurus-public-api/PE/descuentos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Formas de pago/Condición de venta",
+              "path": "/docusaurus-public-api/PE/condicion-de-venta",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Formas de pago/Formas de pago",
+              "path": "/docusaurus-public-api/PE/formas-de-pago",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Formas de pago/Webhooks relacionado",
+              "path": "/docusaurus-public-api/PE/formas-de-pago/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Monedas",
+              "path": "/docusaurus-public-api/PE/monedas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Sucursales",
+              "path": "/docusaurus-public-api/PE/sucursales",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Tipos de despacho",
+              "path": "/docusaurus-public-api/PE/tipos-de-despacho",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Tipos de documentos",
+              "path": "/docusaurus-public-api/PE/tipos-de-documentos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Usuarios",
+              "path": "/docusaurus-public-api/PE/usuarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Webhooks relacionado",
+              "path": "/docusaurus-public-api/PE/configuracion/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Despachos",
+              "path": "/docusaurus-public-api/PE/documentos/despachos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Devoluciones",
+              "path": "/docusaurus-public-api/PE/devoluciones",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Documentos",
+              "path": "/docusaurus-public-api/PE/documentos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Webhooks relacionado",
+              "path": "/docusaurus-public-api/PE/documentos/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Información SUNAT/Códigos tributarios",
+              "path": "/docusaurus-public-api/PE/codigos-tributarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Información SUNAT/Impuestos",
+              "path": "/docusaurus-public-api/PE/impuestos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "primeros-pasos",
+              "path": "/docusaurus-public-api/PE/primeros-pasos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Listas de precio",
+              "path": "/docusaurus-public-api/PE/listas-de-precio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Productos y servicios",
+              "path": "/docusaurus-public-api/PE/productos-y-servicios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Stocks",
+              "path": "/docusaurus-public-api/PE/stocks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Tipos de productos y servicios",
+              "path": "/docusaurus-public-api/PE/tipos-de-productos-y-servicios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Variantes",
+              "path": "/docusaurus-public-api/PE/variantes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Webhooks relacionado",
+              "path": "/docusaurus-public-api/PE/productos-y-servicios/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tienda en línea/Descripcion web",
+              "path": "/docusaurus-public-api/PE/descripcion-web",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tienda en línea/envios",
+              "path": "/docusaurus-public-api/PE/envíos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tienda en línea/Pedidos web",
+              "path": "/docusaurus-public-api/PE/pedidos-web",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "webhooks",
+              "path": "/docusaurus-public-api/PE/webhooks",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docusaurus-public-api/PE/primeros-pasos",
+                "label": "version-PE/primeros-pasos"
+              }
+            }
+          }
+        },
+        {
+          "name": "MX",
+          "label": "🌎 MX",
+          "isLast": false,
+          "path": "/docusaurus-public-api/MX",
+          "mainDocId": "primeros-pasos",
+          "docs": [
+            {
+              "id": "Clientes/Clientes",
+              "path": "/docusaurus-public-api/MX/clientes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Clientes/Pagos",
+              "path": "/docusaurus-public-api/MX/pagos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Clientes/Webhooks relacionado",
+              "path": "/docusaurus-public-api/MX/pagos/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Atributos dinámicos",
+              "path": "/docusaurus-public-api/MX/atributos-dinamicos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Descuentos",
+              "path": "/docusaurus-public-api/MX/descuentos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Formas de pago/Condición de venta",
+              "path": "/docusaurus-public-api/MX/condicion-de-venta",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Formas de pago/Formas de pago",
+              "path": "/docusaurus-public-api/MX/formas-de-pago",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Formas de pago/Webhooks relacionado",
+              "path": "/docusaurus-public-api/MX/formas-de-pago/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Monedas",
+              "path": "/docusaurus-public-api/MX/monedas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Sucursales",
+              "path": "/docusaurus-public-api/MX/sucursales",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Tipos de despacho",
+              "path": "/docusaurus-public-api/MX/tipos-de-despacho",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Tipos de documentos",
+              "path": "/docusaurus-public-api/MX/tipos-de-documentos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Usuarios",
+              "path": "/docusaurus-public-api/MX/usuarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuración/Webhooks relacionado",
+              "path": "/docusaurus-public-api/MX/configuracion/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Despachos",
+              "path": "/docusaurus-public-api/MX/documentos/despachos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Devoluciones",
+              "path": "/docusaurus-public-api/MX/devoluciones",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Documentos",
+              "path": "/docusaurus-public-api/MX/documentos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Documentos de terceros",
+              "path": "/docusaurus-public-api/MX/documentos-de-terceros",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Documentos/Webhooks relacionado",
+              "path": "/docusaurus-public-api/MX/documentos/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Información electrónica/Códigos tributarios",
+              "path": "/docusaurus-public-api/MX/codigos-tributarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Información electrónica/Impuestos",
+              "path": "/docusaurus-public-api/MX/impuestos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Información electrónica/Tipos de libros",
+              "path": "/docusaurus-public-api/MX/tipos-de-libros",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "primeros-pasos",
+              "path": "/docusaurus-public-api/MX/primeros-pasos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Listas de precio",
+              "path": "/docusaurus-public-api/MX/listas-de-precio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Productos y servicios",
+              "path": "/docusaurus-public-api/MX/productos-y-servicios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Stocks",
+              "path": "/docusaurus-public-api/MX/stocks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Tipos de productos y servicios",
+              "path": "/docusaurus-public-api/MX/tipos-de-productos-y-servicios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Variantes",
+              "path": "/docusaurus-public-api/MX/variantes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Productos y Servicios/Webhooks relacionado",
+              "path": "/docusaurus-public-api/MX/productos-y-servicios/webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tienda en línea/Descripcion web",
+              "path": "/docusaurus-public-api/MX/descripcion-web",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tienda en línea/envios",
+              "path": "/docusaurus-public-api/MX/envíos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tienda en línea/Pedidos web",
+              "path": "/docusaurus-public-api/MX/pedidos-web",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "webhooks",
+              "path": "/docusaurus-public-api/MX/webhooks",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docusaurus-public-api/MX/primeros-pasos",
+                "label": "version-MX/primeros-pasos"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

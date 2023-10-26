@@ -1,0 +1,37 @@
+{
+  "unversionedId": "Configuración/Webhooks relacionado",
+  "id": "version-PE/Configuración/Webhooks relacionado",
+  "title": "Webhooks",
+  "description": "Obtención datos instancia",
+  "source": "@site/versioned_docs/version-PE/Configuración/Webhooks relacionado.md",
+  "sourceDirName": "Configuración",
+  "slug": "/configuracion/webhooks",
+  "permalink": "/docusaurus-public-api/PE/configuracion/webhooks",
+  "draft": false,
+  "tags": [
+    {
+      "label": "webhooks",
+      "permalink": "/docusaurus-public-api/PE/tags/webhooks"
+    }
+  ],
+  "version": "PE",
+  "sidebarPosition": 59.1,
+  "frontMatter": {
+    "sidebar_position": 59.1,
+    "title": "Webhooks",
+    "description": "Obtención datos instancia",
+    "slug": "/configuracion/webhooks",
+    "tags": [
+      "webhooks"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/PE/formas-de-pago/webhooks"
+  },
+  "next": {
+    "title": "Códigos tributarios",
+    "permalink": "/docusaurus-public-api/PE/codigos-tributarios"
+  }
+}

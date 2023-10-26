@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Documentos/Global",
+  "id": "version-MX/Documentos/Global",
+  "title": "Factura Global",
+  "description": "Crear y listar facturas globales",
+  "source": "@site/versioned_docs/version-MX/Documentos/Global.md",
+  "sourceDirName": "Documentos",
+  "slug": "/factura-global",
+  "permalink": "/docusaurus-public-api/MX/factura-global",
+  "draft": false,
+  "tags": [],
+  "version": "MX",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Factura Global",
+    "description": "Crear y listar facturas globales",
+    "slug": "/factura-global"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentos",
+    "permalink": "/docusaurus-public-api/MX/documentos"
+  },
+  "next": {
+    "title": "Despachos",
+    "permalink": "/docusaurus-public-api/MX/documentos/despachos"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Productos y Servicios/Stocks",
+  "id": "version-CL/Productos y Servicios/Stocks",
+  "title": "Stocks",
+  "description": "Crear, editar y listar stocks",
+  "source": "@site/versioned_docs/version-CL/Productos y Servicios/Stocks.md",
+  "sourceDirName": "Productos y Servicios",
+  "slug": "/stocks",
+  "permalink": "/docusaurus-public-api/CL/stocks",
+  "draft": false,
+  "tags": [],
+  "version": "CL",
+  "sidebarPosition": 23,
+  "frontMatter": {
+    "sidebar_position": 23,
+    "title": "Stocks",
+    "description": "Crear, editar y listar stocks",
+    "slug": "/stocks"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Variantes",
+    "permalink": "/docusaurus-public-api/CL/variantes"
+  },
+  "next": {
+    "title": "Listas de precio",
+    "permalink": "/docusaurus-public-api/CL/listas-de-precio"
+  }
+}

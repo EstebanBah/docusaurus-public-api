@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Clientes/Pagos",
+  "id": "version-PE/Clientes/Pagos",
+  "title": "Pagos",
+  "description": "Crear, editar y pagos de pagos",
+  "source": "@site/versioned_docs/version-PE/Clientes/Pagos.md",
+  "sourceDirName": "Clientes",
+  "slug": "/pagos",
+  "permalink": "/docusaurus-public-api/PE/pagos",
+  "draft": false,
+  "tags": [],
+  "version": "PE",
+  "sidebarPosition": 31,
+  "frontMatter": {
+    "sidebar_position": 31,
+    "title": "Pagos",
+    "description": "Crear, editar y pagos de pagos",
+    "slug": "/pagos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Clientes",
+    "permalink": "/docusaurus-public-api/PE/clientes"
+  },
+  "next": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/PE/pagos/webhooks"
+  }
+}

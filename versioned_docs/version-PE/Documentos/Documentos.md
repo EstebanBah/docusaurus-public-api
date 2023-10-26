@@ -1024,7 +1024,7 @@ Para usar atributos adicionales deben primero deben crearse y referenciar su id.
 :::
 
 ### Id externo (opcional)
-Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad de emisión. La API buscará por el id al hacer POST de un documento, y si ya existe retornará el documento que se generó previamente en vez de generar uno nuevo.
+Se pueden enviar un id de referencia propio de su sistema para evitar duplicidad de emisión en cada Tipo de documento. La API buscará por el id al hacer POST de un documento, y si ya existe retornará el documento que se generó previamente en vez de generar uno nuevo.
 ```json 
 {
    "salesId": "AAA000012"

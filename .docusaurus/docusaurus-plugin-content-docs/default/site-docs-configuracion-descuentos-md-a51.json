@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Configuración/Descuentos",
+  "id": "Configuración/Descuentos",
+  "title": "Descuentos",
+  "description": "Listar descuentos",
+  "source": "@site/docs\\Configuración\\Descuentos.md",
+  "sourceDirName": "Configuración",
+  "slug": "/descuentos",
+  "permalink": "/docusaurus-public-api/next/descuentos",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 51,
+  "frontMatter": {
+    "sidebar_position": 51,
+    "title": "Descuentos",
+    "description": "Listar descuentos",
+    "slug": "/descuentos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Atributos dinámicos",
+    "permalink": "/docusaurus-public-api/next/atributos-dinamicos"
+  },
+  "next": {
+    "title": "Sucursales",
+    "permalink": "/docusaurus-public-api/next/sucursales"
+  }
+}

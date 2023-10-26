@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Información SUNAT/Códigos tributarios",
+  "id": "version-PE/Información SUNAT/Códigos tributarios",
+  "title": "Códigos tributarios",
+  "description": "Listar códigos tributarios",
+  "source": "@site/versioned_docs/version-PE/Información SUNAT/Códigos tributarios.md",
+  "sourceDirName": "Información SUNAT",
+  "slug": "/codigos-tributarios",
+  "permalink": "/docusaurus-public-api/PE/codigos-tributarios",
+  "draft": false,
+  "tags": [],
+  "version": "PE",
+  "sidebarPosition": 61,
+  "frontMatter": {
+    "sidebar_position": 61,
+    "title": "Códigos tributarios",
+    "description": "Listar códigos tributarios",
+    "slug": "/codigos-tributarios"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docusaurus-public-api/PE/configuracion/webhooks"
+  },
+  "next": {
+    "title": "Impuestos",
+    "permalink": "/docusaurus-public-api/PE/impuestos"
+  }
+}

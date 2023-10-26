@@ -76,7 +76,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 | **prestashopValueId**   | identificador en prestashop _legacy_ | Integer | 
 | **product**   | nodo que indica la relación con el producto | |
 | **attribute_values**   | nodo que indica los valores de los atributos del tipo de producto | |
-| **costs**   | nodo que indica el costo de la variante | |
+| **costs**   | nodo que indica el costo de la variante | 
 
 ## GET lista de variantes
 - GET `/v1/variants.json` retornará todos todas las variantes.
@@ -91,11 +91,11 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 - **code**, filtra por código (SKU) de la variante.
 - **serialnumber**, filtra por numero de serie de la variante.
 - **productid**, filtra variantes por el id del producto.
-- **state**, boolean (0 o 1) indica si las variantes están activas(0) o inactivas (1).
+- **state**, boolean (0 o 1) indica si las variantes están activas(0) o inactivas (1)
   
 #### Ejemplos
 - `GET /v1/variants.json?limit=10&offset=0`
-- `GET /v1/variants.json?fields=[description,barCode,code]`
+- `GET /v1/variants.json?fields=[description,barcode,code]`
 - `GET /v1/variants.json?state=0`
 - `GET /v1/variants.json?productid=26`
 - `GET /v1/variants.json?expand=[product]`
@@ -365,7 +365,9 @@ Para crear una variante, se debe enviar un JSON con la siguiente estructura:
    "description": "Age of empires II"
 }
 ```
-- **name**, nombre del tipo de producto (String).
+- **description**, nombre del tipo de producto (String).
+- **code**, indica el SKU que tendrá la variante, de no tenerlo, Bsale asigna uno automático (Integer)
+- **barCode**, indica el código de barra que tendrá la variante, de no tenerlo, Bsale asigna uno automático (Integer)
  
 ### Atributos (opcional)
 Si el tipo de producto al que pertenece la variante posee atributos, se deben enviar los valores que estos van a tener, junto con el `id` del atributo.

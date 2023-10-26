@@ -1,0 +1,30 @@
+{
+  "unversionedId": "primeros-pasos",
+  "id": "version-io/primeros-pasos",
+  "title": "Primeros pasos",
+  "description": "My document description",
+  "source": "@site/versioned_docs/version-io/intro.md",
+  "sourceDirName": ".",
+  "slug": "/primeros-pasos",
+  "permalink": "/docusaurus-public-api/primeros-pasos",
+  "draft": false,
+  "tags": [],
+  "version": "io",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "primeros-pasos",
+    "sidebar_position": 2,
+    "title": "Primeros pasos",
+    "description": "My document description",
+    "slug": "/primeros-pasos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Inicio",
+    "permalink": "/docusaurus-public-api/inicio"
+  },
+  "next": {
+    "title": "Pedidos web",
+    "permalink": "/docusaurus-public-api/pedidos-web"
+  }
+}

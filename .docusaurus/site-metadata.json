@@ -1,0 +1,60 @@
+{
+<<<<<<< Updated upstream
+  "docusaurusVersion": "2.4.3",
+=======
+  "docusaurusVersion": "2.4.0",
+>>>>>>> Stashed changes
+  "siteVersion": "0.0.0",
+  "pluginVersions": {
+    "docusaurus-plugin-content-docs": {
+      "type": "package",
+      "name": "@docusaurus/plugin-content-docs",
+<<<<<<< Updated upstream
+      "version": "2.4.3"
+=======
+      "version": "2.4.0"
+>>>>>>> Stashed changes
+    },
+    "docusaurus-plugin-content-blog": {
+      "type": "package",
+      "name": "@docusaurus/plugin-content-blog",
+<<<<<<< Updated upstream
+      "version": "2.4.3"
+=======
+      "version": "2.4.0"
+>>>>>>> Stashed changes
+    },
+    "docusaurus-plugin-content-pages": {
+      "type": "package",
+      "name": "@docusaurus/plugin-content-pages",
+<<<<<<< Updated upstream
+      "version": "2.4.3"
+=======
+      "version": "2.4.0"
+>>>>>>> Stashed changes
+    },
+    "docusaurus-plugin-sitemap": {
+      "type": "package",
+      "name": "@docusaurus/plugin-sitemap",
+<<<<<<< Updated upstream
+      "version": "2.4.3"
+=======
+      "version": "2.4.0"
+>>>>>>> Stashed changes
+    },
+    "docusaurus-theme-classic": {
+      "type": "package",
+      "name": "@docusaurus/theme-classic",
+<<<<<<< Updated upstream
+      "version": "2.4.3"
+=======
+      "version": "2.4.0"
+>>>>>>> Stashed changes
+    },
+    "@cmfcmf/docusaurus-search-local": {
+      "type": "package",
+      "name": "@cmfcmf/docusaurus-search-local",
+      "version": "0.11.0"
+    }
+  }
+}
