@@ -882,7 +882,7 @@ Veámos un ejemplo con **Retiro en tienda**: Se debe enviar un JSON con la sigui
 Se debe agregr el parámetro **"generateDocument": 1** dentro del Body, junto a datos obligarotios del documento. Esto genera un Pedido Web asociado al Checkout.
 :::
 
-#### Array documentData
+- #### Array documentData
 ```json
 "documentData": {
     "declareSii": 1,
@@ -935,7 +935,7 @@ Se debe agregr el parámetro **"generateDocument": 1** dentro del Body, junto a 
 }
 ```
 :::info
-Para continuar con el flujo del pedido Web, puedes generar el documento de venta como [A partir de existente](https://docs.bsale.dev/CL/documentos#a-partir-de-existente) El cuál debes incluir el parámetro **dispatch:1** dentro del Body de la generación del documento. Esto dejará el pedido web "despachado" listo para inyectar [Estados al despacho](https://docs.bsale.dev/CL/pedidos-web#put-un-checkout)
+Para continuar con el flujo del pedido Web, puedes generar el documento de venta como [A partir de existente](https://docs.bsale.dev/CL/documentos#a-partir-de-existente) El cuál debes incluir el parámetro **dispatch:1** dentro del Body de la generación del documento. Esto dejará el pedido web "despachado" listo para inyectar [Estados al despacho](https://docs.bsale.dev/CL/pedidos-web#put-estados-de-un-checkout)
 :::
 ### PUT un checkout
 - PUT `/v1/markets/checkout/:id.json` 
@@ -1039,7 +1039,18 @@ Se debe enviar un Json con la siguiente estructura:
   }
 }
 ```
+### PUT estados de un checkout
+:::note
+Inyecta estados a un pedido web, posterior a la generación del documento de venta y el despacho
+:::
+- **orderStatus**, 6 Despachado / 7 Entregado
 
+#### Ejemplo JSON
+```json
+{
+    "orderStatus": 7
+}
+```
 ### DELETE un checkout
 - DELETE `/v1/variants/2110.json` 
 Cambia el estado del checkout
