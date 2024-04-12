@@ -736,15 +736,14 @@ Este registro NO reserva Stock de productos y requiere una acción manual de par
 - **marketId:** Id del Market donde se genera el checkout.
 - **withdrawStore:** Refiere al tipo de despacho / 1 retiro en tienda - 0 con despacho.
 - **ptId:** Refiere a la forma de pago / - 1: webpay 2: transferencia bancaria 6: transferencia electrónica
+- **extrasUserData:** Datos de terceros
+- **clientCountry,State,CityZone,Street,BuildingNumber:** Datos de dirección del despacho
 
 
-Veámos un ejemplo: Se debe enviar un JSON con la siguiente estructura:
+Veámos un ejemplo con **Despacho a domicilio**: Se debe enviar un JSON con la siguiente estructura:
 #### Ejemplo JSON
-<Tabs>
-  <TabItem value="Despacho" label="Despacho" default>
-
-    ```json
-    {
+```json
+{
     "clientName": "Mauricio Albertu",
     "clientLastName": "Prades Vargas",
     "clientEmail": "mprades1122@gmail.com",
@@ -781,14 +780,13 @@ Veámos un ejemplo: Se debe enviar un JSON con la siguiente estructura:
     ]
 }
 ```
-  </TabItem>
-  <TabItem value="Retiro en tienda" label="Retiro en tienda">
-    
-  ```json
-    {
-    "clientName": "test",
-    "clientLastName": "test",
-    "clientEmail": "test@gmail.com",
+Veámos un ejemplo con **Retiro en tienda**: Se debe enviar un JSON con la siguiente estructura:
+#### Ejemplo JSON
+```json
+{
+    "clientName": "Mauricio Albertu",
+    "clientLastName": "Prades Vargas",
+    "clientEmail": "mprades1122@gmail.com",
     "clientPhone": "993425349",
     "code": "1-4",
     //"pickName": "JUAN",
@@ -802,13 +800,13 @@ Veámos un ejemplo: Se debe enviar un JSON con la siguiente estructura:
     "clientCountry": "Chile",
     "clientState": "Región Metropolitana",
     "clientCityZone": "Santiago",
-    "clientStreet": "Dirección 76043",
+    "clientStreet": "Sandro Boticelli 76043",
     "clientPostcode": "7550000",
     "clientBuildingNumber": "depto las condes",
     "extrasUserData": {
         "user_rut": "1-4",
         //"razon_social": "Imaginex",
-        "direccion": "Dirección 76043",
+        "direccion": "Sandro Boticelli 76043",
         "ciudad": "Santiago",
         "comuna": "Santiago"
     },
@@ -823,10 +821,6 @@ Veámos un ejemplo: Se debe enviar un JSON con la siguiente estructura:
     ]
 }
 ```
-  </TabItem>
-
-</Tabs>
-
 ##### Respuesta
 ```json
 {
@@ -881,8 +875,68 @@ Veámos un ejemplo: Se debe enviar un JSON con la siguiente estructura:
     }
 }
 ```
+### POST un checkout generando documento (Pedido Web)
+- POST `/v1/markets/checkout.json` 
 
+:::info
+Se debe agregr el parámetro **"generateDocument": 1** dentro del Body, junto a datos obligarotios del documento. Esto genera un Pedido Web asociado al Checkout.
+:::
 
+#### Array documentData
+```json
+"documentData": {
+    "declareSii": 1,
+    "officeId": 1,
+    "emissionDate": 1705071295
+}
+```
+#### Ejemplo JSON
+```json
+{
+    "clientName": "Mauricio Albertu",
+    "clientLastName": "Prades Vargas",
+    "clientEmail": "mprades1122@gmail.com",
+    "clientPhone": "993425349121",
+    "code": "1-4",
+    //"pickName": "JUAN",
+    //"pickCode": "66666666-6",
+    "marketId": 1,
+    "withdrawStore": 0,
+    "shippingCost": 0,
+    "ptId": 2,
+    "generateDocument": 1,
+    "payProcess": "for_validate",
+    "clientCountry": "Chile",
+    "clientState": "Región Metropolitana",
+    "clientCityZone": "Santiago",
+    "clientStreet": "Sandro Boticelli 76043",
+    "clientPostcode": "7550000",
+    "clientBuildingNumber": "depto las condes",
+    "extrasUserData": {
+        "user_rut": "1-4",
+        //"razon_social": "Imaginex",
+        "direccion": "Sandro Boticelli 76043",
+        "ciudad": "Santiago",
+        "comuna": "Santiago"
+    },
+    "cartDetails": [
+        {
+            "quantity": 1,
+            "netUnitValue": 77577.59,
+            "idVarianteProducto": 12,
+            "productWebId": 6
+        }
+    ],
+    "documentData": {
+        "declareSii": 1,
+        "officeId": 1,
+        "emissionDate": 1710115200
+    }
+}
+```
+:::info
+Para continuar con el flujo del pedido Web, puedes generar el documento de venta como [A partir de existente](https://docs.bsale.dev/CL/documentos#a-partir-de-existente) El cuál debes incluir el parámetro **dispatch:1** dentro del Body de la generación del documento. Esto dejará el pedido web "despachado" listo para inyectar [Estados al despacho](https://docs.bsale.dev/CL/pedidos-web#put-un-checkout)
+:::
 ### PUT un checkout
 - PUT `/v1/markets/checkout/:id.json` 
 
