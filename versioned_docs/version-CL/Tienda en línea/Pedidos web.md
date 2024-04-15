@@ -731,6 +731,7 @@ Es posible crear un checkout sin referencia previa "pedido web". Esto generará 
 
 :::warning
 Este registro NO reserva Stock de productos y requiere una acción manual de parte del usuario, para generar el pedido.
+Es **obligatorio** enviar los datos del cliente.
 :::
 - **pickStoreId:** Id de la sucursal donde se retira el pedido.
 - **marketId:** Id del Market donde se genera el checkout.
