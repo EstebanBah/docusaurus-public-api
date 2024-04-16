@@ -385,7 +385,7 @@ Cambia el estado del carro
 Un registro checkout es la relación de un carro y un pedido.
 
 :::note
-Considera que un checkout está relacionado a un documento pre-venta. Osea, debes **Referenciar su id, número y token**. 
+Considera que un checkout es la creación de un registro asociado a un pedido web o simplemente una orden en el panel de la tienda en linea, que podrás convertir en una venta web y asociar procesos de despacho y entrega**. 
 :::
 
 ### Estructura JSON
