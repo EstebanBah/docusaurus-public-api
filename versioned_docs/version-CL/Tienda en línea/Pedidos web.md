@@ -726,13 +726,13 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 - POST `/v1/markets/checkout.json` 
 
 :::info
-Se debe agregr el parámetro **"generateDocument": 1** dentro del Body, junto a datos obligarotios del documento. Esto genera un Pedido Web asociado al Checkout.
+Se debe agregar el parámetro **"generateDocument": 1** dentro del **Body**, junto a datos obligarotios del documento. Esto genera un Pedido Web asociado al Checkout.
 :::
 
 - **pickStoreId:** Id de la sucursal donde se retira el pedido.
 - **marketId:** Id del Market donde se genera el checkout.
 - **withdrawStore:** Refiere al tipo de despacho / 1 retiro en tienda - 0 con despacho.
-- **ptId:** Refiere a la forma de pago / - 1: webpay 2: transferencia bancaria 6: transferencia electrónica
+- **ptId:** Refiere a la forma de pago /  1 webpay - 2 transferencia bancaria - 6 transferencia electrónica
 - **extrasUserData:** Datos de terceros
 - **clientCountry,State,CityZone,Street,BuildingNumber:** Datos de dirección del despacho.
 
@@ -831,11 +831,11 @@ Ejemplo JSON
 
 
 :::note
-Es posible crear un checkout sin referencia previa "pedido web". Esto generará un registro en la pantalla de administración de pedidos de Tienda en Linea, donde manualmente se podrá asignar un número de pedido. 
+Es posible crear un checkout sin referencia previa **"pedido web"**. Esto generará un registro en la pantalla de administración de pedidos de Tienda en Linea, donde manualmente se podrá asignar un número de pedido. 
 :::
  
 :::warning
-Este registro NO reserva Stock de productos y requiere una acción manual de parte del usuario, para generar el pedido.
+Este registro **NO** reserva Stock de productos y requiere una acción manual de parte del usuario, para generar el pedido.
 Es **obligatorio** enviar los datos del cliente.
 :::
 - POST `/v1/markets/checkout.json`
