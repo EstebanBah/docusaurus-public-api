@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_public_api=self.webpackChunkdocusaurus_public_api||[]).push([[483],{7721:s=>{s.exports=JSON.parse('{"label":"documentos","permalink":"/docusaurus-public-api/use-cases/tags/documentos","allTagsPath":"/docusaurus-public-api/use-cases/tags","count":3}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_public_api=self.webpackChunkdocusaurus_public_api||[]).push([[3015],{1347:s=>{s.exports=JSON.parse('{"permalink":"/docusaurus-public-api/use-cases/tags/stock","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Casos de uso API"}')}}]);
