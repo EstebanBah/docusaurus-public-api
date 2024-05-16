@@ -771,4 +771,355 @@ Las colecciones son un conjunto de productos web asociados por un criterio basad
   }
 }
 ```
+## POST Descripción Web
+- POST `/v2/products/market_info.json` Genera un registro de Descripción Web asociado a un producto.
 
+Existen dos tipos de descripción web.
+- **normal:** Crea descripción web asociando todas las variantes que contenga el producto.
+- **virtual:** Crea descripción única de una variante de producto.
+
+:::note
+Sólo es posible crear una descripción **"normal"** y múltiples **"virtuales"**.
+:::
+
+- **productId:** Id del producto (Obligatorio)
+- **idVariantDefault:** Id de la variante que se mostrará por defecto (Obligatorio)
+- **name:** Nombre del producto web (Obligatorio)
+- **displayNotice:** Texto a destacar dentro de la publicación (NO Obligatorio)
+- **urlImg:** Imágen por defecto del producto - se entrega la Url de la imagen almacenada previamente en un servicio, formato jpeg, png (NO Obligatorio)
+- **urlVideo:** Video asociado al producto - se entrega la Url del video donde esté almacenado (NO Obligatorio)
+- **description:** Texto descriptivo del producto (NO Obligatorio)
+- **variantShippingAll:** (1) Asigna las mismas medidas a todas las variantes normales. (Obligatorio)
+- **order:** Importancia dentro de la colección web (NO Obligatorio)
+- **productType:** Tipo de la descripción web. (Obligatorio)
+- **orderedVariants:** En base a la desc web normal, se ordenan las variantes según tantas creadas (NO Obligatorio)
+- **descriptions:** Agregar descripciones adicionales, en caso que tenga creadas más de una. ( NO Obligatorio )
+- **pictures:** Imágenes relacionadas al producto, se agregan tantas como se desee, en nodos separados (NO obligatorio)
+- **width:** Ancho del producto (NO obligatorio)
+- **depth:** Profundidad del producto (NO obligatorio)
+- **length:** Largo del producto (NO obligatorio)
+- **integration:** Orden de la variante ascendente, descendente ( Opcional )
+- **state:** 1 activo - 0 inactivo (Obligatorio)
+- **legendImage:** Fotos asociadas a la variante por sku con coma. Ejemplo: [1222,1233]( Opcional )
+- **order:** Relacionado a “pictures” carga de múltiples imágenes, las ordena en base a las variantes.
+
+**Ejemplo de orden de Variantes.**
+``` json
+"orderedVariants": [
+    {
+        "id": 2, // id de la variante
+        "order": 2, // orden de la variante según tantas creadas
+        "show": 1 // Mostrar
+    }
+],
+```
+#### Ejemplo JSON
+
+```json
+{
+    "productId": 9,
+    "idVariantDefault": 53,
+    "name": "test Api000012",
+    "displayNotice": "",
+    "urlImg": "https://wilsonstore.cl/cdn/shop/files/WILWR8024301001_1_604x.jpg?v=1695307375",
+    "urlVideo": "null",
+    "description": "test api999",
+    "variantShippingAll": 1,
+    "order": 1,
+    "state": 1,
+    "productType": "normal",
+    "integration": {
+        "order_by": 4
+    },
+    "orderedVariants": [
+        {
+            "id": 2,
+            "order": 2,
+            "show": 1
+        }
+    ],
+    "variantsShipping": [
+        {
+            "width": 2.0,
+            "depth": 1.5,
+            "length": 0.8
+        }
+    ],
+    "pictures": [
+        {
+            "href": "https://wilsonstore.cl/cdn/shop/files/WILWR8024301001_1_604x.jpg?v=1695307375",
+            "legendImage": "legendImage",
+            "order": 0
+        }
+    ]
+}
+```
+
+#### Response
+```json
+{
+    "code": 200,
+    "data": {
+        "id": 57,
+        "productId": 9,
+        "idVariantDefault": 53,
+        "urlSlug": "test-api000012",
+        "name": "test Api000012",
+        "description": "test api999",
+        "descriptions": {
+            "href": "https://api.bsale.io/v3/products/market_info/57/descriptors.json"
+        },
+        "displayNotice": "",
+        "state": 1,
+        "mkProductType": "normal",
+        "productType": {
+            "id": 4,
+            "href": "https://api.bsale.io/v2/product_types/4.json"
+        },
+        "productTaxes": {
+            "href": "https://api.bsale.io/v3/products/9/product_taxes.json"
+        },
+        "urlImg": "https://wilsonstore.cl/cdn/shop/files/WILWR8024301001_1_604x.jpg?v=1695307375",
+        "pictures": {
+            "href": "https://api.bsale.io/v3/products/9/product_images.json"
+        },
+        "urlVideo": "",
+        "shippingUnit": 0,
+        "width": 0,
+        "depth": 0,
+        "length": 0,
+        "baseInfo": null,
+        "variants": {
+            "href": "https://api.bsale.io/v3/products/market_info/57/variants.json"
+        },
+        "relatedVariants": {
+            "href": "https://api.bsale.io/v3/products/9/variants.json"
+        },
+        "collections": {
+            "href": "https://api.bsale.io/v3/products/market_info/57/collections.json"
+        },
+        "brand": {
+            "href": "https://api.bsale.io/v3/products/9/brand.json"
+        },
+        "variantShipping": {
+            "href": "https://api.bsale.io/v3/products/market_info/57/variant_shipping.json"
+        },
+        "discounts": null,
+        "stocks": {
+            "href": "https://api.bsale.io/v2/stocks.json?product=9"
+        },
+        "integration": {
+            "order_by": "4"
+        },
+        "variant": {
+            "id": 53,
+            "price": null,
+            "description": null,
+            "finalPrice": null,
+            "unlimitedStock": null,
+            "allowDecimal": null,
+            "allowNegativeStock": null,
+            "code": null,
+            "integrations": null,
+            "discount": {
+                "percent": null,
+                "minimumQuantity": null
+            }
+        },
+        "order": null,
+        "link": "product/test-api000012"
+    }
+}
+```
+
+## PUT Descripcion Web
+
+- PUT /v2/products/market_info/58.json
+
+Se debe enviar un json con la siguiente estructura.
+
+#### Ejemplo Json
+
+```json
+{
+    "name": "cambio de nombre prueba 1",
+    "description": "prueba de cambio de descripcion",
+    "displayNotice": "prueba de cambio de descripcion (1)"
+}
+```
+
+#### Response
+
+```json
+{
+    "code": 201,
+    "data": {
+        "id": 58,
+        "productId": 9,
+        "idVariantDefault": 53,
+        "urlSlug": "cambio-de-nombre-prueba-1",
+        "name": "cambio de nombre prueba 1",
+        "description": "prueba de cambio de descripcion",
+        "descriptions": {
+            "href": "https://api.bsale.io/v3/products/market_info/58/descriptors.json"
+        },
+        "displayNotice": "prueba de cambio de descripcion (1)",
+        "state": 1,
+        "mkProductType": "normal",
+        "productType": null,
+        "productTaxes": {
+            "href": "https://api.bsale.io/v3/products/9/product_taxes.json"
+        },
+        "urlImg": "https://wilsonstore.cl/cdn/shop/files/WILWR8024301001_1_604x.jpg?v=1695307375",
+        "pictures": {
+            "href": "https://api.bsale.io/v3/products/9/product_images.json"
+        },
+        "urlVideo": "https://youtu.be/a0zseMeIQsA?feature=shared",
+        "shippingUnit": 0,
+        "width": 0,
+        "depth": 0,
+        "length": 0,
+        "baseInfo": null,
+        "variants": {
+            "href": "https://api.bsale.io/v3/products/market_info/58/variants.json"
+        },
+        "relatedVariants": {
+            "href": "https://api.bsale.io/v3/products/9/variants.json"
+        },
+        "collections": {
+            "href": "https://api.bsale.io/v3/products/market_info/58/collections.json"
+        },
+        "brand": {
+            "href": "https://api.bsale.io/v3/products/9/brand.json"
+        },
+        "variantShipping": {
+            "href": "https://api.bsale.io/v3/products/market_info/58/variant_shipping.json"
+        },
+        "discounts": null,
+        "stocks": {
+            "href": "https://api.bsale.io/v2/stocks.json?product=9"
+        },
+        "integration": null,
+        "variant": {
+            "id": 53,
+            "price": null,
+            "description": null,
+            "finalPrice": null,
+            "unlimitedStock": null,
+            "allowDecimal": null,
+            "allowNegativeStock": null,
+            "code": null,
+            "integrations": null,
+            "discount": {
+                "percent": null,
+                "minimumQuantity": null
+            }
+        },
+        "order": 1,
+        "link": "product/cambio-de-nombre-prueba-1"
+    }
+}
+```
+## POST un producto en colección
+
+- POST /v1/collections/1/products.json
+
+- **code:** SKU de la variante
+
+Se debe enviar un json con la siguiente estructura.
+
+```json
+{
+    "code": "1642607135"
+}
+```
+#### Response
+
+```json
+{
+    "code": 200,
+    "data": {
+        "id": 38,
+        "pwfId": 44,
+        "productId": null,
+        "collId": 1,
+        "mkCollection": null,
+        "href": "https://api.bsale.io/v3/collections_related/38.json"
+    }
+}
+```
+
+## POST medidas producto web
+
+- POST /v2/variants/shipping.json
+
+#### Parámetros
+
+- **match:** Nodo que indica cuando una descripción web tiene medidas iguales para todas sus variantes ó no (Obligatorio)  
+**1:** Cada variante tiene medidas propias  
+**0:** Todas las variantes poseen medidas iguales
+
+Se deje enviar un json con la siguiente estructura.
+
+```json
+{
+    "productVariantId": 53,
+    "weight": 20,
+    "width": 14,
+    "deph": 14,
+    "length": 14,
+    "match": 1 
+}
+```
+#### Response
+
+```json
+{
+    "code": 201,
+    "data": {
+        "id": 26,
+        "weight": 20,
+        "width": 14,
+        "deph": 14,
+        "length": 14,
+        "match": 1,
+        "productVariantId": 53
+    }
+}
+```
+## PUT medidas un producto web
+
+- PUT /v2/variants/53/shipping.json
+
+#### Parámetros
+
+- **match:** Al enviarlo, modifica las medidas asociadas a todas las variantes (No obligatorio)
+
+Se debe enviar un Json con la siguiente estructura
+
+```json
+{
+"productVariantId": 53,
+"weight": 20,
+"width": 14,
+"deph": 14,
+"length": 14
+}
+```
+
+#### Response
+
+```json
+{
+"code": 200,
+"data": {
+"id": 19,
+"weight": 20,
+"width": 14,
+"deph": 14,
+"length": 14,
+"match": 1,
+"productVariantId": 53
+}
+}
+```
