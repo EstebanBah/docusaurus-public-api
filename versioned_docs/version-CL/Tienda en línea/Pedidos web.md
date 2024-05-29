@@ -769,7 +769,7 @@ Ejemplo JSON
     "cartDetails": [
         {
             "quantity": 1,
-            "netUnitValue": 77577.59,
+            "grossUnitValue": 77577.59,
             "idVarianteProducto": 12,
             "productWebId": 6
         }
@@ -816,7 +816,7 @@ Ejemplo JSON
     "cartDetails": [
         {
             "quantity": 1,
-            "netUnitValue": 77577.59,
+            "grossUnitValue": 77577.59,
             "idVarianteProducto": 12,
             "productWebId": 6
         }
@@ -872,7 +872,7 @@ Veámos un ejemplo con **Despacho a domicilio**: Se debe enviar un JSON con la s
     "cartDetails": [
         {
             "quantity": 1,
-            "netUnitValue": 77577.59,
+            "grossUnitValue": 77577.59,
             "idVarianteProducto": 12,
             "productWebId": 6
         }
@@ -913,7 +913,7 @@ Veámos un ejemplo con **Retiro en tienda**: Se debe enviar un JSON con la sigui
     "cartDetails": [
         {
             "quantity": 1,
-            "netUnitValue": 77577.59,
+            "grossUnitValue": 77577.59,
             "idVarianteProducto": 12,
             "productWebId": 6
         }
